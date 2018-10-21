@@ -5,8 +5,13 @@ import { bindActionCreators } from 'redux';
 
 import { Container } from './styles';
 import { reqPing } from '../../requests';
+import GameBox from '../../containers/GameBox';
 
-const Home = ({}) => <Container />;
+const Home = ({}) => (
+  <Container>
+    <GameBox />
+  </Container>
+);
 
 const actions = {};
 

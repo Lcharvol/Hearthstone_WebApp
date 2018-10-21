@@ -41,6 +41,17 @@ const webpackConfig = {
         exclude: /node_modules/,
       },
       {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[hash].[ext]',
+            },
+          },
+        ],
+      },
+      {
         test: /\.css$/,
         exclude: /node_modules/,
         loaders: ['style-loader', 'css-loader'],
