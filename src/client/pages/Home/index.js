@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux';
 import { Container } from './styles';
 import { reqPing } from '../../requests';
 
-const Home = ({}) => <Container>W</Container>;
+const Home = ({}) => <Container />;
 
 const actions = {};
 
