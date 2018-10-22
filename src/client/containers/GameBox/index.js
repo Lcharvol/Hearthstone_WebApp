@@ -1,7 +1,12 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Box, BottomSideContainer } from './styles';
 
-const GameBox = () => <Container />;
+const GameBox = () => (
+  <Container>
+    <Box />
+    <BottomSideContainer />
+  </Container>
+);
 
 export default GameBox;

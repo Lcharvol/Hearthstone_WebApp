@@ -6,7 +6,7 @@ export const Container = styled.div`
     position:fixed;
     background-image: url("${ButtonUI}");
     width:75px;
-    height:60px;
+    height:55px;
     top:20px;
     right:20px;
 `;

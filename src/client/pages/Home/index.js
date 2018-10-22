@@ -9,6 +9,7 @@ import { reqPing } from '../../requests';
 import GameBox from '../../containers/GameBox';
 import OptionButton from '../../components/OptionButton';
 import Menu from '../../containers/Menu';
+import FriendsButton from '../../components/FriendsButton';
 
 const proptypes = {
   displayMenu: bool.isRequired,
@@ -18,6 +19,7 @@ const proptypes = {
 const Home = ({ displayMenu, handleDisplayMenu }) => (
   <Container>
     <GameBox />
+    <FriendsButton connectedFriends={0} />
     <OptionButton handleDisplayMenu={handleDisplayMenu} />
     {displayMenu && <Menu handleDisplayMenu={handleDisplayMenu} />}
   </Container>
