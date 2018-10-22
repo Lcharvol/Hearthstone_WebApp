@@ -12,6 +12,7 @@ export const Container = styled.div`
     height:55px;
     top:20px;
     left:20px;
+    z-index:1000;
 `;
 
 export const FriendsCount = styled.div`

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import BackgroundMenu from '../../../../assets/UI/game_box.png';
 import BottomSideUI from '../../../../assets/UI/game_box_bottom.png';
+import CenterUI from '../../../../assets/UI/game_box_center.png';
 
 export const Container = styled.div`
   position: relative;
@@ -12,7 +13,7 @@ export const Container = styled.div`
   width: 940px;
   height: 830px;
   background-repeat: no-repeat;
-  min-width: 920px;
+  min-width: 940px;
 `;
 
 export const Box = styled.div`
@@ -32,4 +33,24 @@ export const BottomSideContainer = styled.div`
     background-size:cover;
     margin-top:-30px;
     z-index:5;
+`;
+
+export const GameBoxCenter = styled.div`
+    position:absolute;
+    display:flex;
+    background-image: url("${CenterUI}");
+    background-size:cover;
+    width:300px;
+    height:300px;
+    z-index:15;
+    margin-top:-40px;
+    margin-left:-4px;
+`;
+
+export const Button = styled.div`
+    position:absolute;
+    width:300px;
+    background-image: url("${({ UI }) => UI}");
+    background-size:cover;
+    height:300px;
 `;

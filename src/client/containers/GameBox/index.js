@@ -1,10 +1,26 @@
 import React from 'react';
+import { map } from 'ramda';
 
-import { Container, Box, BottomSideContainer } from './styles';
+import {
+  Container,
+  Box,
+  BottomSideContainer,
+  GameBoxCenter,
+  Button,
+} from './styles';
+import buttons from './buttons';
 
 const GameBox = () => (
   <Container>
     <Box />
+    <GameBoxCenter>
+      {map(
+        button => (
+          <Button key={button.id} UI={button.UI} />
+        ),
+        buttons,
+      )}
+    </GameBoxCenter>
     <BottomSideContainer />
   </Container>
 );

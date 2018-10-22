@@ -25,4 +25,5 @@ export const MenuBox = styled.div`
     height:405px;
     background-image: url("${MenuBoxBackground}");
     background-size: cover;
+    background-repeat:no-repeat;
 `;

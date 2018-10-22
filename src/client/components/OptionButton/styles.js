@@ -9,4 +9,5 @@ export const Container = styled.div`
     height:55px;
     top:20px;
     right:20px;
+    z-index:1000;
 `;

@@ -10,6 +10,7 @@ import GameBox from '../../containers/GameBox';
 import OptionButton from '../../components/OptionButton';
 import Menu from '../../containers/Menu';
 import FriendsButton from '../../components/FriendsButton';
+import { getIsFetching } from '../../selectors/app';
 
 const proptypes = {
   displayMenu: bool.isRequired,
@@ -31,9 +32,13 @@ const actions = {};
 
 const mapDispatchToProps = dispatch => bindActionCreators(actions, dispatch);
 
+const mapStateToProps = state => ({
+  isFetching: getIsFetching(state),
+});
+
 const enhance = compose(
   connect(
-    null,
+    mapStateToProps,
     mapDispatchToProps,
   ),
   withStateHandlers(
