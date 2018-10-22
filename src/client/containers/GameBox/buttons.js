@@ -7,16 +7,28 @@ const buttons = [
     id: 0,
     label: 'Cards',
     UI: TopButton,
+    top: 54,
+    width: 200,
+    height: 35,
+    left: 10,
   },
   {
     id: 1,
     label: 'Cards',
     UI: MiddleButton,
+    top: 15,
+    width: 238,
+    height: 35,
+    left: 13,
   },
   {
     id: 2,
     label: 'Cards',
     UI: BottomButton,
+    top: 18,
+    width: 240,
+    height: 35,
+    left: 10,
   },
 ];
 

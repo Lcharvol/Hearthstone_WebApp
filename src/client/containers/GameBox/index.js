@@ -16,7 +16,7 @@ const GameBox = () => (
     <GameBoxCenter>
       {map(
         button => (
-          <Button key={button.id} UI={button.UI} />
+          <Button key={button.id} {...button} />
         ),
         buttons,
       )}

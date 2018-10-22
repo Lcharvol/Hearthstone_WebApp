@@ -38,6 +38,9 @@ export const BottomSideContainer = styled.div`
 export const GameBoxCenter = styled.div`
     position:absolute;
     display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction:column;
     background-image: url("${CenterUI}");
     background-size:cover;
     width:300px;
@@ -48,9 +51,14 @@ export const GameBoxCenter = styled.div`
 `;
 
 export const Button = styled.div`
-    position:absolute;
-    width:300px;
+    position:relative;
     background-image: url("${({ UI }) => UI}");
     background-size:cover;
-    height:300px;
+    height:${({ height }) => height}px;
+    width:${({ width }) => width}px;
+    margin-top:${({ top }) => top}px;
+    margin-left:${({ left }) => left}px;
+    &:hover{
+        transform: scale(0.95);
+    }
 `;
