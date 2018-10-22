@@ -57,8 +57,15 @@ const webpackConfig = {
         loaders: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2)$/,
-        loader: 'file?name=public/[name].[ext]',
+        test: /\.ttf$/,
+        use: [
+          {
+            loader: 'ttf-loader',
+            options: {
+              name: '[path][name].[ext]?[hash:8]',
+            },
+          },
+        ],
       },
     ],
   },

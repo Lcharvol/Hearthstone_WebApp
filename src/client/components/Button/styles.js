@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import ButtonBackgroundImage from '../../../../assets/UI/button_background.png';
 import ButtonInnerImage from '../../../../assets/UI/button_inner.png';
 
-import CursorDown from '../../../../assets/UI/hand_down.png';
-
 export const Container = styled.div`
   position: relative;
   display: flex;
@@ -12,7 +10,7 @@ export const Container = styled.div`
   align-items: center;
   width: 100%;
   height: 60px;
-  margin-top: 40px;
+  margin-top: ${({ margin }) => margin};
   font-size: 0.3em;
 `;
 
@@ -36,7 +34,4 @@ export const ButtonInner = styled.div`
     height:45px;
     background-image: url("${ButtonInnerImage}");
     background-size: cover; 
-    &:active {
-        cursor: url("${CursorDown}"), pointer;
-    }
 `;

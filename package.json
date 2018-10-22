@@ -63,6 +63,7 @@
     "redux-thunk": "^2.3.0",
     "serve-favicon": "^2.5.0",
     "styled-components": "^3.4.9",
+    "ttf-loader": "^1.0.2",
     "webpack": "3.10.0",
     "webpack-dashboard": "^2.0.0"
   },

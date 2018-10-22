@@ -16,8 +16,12 @@ export const Container = styled.div`
 
 export const MenuBox = styled.div`
     position:relative;
-    width:305px;
-    height:345px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:310px;
+    height:405px;
     background-image: url("${MenuBoxBackground}");
     background-size: cover;
 `;
