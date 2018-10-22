@@ -1,4 +1,5 @@
 import React from 'react';
+import { bool, func } from 'prop-types';
 import { compose, lifecycle, withStateHandlers } from 'recompose';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -9,6 +10,11 @@ import GameBox from '../../containers/GameBox';
 import OptionButton from '../../components/OptionButton';
 import Menu from '../../containers/Menu';
 
+const proptypes = {
+  displayMenu: bool.isRequired,
+  handleDisplayMenu: func.isRequired,
+};
+
 const Home = ({ displayMenu, handleDisplayMenu }) => (
   <Container>
     <GameBox />
@@ -16,6 +22,8 @@ const Home = ({ displayMenu, handleDisplayMenu }) => (
     {displayMenu && <Menu handleDisplayMenu={handleDisplayMenu} />}
   </Container>
 );
+
+Home.propTypes = proptypes;
 
 const actions = {};
 
