@@ -5,6 +5,8 @@ import {
   Container,
   Box,
   BottomSideContainer,
+  BottomSideLeft,
+  BottomSideRight,
   GameBoxCenter,
   Button,
 } from './styles';
@@ -16,12 +18,17 @@ const GameBox = () => (
     <GameBoxCenter>
       {map(
         button => (
-          <Button key={button.id} {...button} />
+          <Button key={button.id} {...button}>
+            {button.label}
+          </Button>
         ),
         buttons,
       )}
     </GameBoxCenter>
-    <BottomSideContainer />
+    <BottomSideContainer>
+      <BottomSideLeft />
+      <BottomSideRight />
+    </BottomSideContainer>
   </Container>
 );
 

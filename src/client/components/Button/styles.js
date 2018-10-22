@@ -33,5 +33,12 @@ export const ButtonInner = styled.div`
     width:110px;
     height:45px;
     background-image: url("${ButtonInnerImage}");
-    background-size: cover; 
+    background-size: cover;
+    &:hover{
+        transform: scale(0.95);
+        opacity:0.9;
+    }
+    transition: transform 0.1s ease-in-out;
+    font-size:0.3em;
+    user-select: none;
 `;

@@ -14,7 +14,7 @@ const buttons = [
   },
   {
     id: 1,
-    label: 'Cards',
+    label: 'Pack Simulator',
     UI: MiddleButton,
     top: 15,
     width: 238,
@@ -23,7 +23,7 @@ const buttons = [
   },
   {
     id: 2,
-    label: 'Cards',
+    label: 'Decks',
     UI: BottomButton,
     top: 18,
     width: 240,

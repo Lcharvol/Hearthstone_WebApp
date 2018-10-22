@@ -11,7 +11,7 @@ injectGlobal`
     src: url('../../../../assets/Font/Belweb.ttf');
     font-weight: normal;
     font-style: normal;
-  }
+  };
 `;
 
 export const Container = styled.div`
@@ -32,5 +32,5 @@ export const Container = styled.div`
   cursor: url("${Cursor}"), pointer;
   &:active {
     cursor: url("${CursorDown}"), pointer;
-}
+  };
 `;

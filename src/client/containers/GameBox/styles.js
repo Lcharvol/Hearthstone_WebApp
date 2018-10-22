@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 import BackgroundMenu from '../../../../assets/UI/game_box.png';
-import BottomSideUI from '../../../../assets/UI/game_box_bottom.png';
+import BottomSideUIFrame from '../../../../assets/UI/game_box_bottom_frame.png';
+import BottomSideUILeft from '../../../../assets/UI/game_box_bottom_left.png';
+import BottomSideUIRight from '../../../../assets/UI/game_box_bottom_right.png';
 import CenterUI from '../../../../assets/UI/game_box_center.png';
 
 export const Container = styled.div`
@@ -26,13 +28,45 @@ export const Box = styled.div`
 
 export const BottomSideContainer = styled.div`
     position:relative;
-    background-image: url("${BottomSideUI}");
-    width:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("${BottomSideUIFrame}");
+    width:530px;
     height:130px;
     background-repeat:no-repeat;
     background-size:cover;
     margin-top:-30px;
     z-index:5;
+`;
+
+export const BottomSideLeft = styled.div`
+    position:relative;
+    background-image: url("${BottomSideUILeft}");
+    height:80%;
+    width:130px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:-25px;
+    margin-right:5px;
+    &:hover{
+        margin-top:-35px;
+    };
+    transition: margin-top 0.3s ease-in-out;
+`;
+
+export const BottomSideRight = styled.div`
+    position:relative;
+    background-image: url("${BottomSideUIRight}");
+    height:80%;
+    width:260px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:-25px;
+    &:hover{
+        margin-top:-35px;
+    };
+    transition: margin-top 0.3s ease-in-out;
 `;
 
 export const GameBoxCenter = styled.div`
@@ -52,6 +86,9 @@ export const GameBoxCenter = styled.div`
 
 export const Button = styled.div`
     position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("${({ UI }) => UI}");
     background-size:cover;
     height:${({ height }) => height}px;
@@ -60,5 +97,9 @@ export const Button = styled.div`
     margin-left:${({ left }) => left}px;
     &:hover{
         transform: scale(0.95);
+        opacity:0.9;
     }
+    transition: transform 0.1s ease-in-out;
+    font-size:0.3em;
+    user-select: none;
 `;
