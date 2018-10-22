@@ -11,13 +11,13 @@ export const Container = styled.div`
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(25, 25, 25, 0.2);
+  background-color: rgba(25, 25, 25, 0.4);
 `;
 
 export const MenuBox = styled.div`
     position:relative;
-    width:400px;
-    height:400px;
+    width:305px;
+    height:345px;
     background-image: url("${MenuBoxBackground}");
-    background-size: cover; 
+    background-size: cover;
 `;
