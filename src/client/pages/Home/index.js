@@ -1,15 +1,19 @@
 import React from 'react';
-import { compose, lifecycle } from 'recompose';
+import { compose, lifecycle, withStateHandlers } from 'recompose';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import { Container } from './styles';
 import { reqPing } from '../../requests';
 import GameBox from '../../containers/GameBox';
+import OptionButton from '../../components/OptionButton';
+import Menu from '../../containers/Menu';
 
-const Home = ({}) => (
+const Home = ({ displayMenu, handleDisplayMenu }) => (
   <Container>
     <GameBox />
+    <OptionButton handleDisplayMenu={handleDisplayMenu} />
+    {displayMenu && <Menu handleDisplayMenu={handleDisplayMenu} />}
   </Container>
 );
 
@@ -21,6 +25,16 @@ const enhance = compose(
   connect(
     null,
     mapDispatchToProps,
+  ),
+  withStateHandlers(
+    ({ initialDisplayMenu = false }) => ({
+      displayMenu: initialDisplayMenu,
+    }),
+    {
+      handleDisplayMenu: ({ displayMenu }) => () => ({
+        displayMenu: !displayMenu,
+      }),
+    },
   ),
   lifecycle({
     componentDidMount() {
