@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import { Container, Shadow } from './styles';
-import { reqPing } from '../../requests';
 import Cards from '../Cards';
 import Decks from '../Decks';
 import GameBox from '../../containers/GameBox';
@@ -14,9 +13,11 @@ import SocialMenu from '../../containers/SocialMenu';
 import OptionButton from '../../components/OptionButton';
 import FriendsButton from '../../components/FriendsButton';
 import { modifyLocation, handleDisplaySocialMenu } from '../../actions/app';
+import { loadCardBacks } from '../../actions/cards';
 import { getIsFetching, getDisplaySocialMenu } from '../../selectors/app';
 import { getLocation } from '../../selectors/app';
 import { CARDS, DECKS, HOME } from '../../constants/router';
+import { getCardBacks } from '../../requests';
 
 const proptypes = {
   displayMenu: bool.isRequired,
@@ -64,6 +65,7 @@ Home.propTypes = proptypes;
 const actions = {
   modifyLocation,
   handleDisplaySocialMenu,
+  loadCardBacks,
 };
 
 const mapDispatchToProps = dispatch => bindActionCreators(actions, dispatch);
@@ -91,9 +93,7 @@ const enhance = compose(
   ),
   lifecycle({
     componentDidMount() {
-      reqPing()
-        .then(res => console.log(res))
-        .catch(err => console.log('err: ', err));
+      getCardBacks().then(cardBacks => this.props.loadCardBacks(cardBacks));
     },
   }),
 );
