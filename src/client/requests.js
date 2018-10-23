@@ -38,3 +38,11 @@ export const getCardsByQuality = quality =>
   })
     .then(data => data)
     .catch(err => console.log('err: ', err));
+
+export const getInfo = () =>
+  axios({
+    method: 'get',
+    url: 'info',
+  })
+    .then(data => data)
+    .catch(err => console.log('err: ', err));

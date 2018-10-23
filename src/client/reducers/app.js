@@ -1,9 +1,14 @@
-import { MODIFY_LOCATION, HANDLE_DISPLAY_SOCIAL_MENU } from '../actions/app';
+import {
+  MODIFY_LOCATION,
+  HANDLE_DISPLAY_SOCIAL_MENU,
+  LOAD_INFO,
+} from '../actions/app';
 
 const initialState = {
   isFetching: false,
   location: 'home',
   displaySocialMenu: false,
+  info: {},
 };
 
 const reducer = (state = initialState, action) => {
@@ -17,6 +22,9 @@ const reducer = (state = initialState, action) => {
         location: action.newLocation,
         displaySocialMenu: false,
       };
+    }
+    case LOAD_INFO: {
+      return { ...state, info: action.info };
     }
     default:
       return state;

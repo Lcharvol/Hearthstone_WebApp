@@ -14,8 +14,14 @@ export const Container = styled.div`
 
 export const CardsInner = styled.div`
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   width: 1000px;
   height: 80vh;
   max-height: 1000px;
   background-color: rgb(25, 25, 25);
+  overflow-y: scroll;
+  -ms-overflow-style: none;
 `;

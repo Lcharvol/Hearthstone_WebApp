@@ -12,12 +12,16 @@ import Menu from '../../containers/Menu';
 import SocialMenu from '../../containers/SocialMenu';
 import OptionButton from '../../components/OptionButton';
 import FriendsButton from '../../components/FriendsButton';
-import { modifyLocation, handleDisplaySocialMenu } from '../../actions/app';
+import {
+  modifyLocation,
+  handleDisplaySocialMenu,
+  loadInfo,
+} from '../../actions/app';
 import { loadCardBacks } from '../../actions/cards';
 import { getIsFetching, getDisplaySocialMenu } from '../../selectors/app';
 import { getLocation } from '../../selectors/app';
 import { CARDS, DECKS, HOME } from '../../constants/router';
-import { getCardBacks } from '../../requests';
+import { getInfo } from '../../requests';
 
 const proptypes = {
   displayMenu: bool.isRequired,
@@ -66,6 +70,7 @@ const actions = {
   modifyLocation,
   handleDisplaySocialMenu,
   loadCardBacks,
+  loadInfo,
 };
 
 const mapDispatchToProps = dispatch => bindActionCreators(actions, dispatch);
@@ -93,7 +98,7 @@ const enhance = compose(
   ),
   lifecycle({
     componentDidMount() {
-      getCardBacks().then(cardBacks => this.props.loadCardBacks(cardBacks));
+      getInfo().then(info => this.props.loadInfo(info.data));
     },
   }),
 );
