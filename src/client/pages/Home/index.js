@@ -10,10 +10,11 @@ import Cards from '../Cards';
 import Decks from '../Decks';
 import GameBox from '../../containers/GameBox';
 import Menu from '../../containers/Menu';
+import SocialMenu from '../../containers/SocialMenu';
 import OptionButton from '../../components/OptionButton';
 import FriendsButton from '../../components/FriendsButton';
-import { modifyLocation } from '../../actions/app';
-import { getIsFetching } from '../../selectors/app';
+import { modifyLocation, handleDisplaySocialMenu } from '../../actions/app';
+import { getIsFetching, getDisplaySocialMenu } from '../../selectors/app';
 import { getLocation } from '../../selectors/app';
 import { CARDS, DECKS, HOME } from '../../constants/router';
 
@@ -22,18 +23,37 @@ const proptypes = {
   handleDisplayMenu: func.isRequired,
   location: string.isRequired,
   modifyLocation: func.isRequired,
+  handleDisplaySocialMenu: func.isRequired,
+  displaySocialMenu: bool.isRequired,
 };
 
-const Home = ({ displayMenu, handleDisplayMenu, location, modifyLocation }) => (
+const Home = ({
+  displayMenu,
+  handleDisplayMenu,
+  location,
+  displaySocialMenu,
+  modifyLocation,
+  handleDisplaySocialMenu,
+}) => (
   <Container>
-    <Shadow active={location !== HOME} />
+    <Shadow
+      active={location !== HOME || displaySocialMenu}
+      onClick={() => modifyLocation(HOME)}
+    />
     <GameBox modifyLocation={modifyLocation} />
-    <Cards top={location === CARDS ? 0 : -100} />
+    <SocialMenu active={displaySocialMenu} />
+    <Cards
+      top={location === CARDS ? 0 : -100}
+      modifyLocation={modifyLocation}
+    />
     <Decks
       top={location === DECKS ? 0 : -100}
       modifyLocation={modifyLocation}
     />
-    <FriendsButton connectedFriends={0} />
+    <FriendsButton
+      connectedFriends={0}
+      handleDisplaySocialMenu={handleDisplaySocialMenu}
+    />
     <OptionButton handleDisplayMenu={handleDisplayMenu} />
     {displayMenu && <Menu handleDisplayMenu={handleDisplayMenu} />}
   </Container>
@@ -41,13 +61,17 @@ const Home = ({ displayMenu, handleDisplayMenu, location, modifyLocation }) => (
 
 Home.propTypes = proptypes;
 
-const actions = { modifyLocation };
+const actions = {
+  modifyLocation,
+  handleDisplaySocialMenu,
+};
 
 const mapDispatchToProps = dispatch => bindActionCreators(actions, dispatch);
 
 const mapStateToProps = state => ({
   isFetching: getIsFetching(state),
   location: getLocation(state),
+  displaySocialMenu: getDisplaySocialMenu(state),
 });
 
 const enhance = compose(
