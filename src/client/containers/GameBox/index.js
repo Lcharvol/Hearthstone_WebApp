@@ -1,4 +1,5 @@
 import React from 'react';
+import { func } from 'prop-types';
 import { map } from 'ramda';
 
 import {
@@ -12,13 +13,21 @@ import {
 } from './styles';
 import buttons from './buttons';
 
-const GameBox = () => (
+const propTypes = {
+  modifyLocation: func.isRequired,
+};
+
+const GameBox = ({ modifyLocation }) => (
   <Container>
     <Box />
     <GameBoxCenter>
       {map(
         button => (
-          <Button key={button.id} {...button}>
+          <Button
+            key={button.id}
+            onClick={() => modifyLocation(button.location)}
+            {...button}
+          >
             {button.label}
           </Button>
         ),
@@ -31,5 +40,7 @@ const GameBox = () => (
     </BottomSideContainer>
   </Container>
 );
+
+GameBox.propTypes = propTypes;
 
 export default GameBox;

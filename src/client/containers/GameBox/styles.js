@@ -95,6 +95,7 @@ export const Button = styled.div`
     width:${({ width }) => width}px;
     margin-top:${({ top }) => top}px;
     margin-left:${({ left }) => left}px;
+    padding-top:-20px;
     &:hover{
         transform: scale(0.95);
         opacity:0.9;

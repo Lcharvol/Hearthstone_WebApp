@@ -1,5 +1,5 @@
 import React from 'react';
-import { bool, func } from 'prop-types';
+import { bool, func, string } from 'prop-types';
 import { compose, lifecycle, withStateHandlers } from 'recompose';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -7,19 +7,24 @@ import { bindActionCreators } from 'redux';
 import { Container } from './styles';
 import { reqPing } from '../../requests';
 import GameBox from '../../containers/GameBox';
-import OptionButton from '../../components/OptionButton';
 import Menu from '../../containers/Menu';
+import OptionButton from '../../components/OptionButton';
 import FriendsButton from '../../components/FriendsButton';
+import { modifyLocation } from '../../actions/app';
 import { getIsFetching } from '../../selectors/app';
+import { getLocation } from '../../selectors/app';
+import { HOME } from '../../constants/router';
 
 const proptypes = {
   displayMenu: bool.isRequired,
   handleDisplayMenu: func.isRequired,
+  location: string.isRequired,
+  modifyLocation: func.isRequired,
 };
 
-const Home = ({ displayMenu, handleDisplayMenu }) => (
+const Home = ({ displayMenu, handleDisplayMenu, location, modifyLocation }) => (
   <Container>
-    <GameBox />
+    <GameBox modifyLocation={modifyLocation} />
     <FriendsButton connectedFriends={0} />
     <OptionButton handleDisplayMenu={handleDisplayMenu} />
     {displayMenu && <Menu handleDisplayMenu={handleDisplayMenu} />}
@@ -28,12 +33,13 @@ const Home = ({ displayMenu, handleDisplayMenu }) => (
 
 Home.propTypes = proptypes;
 
-const actions = {};
+const actions = { modifyLocation };
 
 const mapDispatchToProps = dispatch => bindActionCreators(actions, dispatch);
 
 const mapStateToProps = state => ({
   isFetching: getIsFetching(state),
+  location: getLocation(state),
 });
 
 const enhance = compose(
