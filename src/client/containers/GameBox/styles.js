@@ -13,7 +13,7 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
   width: 940px;
-  height: 830px;
+  min-height: 100vh;
   background-repeat: no-repeat;
   min-width: 940px;
 `;
@@ -85,22 +85,45 @@ export const GameBoxCenter = styled.div`
 `;
 
 export const Button = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: ${({ height }) => height}px;
+  width: ${({ width }) => width}px;
+  margin-top: ${({ top }) => top}px;
+  margin-left: ${({ left }) => left}px;
+  padding-top: -20px;
+  font-size: 0.3em;
+  user-select: none;
+`;
+
+export const ButtonFrontSide = styled.div`
     position:relative;
     display:flex;
     justify-content: center;
     align-items: center;
     background-image: url("${({ UI }) => UI}");
     background-size:cover;
-    height:${({ height }) => height}px;
-    width:${({ width }) => width}px;
-    margin-top:${({ top }) => top}px;
-    margin-left:${({ left }) => left}px;
-    padding-top:-20px;
+    width:100%;
+    height:100%;
     &:hover{
         transform: scale(0.95);
         opacity:0.9;
     }
+    &:active {
+        transform: rotateX(90deg);
+    }
     transition: transform 0.1s ease-in-out;
-    font-size:0.3em;
-    user-select: none;
+    z-index:210;
+`;
+
+export const ButtonBackSide = styled.div`
+    position:absolute;
+    background-image: url("${({ UI }) => UI}");
+    background-size:cover;
+    height:${({ height }) => height}px;
+    width:${({ width }) => width}px;
+    z-index:200;
+    transform: rotateX(270deg);
 `;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { func } from 'prop-types';
 import { map } from 'ramda';
 
@@ -10,6 +10,8 @@ import {
   BottomSideRight,
   GameBoxCenter,
   Button,
+  ButtonFrontSide,
+  ButtonBackSide,
 } from './styles';
 import buttons from './buttons';
 
@@ -25,10 +27,11 @@ const GameBox = ({ modifyLocation }) => (
         button => (
           <Button
             key={button.id}
-            onClick={() => modifyLocation(button.location)}
             {...button}
+            onMouseDown={() => modifyLocation(button.location)}
           >
-            {button.label}
+            <ButtonFrontSide {...button}>{button.label}</ButtonFrontSide>
+            <ButtonBackSide {...button} />
           </Button>
         ),
         buttons,

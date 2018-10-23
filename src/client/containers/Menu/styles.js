@@ -12,7 +12,7 @@ export const Container = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: rgba(25, 25, 25, 0.4);
-  z-index: 15;
+  z-index: 1000;
 `;
 
 export const MenuBox = styled.div`
