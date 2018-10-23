@@ -42,6 +42,6 @@ export const Shadow = styled.div`
   height: 100vh;
   background-color: ${({ active }) =>
     active ? 'rgba(25,25,25,0.5)' : 'rgba(25,25,25,0)'};
-  transition: background-color 1s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   z-index: ${({ active }) => (!active ? 0 : 250)};
 `;

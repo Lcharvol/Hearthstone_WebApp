@@ -7,7 +7,7 @@ const axios = Axios.create({
   headers: { 'X-Mashape-Key': key },
 });
 
-export const getCardBacks = () =>
+export const loadCardBacks = () =>
   axios({
     method: 'get',
     url: 'cardbacks',
@@ -23,7 +23,7 @@ export const searchCard = name =>
     .then(data => data)
     .catch(err => console.log('err: ', err));
 
-export const getCardsByClass = className =>
+export const loadCardsByClass = className =>
   axios({
     method: 'get',
     url: `cards/classes/${className}`,
@@ -31,7 +31,7 @@ export const getCardsByClass = className =>
     .then(data => data)
     .catch(err => console.log('err: ', err));
 
-export const getCardsByQuality = quality =>
+export const loadCardsByQuality = quality =>
   axios({
     method: 'get',
     url: `cards/qualities/${quality}`,
@@ -39,7 +39,7 @@ export const getCardsByQuality = quality =>
     .then(data => data)
     .catch(err => console.log('err: ', err));
 
-export const getInfo = () =>
+export const loadInfo = () =>
   axios({
     method: 'get',
     url: 'info',

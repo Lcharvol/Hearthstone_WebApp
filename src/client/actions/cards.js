@@ -1,4 +1,4 @@
-export const LOAD_CARD_BACKS = 'LOAD_CARD_BACKS';
+export const INIT_CARD_BACKS = 'INIT_CARD_BACKS';
 
-export const loadCardBacks = cardBacks => dispatch =>
-  dispatch({ type: LOAD_CARD_BACKS, cardBacks });
+export const initCardBacks = cardBacks => dispatch =>
+  dispatch({ type: INIT_CARD_BACKS, cardBacks });

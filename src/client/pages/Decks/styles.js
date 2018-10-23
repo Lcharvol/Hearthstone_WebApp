@@ -10,7 +10,7 @@ export const Container = styled.div`
   height: 100vh;
   z-index: 300;
   top: ${({ top }) => top}vh;
-  transition: top 0.7s ease-in-out, background-color 0.2s ease-in;
+  transition: top 0.4s ease-in-out, background-color 0.2s ease-in;
 `;
 
 export const DecksInner = styled.div`

@@ -1,7 +1,7 @@
 import React from 'react';
-import { map } from 'ramda';
+import { map, isEmpty } from 'ramda';
 import { number, func, array } from 'prop-types';
-import { compose, withStateHandlers } from 'recompose';
+import { compose, withStateHandlers, lifecycle } from 'recompose';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
@@ -9,6 +9,8 @@ import { Container, CardsInner } from './styles';
 import { HOME } from '../../constants/router';
 import { getCardBacks } from '../../selectors/cards';
 import Card from '../../components/Card';
+import { loadCardBacks } from '../../requests';
+import { initCardBacks } from '../../actions/cards';
 
 const propTypes = {
   top: number.isRequired,
@@ -31,7 +33,7 @@ const Cards = ({ top, modifyLocation, cardBacks = [] }) => (
 
 Cards.propTypes = propTypes;
 
-const actions = {};
+const actions = { initCardBacks };
 
 const mapDispatchToProps = dispatch => bindActionCreators(actions, dispatch);
 
@@ -54,5 +56,11 @@ const enhance = compose(
       }),
     },
   ),
+  lifecycle({
+    componentDidMount() {
+      if (isEmpty(this.props.cardBacks) && this.props.top === 0)
+        loadCardBacks().then(cardBacks => this.props.initCardBacks(cardBacks));
+    },
+  }),
 );
 export default enhance(Cards);

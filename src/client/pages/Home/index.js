@@ -15,13 +15,13 @@ import FriendsButton from '../../components/FriendsButton';
 import {
   modifyLocation,
   handleDisplaySocialMenu,
-  loadInfo,
+  initInfo,
 } from '../../actions/app';
 import { loadCardBacks } from '../../actions/cards';
 import { getIsFetching, getDisplaySocialMenu } from '../../selectors/app';
 import { getLocation } from '../../selectors/app';
 import { CARDS, DECKS, HOME } from '../../constants/router';
-import { getInfo } from '../../requests';
+import { loadInfo } from '../../requests';
 
 const proptypes = {
   displayMenu: bool.isRequired,
@@ -70,7 +70,7 @@ const actions = {
   modifyLocation,
   handleDisplaySocialMenu,
   loadCardBacks,
-  loadInfo,
+  initInfo,
 };
 
 const mapDispatchToProps = dispatch => bindActionCreators(actions, dispatch);
@@ -98,7 +98,7 @@ const enhance = compose(
   ),
   lifecycle({
     componentDidMount() {
-      getInfo().then(info => this.props.loadInfo(info.data));
+      loadInfo().then(info => this.props.initInfo(info.data));
     },
   }),
 );

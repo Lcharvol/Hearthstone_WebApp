@@ -4,8 +4,8 @@ import BackgroundSocialMenuUI from '../../../../assets/UI/social_menu_background
 
 export const Container = styled.div`
   position: absolute;
-  top: calc(50vh - 275px);
-  left: ${({ active }) => (active ? 0 : -340)}px;
+  top: calc(50vh - 255px);
+  left: ${({ active }) => (active ? 10 : -340)}px;
   background-image: url("${BackgroundSocialMenuUI}");
   background-repeat:no-repeat;
   background-size:cover;
@@ -13,5 +13,5 @@ export const Container = styled.div`
   width: 340px;
   height: 550px;
   z-index: 2500;
-  transition: left 0.7s ease-in-out;
+  transition: left 0.3s ease-in-out;
 `;

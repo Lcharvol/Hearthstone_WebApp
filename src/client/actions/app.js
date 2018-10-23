@@ -15,4 +15,4 @@ export const modifyLocation = newLocation => dispatch =>
 export const handleDisplaySocialMenu = () => dispatch =>
   dispatch({ type: HANDLE_DISPLAY_SOCIAL_MENU });
 
-export const loadInfo = info => dispatch => dispatch({ type: LOAD_INFO, info });
+export const initInfo = info => dispatch => dispatch({ type: LOAD_INFO, info });
