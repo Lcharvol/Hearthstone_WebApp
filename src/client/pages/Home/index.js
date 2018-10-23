@@ -4,7 +4,7 @@ import { compose, lifecycle, withStateHandlers } from 'recompose';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { Container } from './styles';
+import { Container, Shadow } from './styles';
 import { reqPing } from '../../requests';
 import Cards from '../Cards';
 import Decks from '../Decks';
@@ -15,7 +15,7 @@ import FriendsButton from '../../components/FriendsButton';
 import { modifyLocation } from '../../actions/app';
 import { getIsFetching } from '../../selectors/app';
 import { getLocation } from '../../selectors/app';
-import { CARDS, DECKS } from '../../constants/router';
+import { CARDS, DECKS, HOME } from '../../constants/router';
 
 const proptypes = {
   displayMenu: bool.isRequired,
@@ -26,9 +26,13 @@ const proptypes = {
 
 const Home = ({ displayMenu, handleDisplayMenu, location, modifyLocation }) => (
   <Container>
+    <Shadow active={location !== HOME} />
     <GameBox modifyLocation={modifyLocation} />
     <Cards top={location === CARDS ? 0 : -100} />
-    <Decks top={location === DECKS ? 0 : -100} />
+    <Decks
+      top={location === DECKS ? 0 : -100}
+      modifyLocation={modifyLocation}
+    />
     <FriendsButton connectedFriends={0} />
     <OptionButton handleDisplayMenu={handleDisplayMenu} />
     {displayMenu && <Menu handleDisplayMenu={handleDisplayMenu} />}

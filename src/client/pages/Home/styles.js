@@ -34,3 +34,14 @@ export const Container = styled.div`
     cursor: url("${CursorDown}"), pointer;
   };
 `;
+
+export const Shadow = styled.div`
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: ${({ active }) =>
+    active ? 'rgba(25,25,25,0.5)' : 'rgba(25,25,25,0)'};
+  transition: background-color 1s ease-in-out;
+  z-index: ${({ active }) => (!active ? 0 : 250)};
+`;

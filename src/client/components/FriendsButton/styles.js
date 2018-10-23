@@ -8,8 +8,9 @@ export const Container = styled.div`
     justify-content: flex-end;
     align-items: center;
     background-image: url("${FriendsButtonUI}");
-    width:125px;
-    height:55px;
+    background-size:cover;
+    width:105px;
+    height:45px;
     top:20px;
     left:20px;
     z-index:1000;
