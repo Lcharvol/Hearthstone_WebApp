@@ -13,15 +13,14 @@ export const Container = styled.div`
 `;
 
 export const CardsInner = styled.div`
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   width: 1000px;
-  height: 850px;
-  max-height: 1000px;
+  min-height: 550px;
+  max-height: 90vh;
   background-color: rgba(15, 15, 15, 0.7);
   border-radius: 3px;
   overflow: hidden;
@@ -33,19 +32,19 @@ export const CardsHeader = styled.div`
   align-items: center;
   display: flex;
   width: calc(100% - 150px);
-  height: 15%;
+  min-height: 75px;
   padding-left: 75px;
   padding-right: 75px;
 `;
 
 export const CardsNavigation = styled.div`
-  position:relative;
-  display:flex;
+  position: relative;
+  display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap:wrap;
-  width:100%
-  height:85%;
-  overflow:hidden;
-  overflow-y:scroll;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  overflow-y: scroll;
 `;

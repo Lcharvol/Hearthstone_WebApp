@@ -1,3 +1,5 @@
+export const PAGE_SIZE = 6;
+
 export const CARD_BACKS = 'CARD_BACKS';
 
 export const DEATH_KNIGHT = 'Death Knight';

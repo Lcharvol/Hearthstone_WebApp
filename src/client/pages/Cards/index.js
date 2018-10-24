@@ -37,6 +37,7 @@ import {
   SHAMAN,
   WARLOCK,
   WARRIOR,
+  PAGE_SIZE,
 } from './constants';
 
 const propTypes = {
@@ -86,9 +87,11 @@ const Cards = ({
         ))}
       </CardsHeader>
       <CardsNavigation>
-        {getCardsByCategorie(categorie, cardsByCategories).map((card, id) => (
-          <Card key={id} {...card} />
-        ))}
+        {getCardsByCategorie(categorie, cardsByCategories).map(
+          (card, id) =>
+            id >= start &&
+            id < start + PAGE_SIZE && <Card key={id} {...card} />,
+        )}
       </CardsNavigation>
     </CardsInner>
   </Container>

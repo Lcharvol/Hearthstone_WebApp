@@ -21,9 +21,16 @@ export const Container = styled.div`
 export const Box = styled.div`
     position:relative;
     background-image: url("${BackgroundMenu}");
+    background-repeat:no-repeat;
+    background-size:cover;
     width:100%;
     height:710px;
     z-index:10;
+    @media (max-width: 930px) {
+        width:75%;
+        height:532px;
+    }
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
 `;
 
 export const BottomSideContainer = styled.div`
@@ -82,6 +89,11 @@ export const GameBoxCenter = styled.div`
     z-index:15;
     margin-top:-40px;
     margin-left:-4px;
+    @media (max-width: 930px) {
+        width:225px
+        height:225px;
+    }
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
 `;
 
 export const Button = styled.div`
@@ -95,6 +107,14 @@ export const Button = styled.div`
   margin-left: ${({ left }) => left}px;
   padding-top: -20px;
   font-size: 0.3em;
+  @media (max-width: 930px) {
+    height: ${({ height }) => (height * 3) / 4}px;
+    width: ${({ width }) => (width * 3) / 4}px;
+    margin-top: ${({ top }) => (top * 3) / 4}px;
+    margin-left: ${({ left }) => (left * 3) / 4}px;
+  }
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    margin-top 0.3s ease-in-out, margin-left 0.3s ease-in-out;
   user-select: none;
 `;
 

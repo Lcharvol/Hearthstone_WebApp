@@ -48,11 +48,11 @@ const Home = ({
     <GameBox modifyLocation={modifyLocation} />
     <SocialMenu active={displaySocialMenu} />
     <Cards
-      top={location === CARDS ? 0 : -100}
+      top={location === CARDS ? 0 : -150}
       modifyLocation={modifyLocation}
     />
     <Decks
-      top={location === DECKS ? 0 : -100}
+      top={location === DECKS ? 0 : -150}
       modifyLocation={modifyLocation}
     />
     <FriendsButton

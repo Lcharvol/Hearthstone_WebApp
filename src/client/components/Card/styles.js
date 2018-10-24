@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    position:relative;
-    min-width:225px;
-    min-height:350px;
-    max-width:225px;
-    max-height:350px;
-    background-image: url("${({ img }) => img}");
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 385px;
+  width: 270px;
+  &:hover {
+    transform: scale(1.1);
+  }
+  transition: transform 0.2s ease-in-out;
 `;

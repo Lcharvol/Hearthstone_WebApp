@@ -33,6 +33,7 @@ export const Container = styled.div`
   &:active {
     cursor: url("${CursorDown}"), pointer;
   };
+  overflow:hidden;
 `;
 
 export const Shadow = styled.div`
