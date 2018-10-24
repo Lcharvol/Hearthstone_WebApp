@@ -13,13 +13,15 @@ export const Container = styled.div`
   height: ${CARD_HEIGHT}px;
   width: ${CARD_WIDTH}px;
   overflow: hidden;
-  &:hover {
-    transform: scale(0.9);
-  }
   transition: transform 0.2s ease-in-out, top 0.3s ease-in-out,
     left 0.3s ease-in-out;
 `;
 
 export const StyledImg = styled(Img)`
-  width: 100%;
+  margin-top: -45px;
+  width: 110%;
+  &:hover {
+    width: 120%;
+  }
+  transition: width 0.1s ease-in;
 `;

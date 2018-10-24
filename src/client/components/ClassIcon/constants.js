@@ -8,8 +8,13 @@ import RogueIcon from '../../../../assets/classes/rogue.png';
 import ShamanIcon from '../../../../assets/classes/shaman.png';
 import WarlockIcon from '../../../../assets/classes/warlock.png';
 import WarriorIcon from '../../../../assets/classes/warrior.png';
+import CardBacksIcon from '../../../../assets/UI/gold.png';
 
 export const iconList = [
+  {
+    name: 'CARD_BACKS',
+    icon: CardBacksIcon,
+  },
   {
     name: 'Death Knight',
     icon: DKIcon,

@@ -1,5 +1,7 @@
 export const PAGE_SIZE = 8;
 
+export const CARD_PER_LINE = 4;
+
 export const CONTAINER_WIDTH = 840;
 
 export const CARD_BACKS = 'CARD_BACKS';

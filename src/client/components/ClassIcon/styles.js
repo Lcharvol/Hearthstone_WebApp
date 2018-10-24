@@ -10,4 +10,8 @@ export const Container = styled.div`
     max-height:50px;
     margin:10px;
     opacity:${({ selected }) => (selected ? 1 : 0.4)}
+    &:hover {
+        opacity: 0.8;
+    }
+    transition: opacity 0.2s ease-in-out;
 `;
