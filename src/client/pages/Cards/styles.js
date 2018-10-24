@@ -26,13 +26,20 @@ export const CardsInner = styled.div`
   overflow: hidden;
 `;
 
+export const CardsContent = styled.div`
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 800px;
+`;
+
 export const CardsHeader = styled.div`
   position: relative;
   justify-content: flex-start;
   align-items: center;
   display: flex;
   width: calc(100% - 150px);
-  min-height: 75px;
+  height: 75px;
   padding-left: 75px;
   padding-right: 75px;
 `;
@@ -40,10 +47,10 @@ export const CardsHeader = styled.div`
 export const CardsNavigation = styled.div`
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
   width: 100%;
-  height: 800px;
+  height: calc(100% - 75px);
   overflow: hidden;
 `;

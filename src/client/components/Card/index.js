@@ -1,12 +1,20 @@
 import React from 'react';
-import Img from 'react-image';
+import { string, number } from 'prop-types';
 
-import { Container } from './styles';
+import { Container, StyledImg } from './styles';
 
-const Card = ({ imgAnimated, img }) => (
-  <Container>
-    <Img src={img} />
+const propTypes = {
+  img: string,
+  top: number,
+  left: number,
+};
+
+const Card = ({ imgAnimated, img, top = 0, left = 0 }) => (
+  <Container top={top} left={left}>
+    <StyledImg src={img} />
   </Container>
 );
+
+Card.propTypes = propTypes;
 
 export default Card;

@@ -5,10 +5,17 @@ import { compose, withStateHandlers, lifecycle } from 'recompose';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { Container, CardsInner, CardsNavigation, CardsHeader } from './styles';
+import {
+  Container,
+  CardsInner,
+  CardsContent,
+  CardsNavigation,
+  CardsHeader,
+} from './styles';
 import { HOME } from '../../constants/router';
 import Card from '../../components/Card';
 import ClassIcon from '../../components/ClassIcon';
+import Arrow from '../../components/Arrow';
 import { loadCardBacks, loadCardsByClass } from '../../requests';
 import { enhanceCards } from '../../actions/cards';
 import {
@@ -38,7 +45,10 @@ import {
   WARLOCK,
   WARRIOR,
   PAGE_SIZE,
+  CONTAINER_WIDTH,
 } from './constants';
+import { CARD_WIDTH, CARD_HEIGHT } from '../../constants/card';
+import { LEFT, RIGHT } from '../../components/Arrow/constants';
 
 const propTypes = {
   top: number.isRequired,
@@ -75,7 +85,13 @@ const Cards = ({
   handleChangeCategorie,
   ...cardsByCategories
 }) => (
-  <Container top={top} onClick={() => modifyLocation(HOME)}>
+  <Container
+    top={top}
+    onClick={() => {
+      handleChangeCategorie(CARD_BACKS);
+      modifyLocation(HOME);
+    }}
+  >
     <CardsInner onClick={e => e.stopPropagation()}>
       <CardsHeader>
         {classes.map((elem, id) => (
@@ -87,11 +103,33 @@ const Cards = ({
           />
         ))}
       </CardsHeader>
-      <CardsNavigation>
-        {getCardsByCategorie(categorie, cardsByCategories).map((card, id) => (
-          <Card key={id} {...card} />
-        ))}
-      </CardsNavigation>
+      {console.log('start: ', start)}
+      <CardsContent>
+        <Arrow
+          direction={LEFT}
+          action={() =>
+            handleChangeStart(start - PAGE_SIZE < 0 ? 0 : start - PAGE_SIZE)
+          }
+        />
+        <CardsNavigation start={start}>
+          {getCardsByCategorie(categorie, cardsByCategories).map((card, id) => (
+            <Card
+              key={id}
+              top={Math.floor((id % PAGE_SIZE) / 4) * CARD_HEIGHT}
+              left={
+                (id % 4) * CARD_WIDTH +
+                Math.floor(id / PAGE_SIZE) * CONTAINER_WIDTH -
+                Math.floor(start / PAGE_SIZE) * CONTAINER_WIDTH
+              }
+              {...card}
+            />
+          ))}
+        </CardsNavigation>
+        <Arrow
+          direction={RIGHT}
+          action={() => handleChangeStart(start + PAGE_SIZE)}
+        />
+      </CardsContent>
     </CardsInner>
   </Container>
 );
