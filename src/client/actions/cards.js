@@ -1,4 +1,4 @@
-export const INIT_CARD_BACKS = 'INIT_CARD_BACKS';
+export const ENHANCE_CARDS = 'ENHANCE_CARDS';
 
-export const initCardBacks = cardBacks => dispatch =>
-  dispatch({ type: INIT_CARD_BACKS, cardBacks });
+export const enhanceCards = props => dispatch =>
+  dispatch({ type: ENHANCE_CARDS, ...props });

@@ -1,13 +1,24 @@
-import { INIT_CARD_BACKS } from '../actions/cards';
+import { ENHANCE_CARDS } from '../actions/cards';
 
 const initialState = {
   cardBacks: [],
+  deathKnightCards: [],
+  druidCards: [],
+  hunterCards: [],
+  mageCards: [],
+  paladinCards: [],
+  priestCards: [],
+  rogueCards: [],
+  shamanCards: [],
+  warlockCards: [],
+  warriorCards: [],
 };
 
 const reducer = (state = initialState, action) => {
-  switch (action.type) {
-    case INIT_CARD_BACKS: {
-      return { ...state, cardBacks: action.cardBacks };
+  const { type, ...rest } = action;
+  switch (type) {
+    case ENHANCE_CARDS: {
+      return { ...state, ...rest };
     }
     default:
       return state;

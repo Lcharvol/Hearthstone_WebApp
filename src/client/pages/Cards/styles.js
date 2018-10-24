@@ -47,4 +47,5 @@ export const CardsNavigation = styled.div`
   width:100%
   height:85%;
   overflow:hidden;
+  overflow-y:scroll;
 `;

@@ -28,7 +28,7 @@ export const loadCardsByClass = className =>
     method: 'get',
     url: `cards/classes/${className}`,
   })
-    .then(data => data)
+    .then(data => data.data)
     .catch(err => console.log('err: ', err));
 
 export const loadCardsByQuality = quality =>
