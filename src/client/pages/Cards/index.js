@@ -82,16 +82,15 @@ const Cards = ({
           <ClassIcon
             key={id}
             elem={elem}
+            selected={elem === categorie}
             handleChangeCategorie={handleChangeCategorie}
           />
         ))}
       </CardsHeader>
       <CardsNavigation>
-        {getCardsByCategorie(categorie, cardsByCategories).map(
-          (card, id) =>
-            id >= start &&
-            id < start + PAGE_SIZE && <Card key={id} {...card} />,
-        )}
+        {getCardsByCategorie(categorie, cardsByCategories).map((card, id) => (
+          <Card key={id} {...card} />
+        ))}
       </CardsNavigation>
     </CardsInner>
   </Container>
@@ -111,7 +110,7 @@ const mapStateToProps = state => ({
   hunterCards: getHunterCards(state),
   mageCards: getMageCards(state),
   paladinCards: getPaladinCards(state),
-  priestCarsd: getPriestCards(state),
+  priestCards: getPriestCards(state),
   rogueCards: getRogueCards(state),
   shamanCards: getShamanCards(state),
   warlockCards: getWarlockCards(state),
@@ -146,9 +145,9 @@ const enhance = compose(
         enhanceCards,
         druidCards,
         hunterCards,
-        getMageCards,
+        mageCards,
         paladinCards,
-        priestCarsd,
+        priestCards,
         rogueCards,
         shamanCards,
         warlockCards,
@@ -168,17 +167,15 @@ const enhance = compose(
         loadCardsByClass(HUNTER).then(hunterCards =>
           enhanceCards({ hunterCards }),
         );
-      if (categorie === MAGE && isEmpty(getMageCards))
-        loadCardsByClass(MAGE).then(getMageCards =>
-          enhanceCards({ getMageCards }),
-        );
+      if (categorie === MAGE && isEmpty(mageCards))
+        loadCardsByClass(MAGE).then(mageCards => enhanceCards({ mageCards }));
       if (categorie === PALADIN && isEmpty(paladinCards))
         loadCardsByClass(PALADIN).then(paladinCards =>
           enhanceCards({ paladinCards }),
         );
-      if (categorie === PRIEST && isEmpty(priestCarsd))
-        loadCardsByClass(PRIEST).then(priestCarsd =>
-          enhanceCards({ priestCarsd }),
+      if (categorie === PRIEST && isEmpty(priestCards))
+        loadCardsByClass(PRIEST).then(priestCards =>
+          enhanceCards({ priestCards }),
         );
       if (categorie === ROGUE && isEmpty(rogueCards))
         loadCardsByClass(ROGUE).then(rogueCards =>

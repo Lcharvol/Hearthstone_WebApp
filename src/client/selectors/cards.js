@@ -10,7 +10,7 @@ export const getMageCards = state => state.cards.mageCards;
 
 export const getPaladinCards = state => state.cards.paladinCards;
 
-export const getPriestCards = state => state.cards.PriestCards;
+export const getPriestCards = state => state.cards.priestCards;
 
 export const getRogueCards = state => state.cards.rogueCards;
 

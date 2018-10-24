@@ -1,4 +1,4 @@
-export const PAGE_SIZE = 6;
+export const PAGE_SIZE = 8;
 
 export const CARD_BACKS = 'CARD_BACKS';
 

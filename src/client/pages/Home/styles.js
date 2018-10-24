@@ -42,7 +42,7 @@ export const Shadow = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: ${({ active }) =>
-    active ? 'rgba(25,25,25,0.5)' : 'rgba(25,25,25,0)'};
+    active ? 'rgba(0,0,0,0.5)' : 'rgba(0,0,0,0)'};
   transition: background-color 0.3s ease-in-out;
   z-index: ${({ active }) => (!active ? 0 : 250)};
 `;

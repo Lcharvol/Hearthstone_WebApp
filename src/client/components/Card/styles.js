@@ -5,10 +5,11 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 385px;
-  width: 270px;
+  max-height: 330px;
+  max-width: 230px;
+  transform: scale(0.8);
   &:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
   }
   transition: transform 0.2s ease-in-out;
 `;

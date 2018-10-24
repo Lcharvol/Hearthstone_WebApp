@@ -4,7 +4,10 @@ export const Container = styled.div`
     position:relative;
     background-image: url("${({ icon }) => icon}");
     background-size:cover;
-    width:50px;
-    height:50px;
+    min-width:50px;
+    min-height:50px;
+    max-width:50px;
+    max-height:50px;
     margin:10px;
+    opacity:${({ selected }) => (selected ? 1 : 0.4)}
 `;

@@ -21,7 +21,7 @@ export const CardsInner = styled.div`
   width: 1000px;
   min-height: 550px;
   max-height: 90vh;
-  background-color: rgba(15, 15, 15, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 3px;
   overflow: hidden;
 `;
@@ -46,5 +46,4 @@ export const CardsNavigation = styled.div`
   width: 100%;
   height: 800px;
   overflow: hidden;
-  overflow-y: scroll;
 `;
