@@ -16,6 +16,7 @@ import { HOME } from '../../constants/router';
 import Card from '../../components/Card';
 import ClassIcon from '../../components/ClassIcon';
 import Arrow from '../../components/Arrow';
+import Borders from '../../components/Borders';
 import { LEFT, RIGHT } from '../../components/Arrow/constants';
 import CardPreview from '../../containers/CardPreview';
 import { loadCardBacks, loadCardsByClass } from '../../requests';
@@ -100,6 +101,7 @@ const Cards = ({
       }}
     >
       <CardsInner onClick={e => e.stopPropagation()}>
+        <Borders />
         <CardsHeader>
           {[CARD_BACKS, ...classes].map((elem, id) => (
             <ClassIcon
@@ -132,8 +134,8 @@ const Cards = ({
                   }
                   left={
                     (id % CARD_PER_LINE) * CARD_WIDTH +
-                    Math.floor(id / PAGE_SIZE) * CONTAINER_WIDTH -
-                    Math.floor(start / PAGE_SIZE) * CONTAINER_WIDTH
+                    Math.floor(id / PAGE_SIZE) * (CONTAINER_WIDTH + 100) -
+                    Math.floor(start / PAGE_SIZE) * (CONTAINER_WIDTH + 100)
                   }
                   {...card}
                 />

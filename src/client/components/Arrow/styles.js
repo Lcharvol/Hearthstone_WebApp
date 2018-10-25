@@ -12,10 +12,11 @@ export const Container = styled.div`
   min-width: 80px;
   max-width: 80px;
   height: calc(100% - 75px);
+  z-index: 900;
 `;
 
 export const Icon = styled.div`
-    position:relative;
+    position:absolute;
     display:flex;
     background-image: url("${({ direction }) =>
       direction === RIGHT ? RightArrowIcon : LeftArrowIcon}");
@@ -25,4 +26,6 @@ export const Icon = styled.div`
     opacity: ${({ active }) => (active ? 1 : 0.5)};
     transform: scale(${({ active }) => (active ? 1 : 0.9)});
     transition: all 0.3s ease-in-out;
+    ${({ direction }) => (direction === LEFT ? 'left' : 'right')}:30px;
+    margin-top:-8px;
 `;

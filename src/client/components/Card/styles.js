@@ -19,9 +19,9 @@ export const Container = styled.div`
 
 export const StyledImg = styled(Img)`
   margin-top: -45px;
-  width: 110%;
+  width: 100%;
   &:hover {
-    width: 120%;
+    width: 110%;
   }
   transition: width 0.1s ease-in;
 `;
