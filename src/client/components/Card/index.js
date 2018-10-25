@@ -10,9 +10,9 @@ const propTypes = {
   left: number,
 };
 
-const Card = ({ imgAnimated, img, top = 0, left = 0 }) => (
+const Card = ({ imgAnimated, img, imgGold, top = 0, left = 0 }) => (
   <Container top={top} left={left}>
-    <StyledImg src={imgAnimated || img} />
+    <StyledImg src={imgAnimated || img || imgGold} />
   </Container>
 );
 

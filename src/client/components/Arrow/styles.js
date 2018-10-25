@@ -22,4 +22,7 @@ export const Icon = styled.div`
     background-size:cover;
     width:100%;
     height:80px;
+    opacity: ${({ active }) => (active ? 1 : 0.5)};
+    transform: scale(${({ active }) => (active ? 1 : 0.9)});
+    transition: all 0.3s ease-in-out;
 `;

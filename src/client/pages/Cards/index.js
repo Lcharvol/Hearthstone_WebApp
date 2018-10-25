@@ -1,5 +1,5 @@
 import React from 'react';
-import { map, isEmpty } from 'ramda';
+import { map, length, isEmpty, equals } from 'ramda';
 import { number, func, array, string } from 'prop-types';
 import { compose, withStateHandlers, lifecycle } from 'recompose';
 import { connect } from 'react-redux';
@@ -86,54 +86,81 @@ const Cards = ({
   start,
   handleChangeCategorie,
   ...cardsByCategories
-}) => (
-  <Container
-    top={top}
-    onClick={() => {
-      handleChangeCategorie(CARD_BACKS);
-      modifyLocation(HOME);
-    }}
-  >
-    <CardsInner onClick={e => e.stopPropagation()}>
-      <CardsHeader>
-        {[CARD_BACKS, ...classes].map((elem, id) => (
-          <ClassIcon
-            key={id}
-            elem={elem}
-            selected={elem === categorie}
-            handleChangeCategorie={handleChangeCategorie}
-          />
-        ))}
-      </CardsHeader>
-      <CardsContent>
-        <Arrow
-          direction={LEFT}
-          action={() =>
-            handleChangeStart(start - PAGE_SIZE < 0 ? 0 : start - PAGE_SIZE)
-          }
-        />
-        <CardsNavigation start={start}>
-          {getCardsByCategorie(categorie, cardsByCategories).map((card, id) => (
-            <Card
+}) => {
+  const isArrowActive = (direction, start, length) => {
+    if (equals(direction, RIGHT)) return start + PAGE_SIZE <= length;
+    if (equals(direction, LEFT)) return start - PAGE_SIZE >= 0;
+  };
+  return (
+    <Container
+      top={top}
+      onClick={() => {
+        handleChangeCategorie(CARD_BACKS);
+        modifyLocation(HOME);
+      }}
+    >
+      <CardsInner onClick={e => e.stopPropagation()}>
+        <CardsHeader>
+          {[CARD_BACKS, ...classes].map((elem, id) => (
+            <ClassIcon
               key={id}
-              top={Math.floor((id % PAGE_SIZE) / CARD_PER_LINE) * CARD_HEIGHT}
-              left={
-                (id % CARD_PER_LINE) * CARD_WIDTH +
-                Math.floor(id / PAGE_SIZE) * CONTAINER_WIDTH -
-                Math.floor(start / PAGE_SIZE) * CONTAINER_WIDTH
-              }
-              {...card}
+              elem={elem}
+              selected={elem === categorie}
+              handleChangeCategorie={handleChangeCategorie}
             />
           ))}
-        </CardsNavigation>
-        <Arrow
-          direction={RIGHT}
-          action={() => handleChangeStart(start + PAGE_SIZE)}
-        />
-      </CardsContent>
-    </CardsInner>
-  </Container>
-);
+        </CardsHeader>
+        <CardsContent>
+          <Arrow
+            direction={LEFT}
+            active={isArrowActive(
+              LEFT,
+              start,
+              length(getCardsByCategorie(categorie, cardsByCategories)),
+            )}
+            action={() =>
+              handleChangeStart(start - PAGE_SIZE < 0 ? 0 : start - PAGE_SIZE)
+            }
+          />
+          <CardsNavigation start={start}>
+            {getCardsByCategorie(categorie, cardsByCategories).map(
+              (card, id) => (
+                <Card
+                  key={id}
+                  top={
+                    Math.floor((id % PAGE_SIZE) / CARD_PER_LINE) * CARD_HEIGHT
+                  }
+                  left={
+                    (id % CARD_PER_LINE) * CARD_WIDTH +
+                    Math.floor(id / PAGE_SIZE) * CONTAINER_WIDTH -
+                    Math.floor(start / PAGE_SIZE) * CONTAINER_WIDTH
+                  }
+                  {...card}
+                />
+              ),
+            )}
+          </CardsNavigation>
+          <Arrow
+            direction={RIGHT}
+            active={isArrowActive(
+              RIGHT,
+              start,
+              length(getCardsByCategorie(categorie, cardsByCategories)),
+            )}
+            action={() =>
+              handleChangeStart(
+                start + PAGE_SIZE <=
+                length(getCardsByCategorie(categorie, cardsByCategories))
+                  ? start + PAGE_SIZE
+                  : start,
+              )
+            }
+          />
+        </CardsContent>
+      </CardsInner>
+    </Container>
+  );
+};
 
 Cards.propTypes = propTypes;
 

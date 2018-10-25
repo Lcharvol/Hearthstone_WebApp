@@ -14,10 +14,14 @@ const replaceCardsImgPath = cards => {
   return map(card => {
     const path = split('/');
     const fileName = last(path(card.img || ''));
+    const goldenFileName = last(path(card.imgGold || ''));
     const newImagePath = fileName === '' ? '' : `${baseUrl}${fileName}`;
+    const newGoldenImagePath =
+      goldenFileName === '' ? '' : `${baseUrl}${goldenFileName}`;
     return {
       ...card,
       img: newImagePath,
+      imgGold: newGoldenImagePath,
     };
   }, cards);
 };
@@ -29,7 +33,7 @@ export const loadCardBacks = () =>
     method: 'get',
     url: 'cardbacks',
   })
-    .then(data => data.data)
+    .then(data => removeNoImgCard(replaceCardsImgPath(data.data)))
     .catch(err => console.log('err: ', err));
 
 export const searchCard = name =>
