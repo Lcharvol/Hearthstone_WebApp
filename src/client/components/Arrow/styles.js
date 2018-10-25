@@ -11,7 +11,7 @@ export const Container = styled.div`
   align-items: center;
   min-width: 80px;
   max-width: 80px;
-  height: calc(100% - 75px);
+  height: 100%;
   z-index: 900;
 `;
 

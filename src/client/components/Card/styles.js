@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 
 export const StyledImg = styled(Img)`
-  margin-top: -45px;
+  margin-top: -15px;
   width: 100%;
   &:hover {
     width: 110%;

@@ -24,7 +24,7 @@ export const CardsInner = styled.div`
   background-repeat:no-repeat;
   align-items: center;
   width: 1000px;
-  min-height: 550px;
+  height:800px
   max-height: 90vh;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 3px;
@@ -32,6 +32,18 @@ export const CardsInner = styled.div`
   -webkit-box-shadow: inset 0px 0px 100px 15px rgba(10,10,10,0.3);
   -o-box-shadow: inset 0px 0px 100px 15px rgba(10,10,10,0.3);
   box-shadow: inset 0px 0px 100px 15px rgba(10,10,10,0.3);
+`;
+
+export const CardsHeader = styled.div`
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  width: calc(100% - 150px);
+  min-height: 150px;
+  padding-left: 110px;
+  padding-right: 75px;
+  margin-top: 25px;
 `;
 
 export const CardsContent = styled.div`
@@ -42,18 +54,6 @@ export const CardsContent = styled.div`
   overflow: hidden;
 `;
 
-export const CardsHeader = styled.div`
-  position: relative;
-  justify-content: flex-start;
-  align-items: center;
-  display: flex;
-  width: calc(100% - 150px);
-  height: 75px;
-  padding-left: 75px;
-  padding-right: 75px;
-  margin-top: 25px;
-`;
-
 export const CardsNavigation = styled.div`
   position: relative;
   display: flex;
@@ -61,5 +61,5 @@ export const CardsNavigation = styled.div`
   align-items: flex-start;
   flex-wrap: wrap;
   width: 100%;
-  height: calc(100% - 75px);
+  height: 100%;
 `;
