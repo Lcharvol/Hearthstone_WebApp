@@ -8,7 +8,8 @@
   "scripts": {
     "build": "webpack -p",
     "cli": "webpack --watch --display none",
-    "srv": "DEBUG=app:* webpack-dashboard -- babel-watch -w src src/server/index.js",
+    "srv": "DEBUG=app:* babel-watch -w src src/server/index.js",
+    "srv_dash": "DEBUG=app:* webpack-dashboard -- babel-watch -w src src/server/index.js",
     "pret": "pretty-quick"
   },
   "contributors": [
@@ -48,6 +49,7 @@
     "file-loader": "^2.0.0",
     "fs": "^0.0.1-security",
     "http": "^0.0.0",
+    "mongobless": "^2.1.1",
     "path": "^0.12.7",
     "ramda": "^0.25.0",
     "react": "^16.5.2",
