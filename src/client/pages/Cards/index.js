@@ -126,20 +126,22 @@ const Cards = ({
           />
           <CardsNavigation start={start}>
             {getCardsByCategorie(categorie, cardsByCategories).map(
-              (card, id) => (
-                <Card
-                  key={id}
-                  top={
-                    Math.floor((id % PAGE_SIZE) / CARD_PER_LINE) * CARD_HEIGHT
-                  }
-                  left={
-                    (id % CARD_PER_LINE) * CARD_WIDTH +
-                    Math.floor(id / PAGE_SIZE) * (CONTAINER_WIDTH + 100) -
-                    Math.floor(start / PAGE_SIZE) * (CONTAINER_WIDTH + 100)
-                  }
-                  {...card}
-                />
-              ),
+              (card, id) =>
+                id >= start - 2 * PAGE_SIZE &&
+                id <= start + 2 * PAGE_SIZE && (
+                  <Card
+                    key={id}
+                    top={
+                      Math.floor((id % PAGE_SIZE) / CARD_PER_LINE) * CARD_HEIGHT
+                    }
+                    left={
+                      (id % CARD_PER_LINE) * CARD_WIDTH +
+                      Math.floor(id / PAGE_SIZE) * (CONTAINER_WIDTH + 100) -
+                      Math.floor(start / PAGE_SIZE) * (CONTAINER_WIDTH + 100)
+                    }
+                    {...card}
+                  />
+                ),
             )}
           </CardsNavigation>
           <Arrow

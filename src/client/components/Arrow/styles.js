@@ -27,5 +27,5 @@ export const Icon = styled.div`
     transform: scale(${({ active }) => (active ? 1 : 0.9)});
     transition: all 0.3s ease-in-out;
     ${({ direction }) => (direction === LEFT ? 'left' : 'right')}:30px;
-    margin-top:-8px;
+    margin-top:-15px;
 `;

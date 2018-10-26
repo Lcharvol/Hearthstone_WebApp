@@ -1,5 +1,6 @@
 import React from 'react';
 import { string, func, bool } from 'prop-types';
+import { onlyUpdateForKeys } from 'recompose';
 
 import { Container, Icon } from './styles';
 
@@ -17,4 +18,4 @@ const Arrow = ({ direction, action, active }) => (
 
 Arrow.propTypes = propTypes;
 
-export default Arrow;
+export default onlyUpdateForKeys(['action', 'active'])(Arrow);

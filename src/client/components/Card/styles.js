@@ -18,10 +18,28 @@ export const Container = styled.div`
 `;
 
 export const StyledImg = styled(Img)`
+  position: relative;
   margin-top: -15px;
-  width: 100%;
+  width: 110%;
+  background-size: 100%;
+  transition: all 0.1s ease-in;
+  margin-top: -40px;
   &:hover {
-    width: 110%;
+    width: 112%;
   }
-  transition: width 0.1s ease-in;
+`;
+
+export const ImageContainer = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: calc(83%);
+  width: 85%;
+  overflow: hidden;
+  border-radius: 10px;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  transition: background-color 0.2s ease-in-out;
 `;

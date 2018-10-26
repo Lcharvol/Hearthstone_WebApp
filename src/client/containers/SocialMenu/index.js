@@ -19,8 +19,8 @@ const SocialMenu = ({ active, user }) => (
     <Header user={user} />
     <Content>
       <Friends>
-        {user.friends.map(friend => (
-          <Friend friend={friend} />
+        {user.friends.map((friend, id) => (
+          <Friend key={id} friend={friend} />
         ))}
       </Friends>
     </Content>

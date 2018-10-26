@@ -1,7 +1,8 @@
 import React from 'react';
 import { string, number } from 'prop-types';
+import { onlyUpdateForKeys } from 'recompose';
 
-import { Container, StyledImg } from './styles';
+import { Container, StyledImg, ImageContainer } from './styles';
 
 const propTypes = {
   imgAnimated: string,
@@ -12,10 +13,12 @@ const propTypes = {
 
 const Card = ({ imgAnimated, img, imgGold, top = 0, left = 0 }) => (
   <Container top={top} left={left}>
-    <StyledImg src={imgAnimated || img || imgGold} />
+    <ImageContainer>
+      <StyledImg src={imgAnimated || img || imgGold} />
+    </ImageContainer>
   </Container>
 );
 
 Card.propTypes = propTypes;
 
-export default Card;
+export default onlyUpdateForKeys(['top', 'left', 'img'])(Card);
