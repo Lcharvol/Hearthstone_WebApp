@@ -18,6 +18,7 @@ import Card from '../../components/Card';
 import ClassIcon from '../../components/ClassIcon';
 import Arrow from '../../components/Arrow';
 import Borders from '../../components/Borders';
+import ManaCristals from '../../containers/ManaCristals';
 import { LEFT, RIGHT } from '../../components/Arrow/constants';
 import CardPreview from '../../containers/CardPreview';
 import { loadCardBacks, loadCardsByClass } from '../../requests';
@@ -60,7 +61,9 @@ const propTypes = {
   handleChangeCategorie: func.isRequired,
   width: number.isRequired,
   height: number.isRequired,
-  updateWindowDimension: func,
+  updateWindowDimensions: func.isRequired,
+  handleChangeManaFilter: func.isRequired,
+  manaFilter: number,
 };
 
 const getCardsByCategorie = (categorie, cards) => {
@@ -89,9 +92,11 @@ const Cards = ({
   handleChangeCategorie,
   width,
   height,
-  updateWindowDimension,
+  updateWindowDimensions,
+  handleChangeManaFilter,
   lineSize,
   columnSize,
+  manaFilter,
   ...cardsByCategories
 }) => {
   const pageSize = lineSize * columnSize;
@@ -111,7 +116,6 @@ const Cards = ({
         modifyLocation(HOME);
       }}
     >
-      {console.log('height: ', height)}
       <CardsInner onClick={e => e.stopPropagation()}>
         <Borders />
         <CardsHeader>
@@ -125,6 +129,10 @@ const Cards = ({
               />
             ))}
           </ClassIcons>
+          <ManaCristals
+            manaFilter={manaFilter}
+            handleChangeManaFilter={handleChangeManaFilter}
+          />
         </CardsHeader>
         <CardsContent>
           <Arrow
@@ -210,6 +218,7 @@ const enhance = compose(
       initialCategorie = CARD_BACKS,
       initialDisplayCardPreview = false,
       initialCardPreview = {},
+      initialManaFilter = null,
     }) => ({
       start: initialStart,
       categorie: initialCategorie,
@@ -219,6 +228,7 @@ const enhance = compose(
       height: 0,
       lineSize: 0,
       columnSize: 2,
+      manaFilter: initialManaFilter,
     }),
     {
       handleChangeStart: () => newStart => ({
@@ -229,6 +239,9 @@ const enhance = compose(
         start: 0,
       }),
       handleChangeDisplayCardsPreview: () => () => ({}),
+      handleChangeManaFilter: () => newManaFilter => ({
+        manaFilter: newManaFilter,
+      }),
       updateWindowDimensions: () => () => ({
         width: window.innerWidth,
         height: window.innerHeight,
