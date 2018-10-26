@@ -11,6 +11,7 @@ import {
   CardsContent,
   CardsNavigation,
   CardsHeader,
+  ClassIcons,
 } from './styles';
 import { HOME } from '../../constants/router';
 import Card from '../../components/Card';
@@ -47,9 +48,6 @@ import {
   SHAMAN,
   WARLOCK,
   WARRIOR,
-  PAGE_SIZE,
-  CONTAINER_WIDTH,
-  CARD_PER_LINE,
 } from './constants';
 import { CARD_WIDTH, CARD_HEIGHT } from '../../constants/card';
 
@@ -60,6 +58,9 @@ const propTypes = {
   classes: array,
   categorie: string.isRequired,
   handleChangeCategorie: func.isRequired,
+  width: number.isRequired,
+  height: number.isRequired,
+  updateWindowDimension: func,
 };
 
 const getCardsByCategorie = (categorie, cards) => {
@@ -86,11 +87,21 @@ const Cards = ({
   handleChangeStart,
   start,
   handleChangeCategorie,
+  width,
+  height,
+  updateWindowDimension,
+  lineSize,
+  columnSize,
   ...cardsByCategories
 }) => {
+  const pageSize = lineSize * columnSize;
+  const containerWidth =
+    Math.floor(width / 100) * 100 - 100 <= 1200
+      ? Math.floor(width / 100) * 100 - 100
+      : 1200;
   const isArrowActive = (direction, start, length) => {
-    if (equals(direction, RIGHT)) return start + PAGE_SIZE <= length;
-    if (equals(direction, LEFT)) return start - PAGE_SIZE >= 0;
+    if (equals(direction, RIGHT)) return start + pageSize <= length;
+    if (equals(direction, LEFT)) return start - pageSize >= 0;
   };
   return (
     <Container
@@ -100,17 +111,20 @@ const Cards = ({
         modifyLocation(HOME);
       }}
     >
+      {console.log('height: ', height)}
       <CardsInner onClick={e => e.stopPropagation()}>
         <Borders />
         <CardsHeader>
-          {[CARD_BACKS, ...classes].map((elem, id) => (
-            <ClassIcon
-              key={id}
-              elem={elem}
-              selected={elem === categorie}
-              handleChangeCategorie={handleChangeCategorie}
-            />
-          ))}
+          <ClassIcons>
+            {[CARD_BACKS, ...classes].map((elem, id) => (
+              <ClassIcon
+                key={id}
+                elem={elem}
+                selected={elem === categorie}
+                handleChangeCategorie={handleChangeCategorie}
+              />
+            ))}
+          </ClassIcons>
         </CardsHeader>
         <CardsContent>
           <Arrow
@@ -121,23 +135,21 @@ const Cards = ({
               length(getCardsByCategorie(categorie, cardsByCategories)),
             )}
             action={() =>
-              handleChangeStart(start - PAGE_SIZE < 0 ? 0 : start - PAGE_SIZE)
+              handleChangeStart(start - pageSize < 0 ? 0 : start - pageSize)
             }
           />
-          <CardsNavigation start={start}>
+          <CardsNavigation start={start} lineSize={lineSize}>
             {getCardsByCategorie(categorie, cardsByCategories).map(
               (card, id) =>
-                id >= start - 2 * PAGE_SIZE &&
-                id <= start + 2 * PAGE_SIZE && (
+                id >= start - 2 * pageSize &&
+                id <= start + 2 * pageSize && (
                   <Card
                     key={id}
-                    top={
-                      Math.floor((id % PAGE_SIZE) / CARD_PER_LINE) * CARD_HEIGHT
-                    }
+                    top={Math.floor((id % pageSize) / lineSize) * CARD_HEIGHT}
                     left={
-                      (id % CARD_PER_LINE) * CARD_WIDTH +
-                      Math.floor(id / PAGE_SIZE) * (CONTAINER_WIDTH + 100) -
-                      Math.floor(start / PAGE_SIZE) * (CONTAINER_WIDTH + 100)
+                      (id % lineSize) * CARD_WIDTH +
+                      Math.floor(id / pageSize) * (containerWidth + 100) -
+                      Math.floor(start / pageSize) * (containerWidth + 100)
                     }
                     {...card}
                   />
@@ -153,9 +165,9 @@ const Cards = ({
             )}
             action={() =>
               handleChangeStart(
-                start + PAGE_SIZE <=
+                start + pageSize <=
                 length(getCardsByCategorie(categorie, cardsByCategories))
-                  ? start + PAGE_SIZE
+                  ? start + pageSize
                   : start,
               )
             }
@@ -203,6 +215,10 @@ const enhance = compose(
       categorie: initialCategorie,
       displayCardPreview: initialDisplayCardPreview,
       cardPreview: initialCardPreview,
+      width: 0,
+      height: 0,
+      lineSize: 0,
+      columnSize: 2,
     }),
     {
       handleChangeStart: () => newStart => ({
@@ -213,6 +229,12 @@ const enhance = compose(
         start: 0,
       }),
       handleChangeDisplayCardsPreview: () => () => ({}),
+      updateWindowDimensions: () => () => ({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      }),
+      updateLineSize: () => newLineSize => ({ lineSize: newLineSize }),
+      updateColumnSize: () => newColumnSize => ({ columnSize: newColumnSize }),
     },
   ),
   lifecycle({
@@ -231,7 +253,31 @@ const enhance = compose(
         shamanCards,
         warlockCards,
         warriorCards,
+        width,
+        height,
+        updateLineSize,
+        updateColumnSize,
+        lineSize,
+        columnSize,
       } = this.props;
+      if (width !== prevProps.width) {
+        if (width >= 1200) {
+          if (lineSize !== 5) updateLineSize(5);
+        } else if (width >= 1000) {
+          if (lineSize !== 4) updateLineSize(4);
+        } else if (width >= 800) {
+          if (lineSize !== 3) updateLineSize(3);
+        } else if (width >= 600) {
+          if (lineSize !== 2) updateLineSize(2);
+        } else if (lineSize !== 1) updateLineSize(1);
+      }
+      if (height !== prevProps.height) {
+        if (height >= 1200) {
+          if (columnSize !== 3) updateColumnSize(3);
+        } else if (height >= 900) {
+          if (columnSize !== 2) updateColumnSize(2);
+        } else if (columnSize !== 1) updateColumnSize(1);
+      }
       if (categorie === CARD_BACKS && isEmpty(cardBacks))
         loadCardBacks().then(cardBacks => enhanceCards({ cardBacks }));
       if (categorie === DEATH_KNIGHT && isEmpty(deathKnightCards))
@@ -272,6 +318,13 @@ const enhance = compose(
         loadCardsByClass(WARRIOR).then(warriorCards =>
           enhanceCards({ warriorCards }),
         );
+    },
+    componentDidMount() {
+      this.props.updateWindowDimensions();
+      window.addEventListener('resize', this.props.updateWindowDimensions);
+    },
+    componentWillUnmount() {
+      window.removeEventListener('resize', this.props.updateWindowDimensions);
     },
   }),
 );

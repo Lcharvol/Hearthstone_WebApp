@@ -14,4 +14,10 @@ export const Container = styled.div`
         opacity: 0.8;
     }
     transition: opacity 0.2s ease-in-out;
+    @media (max-width: 800px) {
+        min-width:30px;
+        min-height:30px;
+        max-width:30px;
+        max-height:30px;
+    }
 `;
