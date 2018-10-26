@@ -12,7 +12,6 @@ export const Container = styled.div`
   align-items: center;
   height: ${CARD_HEIGHT}px;
   width: ${CARD_WIDTH}px;
-  overflow: hidden;
   transition: transform 0.2s ease-in-out, top 0.3s ease-in-out,
     left 0.3s ease-in-out;
 `;
@@ -20,12 +19,12 @@ export const Container = styled.div`
 export const StyledImg = styled(Img)`
   position: relative;
   margin-top: -15px;
-  width: 110%;
+  width: 120%;
   background-size: 100%;
-  transition: all 0.1s ease-in;
   margin-top: -40px;
+  transition: all 0.1s ease-in;
   &:hover {
-    width: 112%;
+    width: 130%;
   }
 `;
 
@@ -36,10 +35,5 @@ export const ImageContainer = styled.div`
   align-items: flex-start;
   height: calc(83%);
   width: 85%;
-  overflow: hidden;
   border-radius: 10px;
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  transition: background-color 0.2s ease-in-out;
 `;

@@ -7,13 +7,24 @@ export const Container = styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
-    width:40px;
-    height:40px;
     background-image: url("${ManaCrystalUI}");
     background-repeat:no-repeat;
     background-size:cover;
-    margin-left:5px;
-    margin-right:5px;
+    min-width:50px;
+    min-height:50px;
+    max-width:50px;
+    max-height:50px;
+    margin:10px;
+    transition: opacity 0.2s ease-in-out;
+    @media (max-width: 1200px) {
+        margin:5px;
+    }
+    @media (max-width: 1000px) {
+        min-width:40px;
+        min-height:40px;
+        max-width:40px;
+        max-height:40px;
+    }
     opacity:${({ selected }) => (selected ? 1 : 0.4)};
     &:hover {
         opacity:1;

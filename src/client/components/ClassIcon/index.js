@@ -2,7 +2,7 @@ import React from 'react';
 import { string, func, bool } from 'prop-types';
 import { find, propEq } from 'ramda';
 
-import { Container } from './styles';
+import { Container, Icon } from './styles';
 import { iconList } from './constants';
 
 const propTypes = {
@@ -17,11 +17,13 @@ const getIconFromClass = iconClass => {
 };
 
 const ClassIcon = ({ elem, handleChangeCategorie, selected }) => (
-  <Container
-    icon={getIconFromClass(elem)}
-    onClick={() => handleChangeCategorie(elem)}
-    selected={selected}
-  />
+  <Container icon={getIconFromClass(elem)} selected={selected}>
+    <Icon
+      icon={getIconFromClass(elem)}
+      onClick={() => handleChangeCategorie(elem)}
+      selected={selected}
+    />
+  </Container>
 );
 
 ClassIcon.propTypes = propTypes;

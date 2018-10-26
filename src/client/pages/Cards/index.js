@@ -10,8 +10,9 @@ import {
   CardsInner,
   CardsContent,
   CardsNavigation,
-  CardsHeader,
+  ManaCrystalsContainer,
   ClassIcons,
+  PaperBackground,
 } from './styles';
 import { HOME } from '../../constants/router';
 import Card from '../../components/Card';
@@ -123,23 +124,24 @@ const Cards = ({
       }}
     >
       <CardsInner onClick={e => e.stopPropagation()}>
+        <PaperBackground />
         <Borders />
-        <CardsHeader>
-          <ClassIcons>
-            {[CARD_BACKS, ...classes].map((elem, id) => (
-              <ClassIcon
-                key={id}
-                elem={elem}
-                selected={elem === categorie}
-                handleChangeCategorie={handleChangeCategorie}
-              />
-            ))}
-          </ClassIcons>
+        <ClassIcons>
+          {[CARD_BACKS, ...classes].map((elem, id) => (
+            <ClassIcon
+              key={id}
+              elem={elem}
+              selected={elem === categorie}
+              handleChangeCategorie={handleChangeCategorie}
+            />
+          ))}
+        </ClassIcons>
+        <ManaCrystalsContainer>
           <ManaCristals
             manaFilter={manaFilter}
             handleChangeManaFilter={handleChangeManaFilter}
           />
-        </CardsHeader>
+        </ManaCrystalsContainer>
         <CardsContent>
           <Arrow
             direction={LEFT}
@@ -158,7 +160,11 @@ const Cards = ({
               handleChangeStart(start - pageSize < 0 ? 0 : start - pageSize)
             }
           />
-          <CardsNavigation start={start} lineSize={lineSize}>
+          <CardsNavigation
+            start={start}
+            lineSize={lineSize}
+            columnSize={columnSize}
+          >
             {getCardsByCategorieAndMana(
               categorie,
               cardsByCategories,
