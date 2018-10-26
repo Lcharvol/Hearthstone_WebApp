@@ -21,6 +21,6 @@ yarn cli
 
 <img width="100%" src="https://user-images.githubusercontent.com/23408500/47497581-d52db980-d85a-11e8-8af8-a6df2ffd9097.png"/>
 
-<img width="100%" src="https://user-images.githubusercontent.com/23408500/47497596-e080e500-d85a-11e8-84a0-83af7b5826ca.png"/>
+<img width="100%" src="https://user-images.githubusercontent.com/23408500/47579633-de974e80-d94c-11e8-998b-af8144a3ef3f.png"/>
 
-<img width="100%" src="https://user-images.githubusercontent.com/23408500/47563081-ea6d1b80-d920-11e8-9a86-02ce90ceb947.png"/>
+<img width="100%" src="https://user-images.githubusercontent.com/23408500/47579599-c32c4380-d94c-11e8-95f8-54ebef781e8d.png"/>
