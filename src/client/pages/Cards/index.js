@@ -1,5 +1,5 @@
 import React from 'react';
-import { map, length, isEmpty, equals } from 'ramda';
+import { map, length, isEmpty, equals, filter, isNil } from 'ramda';
 import { number, func, array, string } from 'prop-types';
 import { compose, withStateHandlers, lifecycle } from 'recompose';
 import { connect } from 'react-redux';
@@ -66,19 +66,25 @@ const propTypes = {
   manaFilter: number,
 };
 
-const getCardsByCategorie = (categorie, cards) => {
-  if (categorie === CARD_BACKS) return cards.cardBacks || [];
-  else if (categorie === DEATH_KNIGHT) return cards.deathKnightCards || [];
-  else if (categorie === DRUID) return cards.druidCards || [];
-  else if (categorie === HUNTER) return cards.hunterCards || [];
-  else if (categorie === MAGE) return cards.mageCards || [];
-  else if (categorie === PALADIN) return cards.paladinCards || [];
-  else if (categorie === PRIEST) return cards.priestCards || [];
-  else if (categorie === ROGUE) return cards.rogueCards || [];
-  else if (categorie === SHAMAN) return cards.shamanCards || [];
-  else if (categorie === WARLOCK) return cards.warlockCards || [];
-  else if (categorie === WARRIOR) return cards.warriorCards || [];
-  return [];
+const filterByMana = (cards, mana) => {
+  if (isNil(mana)) return cards;
+  return filter(card => (card.cost ? card.cost === mana : false), cards);
+};
+
+const getCardsByCategorieAndMana = (categorie, cards, manaFilter) => {
+  let ret = [];
+  if (categorie === CARD_BACKS) ret = cards.cardBacks || [];
+  else if (categorie === DEATH_KNIGHT) ret = cards.deathKnightCards || [];
+  else if (categorie === DRUID) ret = cards.druidCards || [];
+  else if (categorie === HUNTER) ret = cards.hunterCards || [];
+  else if (categorie === MAGE) ret = cards.mageCards || [];
+  else if (categorie === PALADIN) ret = cards.paladinCards || [];
+  else if (categorie === PRIEST) ret = cards.priestCards || [];
+  else if (categorie === ROGUE) ret = cards.rogueCards || [];
+  else if (categorie === SHAMAN) ret = cards.shamanCards || [];
+  else if (categorie === WARLOCK) ret = cards.warlockCards || [];
+  else if (categorie === WARRIOR) ret = cards.warriorCards || [];
+  return filterByMana(ret, manaFilter);
 };
 
 const Cards = ({
@@ -140,14 +146,24 @@ const Cards = ({
             active={isArrowActive(
               LEFT,
               start,
-              length(getCardsByCategorie(categorie, cardsByCategories)),
+              length(
+                getCardsByCategorieAndMana(
+                  categorie,
+                  cardsByCategories,
+                  manaFilter,
+                ),
+              ),
             )}
             action={() =>
               handleChangeStart(start - pageSize < 0 ? 0 : start - pageSize)
             }
           />
           <CardsNavigation start={start} lineSize={lineSize}>
-            {getCardsByCategorie(categorie, cardsByCategories).map(
+            {getCardsByCategorieAndMana(
+              categorie,
+              cardsByCategories,
+              manaFilter,
+            ).map(
               (card, id) =>
                 id >= start - 2 * pageSize &&
                 id <= start + 2 * pageSize && (
@@ -169,12 +185,24 @@ const Cards = ({
             active={isArrowActive(
               RIGHT,
               start,
-              length(getCardsByCategorie(categorie, cardsByCategories)),
+              length(
+                getCardsByCategorieAndMana(
+                  categorie,
+                  cardsByCategories,
+                  manaFilter,
+                ),
+              ),
             )}
             action={() =>
               handleChangeStart(
                 start + pageSize <=
-                length(getCardsByCategorie(categorie, cardsByCategories))
+                length(
+                  getCardsByCategorieAndMana(
+                    categorie,
+                    cardsByCategories,
+                    manaFilter,
+                  ),
+                )
                   ? start + pageSize
                   : start,
               )
@@ -241,6 +269,7 @@ const enhance = compose(
       handleChangeDisplayCardsPreview: () => () => ({}),
       handleChangeManaFilter: () => newManaFilter => ({
         manaFilter: newManaFilter,
+        start: 0,
       }),
       updateWindowDimensions: () => () => ({
         width: window.innerWidth,
