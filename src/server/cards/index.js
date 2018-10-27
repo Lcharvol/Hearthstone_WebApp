@@ -18,9 +18,9 @@ const init = ctx => {
           .then(cardBacks => {
             loginfo('Card backs loaded');
             loadAllCards()
-              .then(cards => {
+              .then(allCards => {
                 loginfo('All Cards loaded');
-                resolve({ ...ctx, info, cardBacks, cards });
+                resolve({ ...ctx, info, cardBacks, allCards });
               })
               .catch(err => loginfoError(err));
           })

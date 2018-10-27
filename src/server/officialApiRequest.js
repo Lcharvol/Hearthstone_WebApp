@@ -11,6 +11,19 @@ const axios = Axios.create({
   headers: { 'X-Mashape-Key': officialApiKey },
 });
 
+const ImgAxios = Axios.create({
+  baseURL: '',
+  headers: { 'X-Mashape-Key': officialApiKey },
+});
+
+export const testCardUrl = cardUrl =>
+  axios({
+    method: 'get',
+    url: cardUrl,
+  })
+    .then(data => data)
+    .catch(err => console.log('IMAGE DE MERDE'));
+
 export const loadAllCards = () =>
   axios({
     method: 'get',
@@ -26,7 +39,7 @@ export const loadInfo = () =>
     method: 'get',
     url: 'info',
   })
-    .then(data => data)
+    .then(data => data.data)
     .catch(err => {
       throw 'Fail to load card info';
     });
