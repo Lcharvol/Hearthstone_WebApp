@@ -9,27 +9,32 @@ const loginfo = debug('app:cards:error');
 const axios = Axios.create({
   baseURL: 'https://omgvamp-hearthstone-v1.p.mashape.com/',
   headers: { 'X-Mashape-Key': officialApiKey },
+  timeout: 4000,
 });
 
 const ImgAxios = Axios.create({
   baseURL: '',
   headers: { 'X-Mashape-Key': officialApiKey },
+  timeout: 2000,
 });
 
 export const testCardUrl = cardUrl =>
-  axios({
+  ImgAxios({
     method: 'get',
     url: cardUrl,
   })
     .then(data => data)
-    .catch(err => console.log('IMAGE DE MERDE'));
+    .catch(err => {
+      throw 'Cant load Img';
+    });
 
 export const loadAllCards = () =>
   axios({
     method: 'get',
     url: 'cards',
+    collectible: 1,
   })
-    .then(data => data.data)
+    .then(data => data.data.Basic)
     .catch(err => {
       throw 'Fail to load all cards';
     });
