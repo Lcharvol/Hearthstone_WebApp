@@ -2,7 +2,7 @@ import debug from 'debug';
 
 import { loadInfo, loadAllCards, loadCardBacks } from '../officialApiRequest';
 
-const loginfo = debug('app:cards');
+const loginfo = debug('app:cards:init');
 
 const loginfoError = debug('app:cards:loaderror');
 

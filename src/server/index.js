@@ -2,6 +2,7 @@ import debug from 'debug';
 import config from '../../config/server/index';
 import run from './run';
 
+import { keys } from 'ramda';
 const logger = debug('app:');
 
 run({ config })

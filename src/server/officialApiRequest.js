@@ -53,3 +53,11 @@ export const loadCardBacks = () =>
     .catch(err => {
       throw 'Fail to load card backs';
     });
+
+export const loadCardsByClass = className =>
+  axios({
+    method: 'get',
+    url: `cards/classes/${className}`,
+  })
+    .then(data => data.data)
+    .catch(err => console.log('err: ', err));

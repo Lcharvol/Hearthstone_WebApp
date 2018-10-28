@@ -61,9 +61,8 @@ const removeNoImgCard = allCards =>
 const manageCards = ctx => {
   const { allCards } = ctx;
   const promise = new Promise(resolve => {
-    loginfo('Init card manager');
     replaceCardsImgPath(allCards)
-      .then(removeUntakableImg)
+      // .then(removeUntakableImg)
       .then(managedCards => resolve({ ...ctx, allCards: managedCards }));
   });
 
