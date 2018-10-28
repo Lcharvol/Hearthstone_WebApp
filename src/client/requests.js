@@ -4,36 +4,18 @@ import { map, split, last, reject, propEq } from 'ramda';
 const key = '0f1A2GOFPYmshjv5PqlS5gMR9I7lp1QCht6jsnzDUhLb0Ymgu5';
 
 const axios = Axios.create({
-  baseURL: 'https://omgvamp-hearthstone-v1.p.mashape.com/',
-  headers: { 'X-Mashape-Key': key },
+  baseURL: 'http://127.0.0.1:3004/',
+  headers: {
+    Authorization: 'Basic',
+  },
 });
-
-const replaceCardsImgPath = cards => {
-  const baseUrl =
-    'http://media.services.zam.com/v1/media/byName/hs/cards/enus/';
-  return map(card => {
-    const path = split('/');
-    const fileName = last(path(card.img || ''));
-    const goldenFileName = last(path(card.imgGold || ''));
-    const newImagePath = fileName === '' ? '' : `${baseUrl}${fileName}`;
-    const newGoldenImagePath =
-      goldenFileName === '' ? '' : `${baseUrl}${goldenFileName}`;
-    return {
-      ...card,
-      img: newImagePath,
-      imgGold: newGoldenImagePath,
-    };
-  }, cards);
-};
-
-const removeNoImgCard = cards => reject(propEq('img', ''))(cards);
 
 export const loadCardBacks = () =>
   axios({
     method: 'get',
     url: 'cardbacks',
   })
-    .then(data => removeNoImgCard(replaceCardsImgPath(data.data)))
+    .then(data => data.data)
     .catch(err => console.log('err: ', err));
 
 export const searchCard = name =>
@@ -49,7 +31,7 @@ export const loadCardsByClass = className =>
     method: 'get',
     url: `cards/classes/${className}`,
   })
-    .then(data => removeNoImgCard(replaceCardsImgPath(data.data)))
+    .then(data => data.data)
     .catch(err => console.log('err: ', err));
 
 export const loadCardsByQuality = quality =>
@@ -67,3 +49,11 @@ export const loadInfo = () =>
   })
     .then(data => data)
     .catch(err => console.log('err: ', err));
+
+export const getPing = () =>
+  axios({
+    method: 'get',
+    url: 'ping',
+  })
+    .then(data => data)
+    .catch(err => console.log('Ping  err: ', err));

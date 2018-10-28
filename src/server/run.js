@@ -5,9 +5,9 @@ import manageCards from './cards/cardManager';
 import { loadClassCards } from './cards/load';
 
 const run = ctx =>
-  initHttp(ctx)
-    .then(initCards)
+  initCards(ctx)
     .then(loadClassCards)
-    .then(manageCards);
+    .then(manageCards)
+    .then(initHttp);
 
 export default run;

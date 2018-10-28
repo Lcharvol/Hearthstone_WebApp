@@ -12,7 +12,12 @@ module.exports = {
     error: 306, //  404
   },
   server,
-  routes: {},
+  routes: {
+    ping: '/ping',
+    allCards: '/allCards',
+    info: '/info',
+    cardsByClass: '/cards/classes/:class',
+  },
   db: {
     host: '0.0.0.0',
     port: 27017,

@@ -21,7 +21,7 @@ import { loadCardBacks } from '../../actions/cards';
 import { getIsFetching, getDisplaySocialMenu } from '../../selectors/app';
 import { getLocation } from '../../selectors/app';
 import { CARDS, DECKS, HOME } from '../../constants/router';
-import { loadInfo } from '../../requests';
+import { loadInfo, getPing } from '../../requests';
 
 const proptypes = {
   displayMenu: bool.isRequired,
@@ -99,6 +99,9 @@ const enhance = compose(
   lifecycle({
     componentDidMount() {
       loadInfo().then(info => this.props.initInfo(info.data));
+      getPing()
+        .then(res => console.log('ping res: ', res))
+        .catch(err => coonsole.log('ping err: ', err));
     },
   }),
 );
