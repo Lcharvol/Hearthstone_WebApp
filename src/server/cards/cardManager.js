@@ -6,25 +6,30 @@ import { testCardUrl } from '../officialApiRequest';
 const loginfo = debug('app:cardManager');
 
 const removeUntakableImg = allCards => {
-  loginfo('removeUntakableImg: ');
-  const allPromises = Promise.all(
-    map(
-      categorie =>
-        map(
-          card =>
-            new Promise(resolve =>
-              testCardUrl(card.img)
-                .then(() => resolve())
-                .catch(err => loginfo(err)),
-            ),
-          categorie,
-        ),
+  const mainPromise = new Promise(resolve => {
+    loginfo('removeUntakableImg: ');
+    const promiseTable = map(
+      card =>
+        new Promise(resolve => {
+          testCardUrl(card.img)
+            .then(() => {
+              loginfo(card.img);
+              loginfo('Good img');
+              resolve(card);
+            })
+            .catch(() => {
+              loginfo('CANT LOAD IMAGE');
+              return {};
+            });
+        }),
       allCards,
-    ),
-  ).then(ret => {
-    console.log('CEST FINIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII');
-    return res;
+    );
+    Promise.all(promiseTable).then(newCards => {
+      loginfo('C EST FINIIIIIIi');
+      resolve(newCards);
+    });
   });
+  return mainPromise;
 };
 
 const replaceCardsImgPath = allCards => {
@@ -33,23 +38,19 @@ const replaceCardsImgPath = allCards => {
     'http://media.services.zam.com/v1/media/byName/hs/cards/enus/';
   const promise = new Promise(resolve => {
     resolve(
-      map(
-        categorie =>
-          map(card => {
-            const path = split('/');
-            const fileName = last(path(card.img || ''));
-            const goldenFileName = last(path(card.imgGold || ''));
-            const newImagePath = fileName === '' ? '' : `${baseUrl}${fileName}`;
-            const newGoldenImagePath =
-              goldenFileName === '' ? '' : `${baseUrl}${goldenFileName}`;
-            return {
-              ...card,
-              img: newImagePath,
-              imgGold: newGoldenImagePath,
-            };
-          }, categorie),
-        allCards,
-      ),
+      map(card => {
+        const path = split('/');
+        const fileName = last(path(card.img || ''));
+        const goldenFileName = last(path(card.imgGold || ''));
+        const newImagePath = fileName === '' ? '' : `${baseUrl}${fileName}`;
+        const newGoldenImagePath =
+          goldenFileName === '' ? '' : `${baseUrl}${goldenFileName}`;
+        return {
+          ...card,
+          img: newImagePath,
+          imgGold: newGoldenImagePath,
+        };
+      }, allCards),
     );
   });
   return promise;
