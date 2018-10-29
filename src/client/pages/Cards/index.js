@@ -21,7 +21,6 @@ import Arrow from '../../components/Arrow';
 import Borders from '../../components/Borders';
 import ManaCristals from '../../containers/ManaCristals';
 import { LEFT, RIGHT } from '../../components/Arrow/constants';
-import CardPreview from '../../containers/CardPreview';
 import { loadCardBacks, loadCardsByClass } from '../../requests';
 import { enhanceCards } from '../../actions/cards';
 import {
@@ -326,50 +325,58 @@ const enhance = compose(
           if (columnSize !== 2) updateColumnSize(2);
         } else if (columnSize !== 1) updateColumnSize(1);
       }
-      if (categorie === CARD_BACKS && isEmpty(cardBacks))
-        loadCardBacks().then(cardBacks => enhanceCards({ cardBacks }));
-      if (categorie === DEATH_KNIGHT && isEmpty(deathKnightCards))
-        loadCardsByClass(DEATH_KNIGHT).then(deathKnightCards =>
-          enhanceCards({ deathKnightCards }),
-        );
-      if (categorie === DRUID && isEmpty(druidCards))
-        loadCardsByClass(DRUID).then(druidCards =>
-          enhanceCards({ druidCards }),
-        );
-      if (categorie === HUNTER && isEmpty(hunterCards))
-        loadCardsByClass(HUNTER).then(hunterCards =>
-          enhanceCards({ hunterCards }),
-        );
-      if (categorie === MAGE && isEmpty(mageCards))
-        loadCardsByClass(MAGE).then(mageCards => enhanceCards({ mageCards }));
-      if (categorie === PALADIN && isEmpty(paladinCards))
-        loadCardsByClass(PALADIN).then(paladinCards =>
-          enhanceCards({ paladinCards }),
-        );
-      if (categorie === PRIEST && isEmpty(priestCards))
-        loadCardsByClass(PRIEST).then(priestCards =>
-          enhanceCards({ priestCards }),
-        );
-      if (categorie === ROGUE && isEmpty(rogueCards))
-        loadCardsByClass(ROGUE).then(rogueCards =>
-          enhanceCards({ rogueCards }),
-        );
-      if (categorie === SHAMAN && isEmpty(shamanCards))
-        loadCardsByClass(SHAMAN).then(shamanCards =>
-          enhanceCards({ shamanCards }),
-        );
-      if (categorie === WARLOCK && isEmpty(warlockCards))
-        loadCardsByClass(WARLOCK).then(warlockCards =>
-          enhanceCards({ warlockCards }),
-        );
-      if (categorie === WARRIOR && isEmpty(warriorCards))
-        loadCardsByClass(WARRIOR).then(warriorCards =>
-          enhanceCards({ warriorCards }),
-        );
+      if (categorie !== prevProps.categorie) {
+        if (categorie === DEATH_KNIGHT && isEmpty(deathKnightCards))
+          loadCardsByClass(DEATH_KNIGHT).then(deathKnightCards =>
+            enhanceCards({ deathKnightCards }),
+          );
+        if (categorie === DRUID && isEmpty(druidCards))
+          loadCardsByClass(DRUID).then(druidCards =>
+            enhanceCards({ druidCards }),
+          );
+        if (categorie === HUNTER && isEmpty(hunterCards))
+          loadCardsByClass(HUNTER).then(hunterCards =>
+            enhanceCards({ hunterCards }),
+          );
+        if (categorie === MAGE && isEmpty(mageCards))
+          loadCardsByClass(MAGE).then(mageCards => enhanceCards({ mageCards }));
+        if (categorie === PALADIN && isEmpty(paladinCards))
+          loadCardsByClass(PALADIN).then(paladinCards =>
+            enhanceCards({ paladinCards }),
+          );
+        if (categorie === PRIEST && isEmpty(priestCards))
+          loadCardsByClass(PRIEST).then(priestCards =>
+            enhanceCards({ priestCards }),
+          );
+        if (categorie === ROGUE && isEmpty(rogueCards))
+          loadCardsByClass(ROGUE).then(rogueCards =>
+            enhanceCards({ rogueCards }),
+          );
+        if (categorie === SHAMAN && isEmpty(shamanCards))
+          loadCardsByClass(SHAMAN).then(shamanCards =>
+            enhanceCards({ shamanCards }),
+          );
+        if (categorie === WARLOCK && isEmpty(warlockCards))
+          loadCardsByClass(WARLOCK).then(warlockCards =>
+            enhanceCards({ warlockCards }),
+          );
+        if (categorie === WARRIOR && isEmpty(warriorCards))
+          loadCardsByClass(WARRIOR).then(warriorCards =>
+            enhanceCards({ warriorCards }),
+          );
+      }
     },
     componentDidMount() {
-      this.props.updateWindowDimensions();
-      window.addEventListener('resize', this.props.updateWindowDimensions);
+      const {
+        updateWindowDimensions,
+        categorie,
+        cardBacks,
+        enhanceCards,
+      } = this.props;
+      updateWindowDimensions();
+      window.addEventListener('resize', updateWindowDimensions);
+      if (categorie === CARD_BACKS && isEmpty(cardBacks))
+        loadCardBacks().then(cardBacks => enhanceCards({ cardBacks }));
     },
     componentWillUnmount() {
       window.removeEventListener('resize', this.props.updateWindowDimensions);

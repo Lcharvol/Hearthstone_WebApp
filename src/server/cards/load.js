@@ -37,9 +37,13 @@ export const loadClassCards = ctx => {
             return resolve({});
           }
           loginfo(`Load ${className} cards`);
+          const filteredCars =
+            className !== 'Death Knight'
+              ? removeNotCollectibleCards(JSON.parse(cards).data)
+              : JSON.parse(cards).data;
           return resolve({
-            className,
-            cards: removeNotCollectibleCards(JSON.parse(cards).data),
+            className: replace(' ', '', className),
+            cards: filteredCars,
           });
         },
       );

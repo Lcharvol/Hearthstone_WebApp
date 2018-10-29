@@ -116,7 +116,7 @@
             "text": "<i>These tag-team paladins went missing in Un'goro.</i>",
             "artist": "J. Axer",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_15h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_BOSS_15h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_15h_premium.gif",
             "locale": "enUS"
         },
@@ -139,7 +139,7 @@
             "faction": "Neutral",
             "health": 30,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BossRumble_001.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_BossRumble_001.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BossRumble_001_premium.gif",
             "locale": "enUS"
         },
@@ -185,7 +185,7 @@
             "text": "<i>These tag-team paladins went missing in Un'goro.</i>",
             "artist": "J. Axer",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_32h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_BOSS_32h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_32h_premium.gif",
             "locale": "enUS"
         },
@@ -197,7 +197,7 @@
             "type": "Hero",
             "rarity": "Epic",
             "health": 30,
-            "collectible": true,
+            "collectible": false,
             "playerClass": "Paladin",
             "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/HERO_04a.png",
             "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/HERO_04a_premium.gif",
@@ -264,7 +264,7 @@
             "type": "Hero",
             "rarity": "Epic",
             "health": 30,
-            "collectible": true,
+            "collectible": false,
             "playerClass": "Paladin",
             "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/HERO_04b.png",
             "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/HERO_04b_premium.gif",
@@ -342,20 +342,6 @@
             "locale": "enUS"
         },
         {
-            "cardId": "HERO_04c",
-            "dbfId": "53187",
-            "name": "Sir Annoy-O",
-            "cardSet": "Hero Skins",
-            "type": "Hero",
-            "rarity": "Epic",
-            "health": 30,
-            "collectible": true,
-            "playerClass": "Paladin",
-            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/HERO_04c.png",
-            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/HERO_04c_premium.gif",
-            "locale": "enUS"
-        },
-        {
             "cardId": "CFM_305e",
             "dbfId": "40632",
             "name": "Smuggling",
@@ -396,7 +382,7 @@
             "text": "<i>Don't let its growing, gooey friends get\\nout of hand.</i>",
             "artist": "Luca Zontini",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_24h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_BOSS_24h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_24h_premium.gif",
             "locale": "enUS"
         },
@@ -419,7 +405,7 @@
             "faction": "Neutral",
             "rarity": "Free",
             "health": 30,
-            "collectible": true,
+            "collectible": false,
             "playerClass": "Paladin",
             "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/HERO_04.png",
             "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/HERO_04_premium.gif",
@@ -433,7 +419,7 @@
             "type": "Weapon",
             "text": "It is a dummy card for holding a effect to play when reequipping Val'anyr (LOOT_500)",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_500d.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_500d.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_500d_premium.gif",
             "locale": "enUS"
         },
@@ -457,7 +443,7 @@
             "text": "<i>Corrupted. Banished. Hungry.</i>",
             "artist": "Wayne Reynolds",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_46h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_BOSS_46h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_46h_premium.gif",
             "locale": "enUS"
         },
@@ -513,7 +499,7 @@
             "text": "<i>Waylay this adventurer while she isn't\\npaying attention!</i>",
             "artist": "Adam Byrne",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_54h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_BOSS_54h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_54h_premium.gif",
             "locale": "enUS"
         },
@@ -527,7 +513,7 @@
             "cost": 0,
             "text": "Bend the Light to your will, while you unleash the Apocalypse!",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_TagTeam_Paladin.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_TagTeam_Paladin.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_TagTeam_Paladin_premium.gif",
             "locale": "enUS"
         },
@@ -540,7 +526,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_05.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_05.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_05_premium.gif",
             "locale": "enUS"
         },
@@ -553,7 +539,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_12.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_12.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_12_premium.gif",
             "locale": "enUS"
         },
@@ -566,7 +552,7 @@
             "cost": 0,
             "text": "Change the Attack of all other minions to 1.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_CoOpv3_200.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_CoOpv3_200.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_CoOpv3_200_premium.gif",
             "locale": "enUS"
         },
@@ -596,7 +582,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_04.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_04.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_04_premium.gif",
             "locale": "enUS"
         },
@@ -609,7 +595,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_11.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_11.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_11_premium.gif",
             "locale": "enUS"
         },
@@ -622,7 +608,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_09.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_09.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_09_premium.gif",
             "locale": "enUS"
         },
@@ -635,7 +621,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_16.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_16.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_16_premium.gif",
             "locale": "enUS"
         },
@@ -648,7 +634,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_22.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_22.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_22_premium.gif",
             "locale": "enUS"
         },
@@ -661,7 +647,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_21.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_21.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_21_premium.gif",
             "locale": "enUS"
         },
@@ -675,7 +661,7 @@
             "cost": 0,
             "text": "Select Paladin as your next class.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_LK_Paladin_copy.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_LK_Paladin_copy.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_LK_Paladin_copy_premium.gif",
             "locale": "enUS"
         },
@@ -688,7 +674,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_20.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_20.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_20_premium.gif",
             "locale": "enUS"
         },
@@ -701,7 +687,7 @@
             "cost": 0,
             "text": "Add Paladin cards to your deck.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_ClassRandom_Paladin.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_ClassRandom_Paladin.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_ClassRandom_Paladin_premium.gif",
             "locale": "enUS"
         },
@@ -714,7 +700,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_01.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_01.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_01_premium.gif",
             "locale": "enUS"
         },
@@ -727,7 +713,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_14.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_14.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_14_premium.gif",
             "locale": "enUS"
         },
@@ -742,7 +728,7 @@
             "text": "Swap George and Karl.",
             "artist": "J. Axer",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_110.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_BOSS_110.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_110_premium.gif",
             "locale": "enUS"
         },
@@ -755,7 +741,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Paladin_19.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Paladin_19.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Paladin_19_premium.gif",
             "locale": "enUS"
         },
@@ -770,7 +756,7 @@
             "attack": 0,
             "health": 30,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA01_013.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA01_013.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA01_013_premium.gif",
             "locale": "enUS"
         },
@@ -855,7 +841,7 @@
             "cost": 1,
             "text": "Give a minion \"At the end of your turn, gain +1/+1.\"",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TOT_069.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TOT_069.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TOT_069_premium.gif",
             "locale": "enUS"
         },
@@ -929,7 +915,7 @@
             "attack": 2,
             "health": 1,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_130a.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_130a.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_130a_premium.gif",
             "locale": "enUS"
         },
@@ -1080,7 +1066,7 @@
             "cost": 1,
             "text": "<b>Secret:</b> When your second minion dies in a turn, return it to life.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BCON_012.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BCON_012.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BCON_012_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1353,7 +1339,7 @@
             "artist": "Andrew Hou",
             "race": "Murloc",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_006a.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_006a.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_006a_premium.gif",
             "locale": "enUS"
         },
@@ -1368,7 +1354,7 @@
             "attack": 1,
             "health": 1,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_101t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_101t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_101t_premium.gif",
             "locale": "enUS"
         },
@@ -1450,7 +1436,7 @@
             "health": 1,
             "race": "Dragon",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TOT_303t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TOT_303t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TOT_303t_premium.gif",
             "locale": "enUS"
         },
@@ -1466,7 +1452,7 @@
             "artist": "Tooth",
             "race": "Dragon",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KAR_010a.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KAR_010a.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KAR_010a_premium.gif",
             "locale": "enUS"
         },
@@ -1631,7 +1617,7 @@
             "artist": "Qinghao Wu",
             "elite": true,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_829t5.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_829t5.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_829t5_premium.gif",
             "locale": "enUS"
         },
@@ -1664,7 +1650,7 @@
             "artist": "Alex Horley Orlandelli",
             "elite": true,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_829t2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_829t2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_829t2_premium.gif",
             "locale": "enUS"
         },
@@ -1743,7 +1729,7 @@
             "text": "Summon a 6/6 Spirit with <b>Taunt</b>.",
             "artist": "Konstantin Turovec",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_091t2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_091t2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_091t2_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1788,7 +1774,7 @@
             "text": "<b>Taunt</b>",
             "artist": "T-Rex",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_091t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_091t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_091t_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1860,7 +1846,7 @@
             "artist": "Luke Mancini",
             "elite": true,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_829t4.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_829t4.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_829t4_premium.gif",
             "locale": "enUS"
         },
@@ -1898,7 +1884,7 @@
             "health": 1,
             "artist": "Konstantin Turovec",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_091t1.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_091t1.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_091t1_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1982,7 +1968,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nSummon a 1/1 Silver Hand Recruit.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_101_H3.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_101_H3.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_101_H3_premium.gif",
             "locale": "enUS"
         },
@@ -1996,7 +1982,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nSummon a 1/1 Silver Hand Recruit.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_101_H1.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_101_H1.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_101_H1_premium.gif",
             "locale": "enUS"
         },
@@ -2011,7 +1997,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nSummon a 1/1 Silver Hand Recruit.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_101.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_101.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_101_premium.gif",
             "locale": "enUS"
         },
@@ -2025,7 +2011,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nSummon a 1/1 Silver Hand Recruit.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_101_H2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_101_H2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_101_H2_premium.gif",
             "locale": "enUS"
         },
@@ -2103,7 +2089,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nSummon two 1/1 Recruits.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_101_H1_AT_132.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_101_H1_AT_132.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_101_H1_AT_132_premium.gif",
             "locale": "enUS"
         },
@@ -2116,7 +2102,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nSummon two 1/1 Recruits.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_PALADIN.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_132_PALADIN.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_PALADIN_premium.gif",
             "locale": "enUS"
         },
@@ -2130,7 +2116,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nSummon two 1/1 Recruits.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_101_H3_AT_132.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_101_H3_AT_132.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_101_H3_AT_132_premium.gif",
             "locale": "enUS"
         },
@@ -2144,7 +2130,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nSummon two 1/1 Recruits.",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_101_H2_AT_132.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_101_H2_AT_132.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_101_H2_AT_132_premium.gif",
             "locale": "enUS"
         },
@@ -2158,7 +2144,7 @@
             "text": "<b>Hero Power</b>\\nSummon a 1/1 Silver Hand Murloc.",
             "artist": "Andrew Hou",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_006b.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_006b.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_006b_premium.gif",
             "locale": "enUS"
         },
@@ -2174,7 +2160,7 @@
             "artist": "James Ryman",
             "elite": true,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_829t3.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_829t3.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_829t3_premium.gif",
             "locale": "enUS"
         },
@@ -2236,7 +2222,7 @@
             "text": "<b>Battlecry:</b> Give your minions +1 Attack.",
             "artist": "Konstantin Turovec",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_286t3.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_286t3.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_286t3_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -2258,7 +2244,7 @@
             "text": "<b>Battlecry:</b> Summon two 1/1 Silver Hand Recruits.",
             "artist": "Konstantin Turovec",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_286t1.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_286t1.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_286t1_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -2425,7 +2411,7 @@
             "text": "<b>Battlecry:</b> Give your minions <b>Divine Shield</b>.",
             "artist": "Konstantin Turovec",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_286t4.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_286t4.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_286t4_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -2474,7 +2460,7 @@
             "text": "<b>Battlecry:</b> Give your minions <b>Taunt</b>.",
             "artist": "Konstantin Turovec",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_286t2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_286t2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_286t2_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -2831,7 +2817,7 @@
             "text": "<b>Taunt</b>",
             "artist": "T-Rex",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_091t1t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_091t1t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_091t1t_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -3057,7 +3043,7 @@
             "durability": 3,
             "elite": true,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_383t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_383t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_383t_premium.gif",
             "locale": "enUS"
         },
@@ -3135,7 +3121,7 @@
             "text": "When you draw this, summon a 1/1 Wee Whelp.",
             "race": "Dragon",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TOT_330.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TOT_330.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TOT_330_premium.gif",
             "locale": "enUS"
         },
@@ -3227,7 +3213,7 @@
             "elite": true,
             "race": "Beast",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_954t1.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_954t1.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_954t1_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -3601,7 +3587,7 @@
             "text": "<b>Taunt</b>",
             "artist": "T-Rex",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_091t2t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_091t2t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_091t2t_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -3920,7 +3906,7 @@
             "text": "<b>Lifesteal</b>",
             "elite": true,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_829t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_829t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_829t_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -3980,7 +3966,7 @@
             "artist": "Hideaki Takamura",
             "race": "Mech",
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BOT_537t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_537t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BOT_537t_premium.gif",
             "locale": "enUS"
         },
@@ -4076,7 +4062,7 @@
             "text": "<b>Battlecry:</b> Equip a 5/3 <b>Lifesteal</b> weapon.",
             "elite": true,
             "playerClass": "Paladin",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_DK_Uther.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_DK_Uther.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_DK_Uther_premium.gif",
             "locale": "enUS",
             "mechanics": [
