@@ -68,10 +68,18 @@ const propTypes = {
 
 const filterByMana = (cards, mana) => {
   if (isNil(mana)) return cards;
-  return filter(card => (card.cost ? card.cost === mana : false), cards);
+  return filter(
+    card =>
+      !isNil(card.cost)
+        ? mana >= 7
+          ? card.cost >= 7
+          : mana === card.cost
+        : false,
+    cards,
+  );
 };
 
-const getCardsByCategorieAndMana = (categorie, cards, manaFilter) => {
+const getCardsByCategorieAndMana = (categorie, cards = [], manaFilter) => {
   let ret = [];
   if (categorie === CARD_BACKS) ret = cards.cardBacks || [];
   else if (categorie === DEATH_KNIGHT) ret = cards.deathKnightCards || [];
@@ -118,7 +126,7 @@ const Cards = ({
     <Container
       top={top}
       onClick={() => {
-        handleChangeCategorie(CARD_BACKS);
+        setTimeout(() => handleChangeCategorie(CARD_BACKS), 700);
         modifyLocation(HOME);
       }}
     >
@@ -135,12 +143,14 @@ const Cards = ({
             />
           ))}
         </ClassIcons>
-        <ManaCrystalsContainer>
-          <ManaCristals
-            manaFilter={manaFilter}
-            handleChangeManaFilter={handleChangeManaFilter}
-          />
-        </ManaCrystalsContainer>
+        {categorie !== CARD_BACKS && (
+          <ManaCrystalsContainer>
+            <ManaCristals
+              manaFilter={manaFilter}
+              handleChangeManaFilter={handleChangeManaFilter}
+            />
+          </ManaCrystalsContainer>
+        )}
         <CardsContent>
           <Arrow
             direction={LEFT}
@@ -270,6 +280,7 @@ const enhance = compose(
       handleChangeCategorie: () => newCategorie => ({
         categorie: newCategorie,
         start: 0,
+        manaFilter: null,
       }),
       handleChangeDisplayCardsPreview: () => () => ({}),
       handleChangeManaFilter: () => newManaFilter => ({
