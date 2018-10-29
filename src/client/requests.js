@@ -55,5 +55,8 @@ export const getPing = () =>
     method: 'get',
     url: 'ping',
   })
-    .then(data => data)
+    .then(({ data, status }) => {
+      if (status === 201) throw data;
+      return data;
+    })
     .catch(err => console.log('Ping  err: ', err));

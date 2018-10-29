@@ -1,7 +1,7 @@
 import express from 'express';
 import debug from 'debug';
 import path from 'path';
-import fs from 'fs';
+import cors from 'cors';
 import http from 'http';
 import favicon from 'serve-favicon';
 import compression from 'compression';
@@ -24,6 +24,7 @@ const init = ctx => {
   const promise = new Promise(resolve => {
     app
       .use(compression())
+      .use(cors())
       .use(favicon(path.join(publicPath, '/favicon.ico')))
       .use(bindCtx(ctx))
       .use(bindError)
