@@ -9,6 +9,7 @@ import ShamanIcon from '../../../../assets/classes/shaman.png';
 import WarlockIcon from '../../../../assets/classes/warlock.png';
 import WarriorIcon from '../../../../assets/classes/warrior.png';
 import CardBacksIcon from '../../../../assets/UI/gold.png';
+import NeutralIcon from '../../../../assets/classes/neutral.png';
 
 export const iconList = [
   {
@@ -57,6 +58,6 @@ export const iconList = [
   },
   {
     name: 'Neutral',
-    icon: WarriorIcon,
+    icon: NeutralIcon,
   },
 ];
