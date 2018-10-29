@@ -1,0 +1,4536 @@
+{
+    "data": [
+        {
+            "cardId": "AT_071e",
+            "dbfId": "2759",
+            "name": "Alexstrasza's Boon",
+            "cardSet": "The Grand Tournament",
+            "type": "Enchantment",
+            "text": "+1 Attack and <b>Charge</b>.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_086e",
+            "dbfId": "2214",
+            "name": "Armor Plated",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Enchantment",
+            "text": "Increased Attack.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_42h",
+            "dbfId": "48601",
+            "name": "Baran the Blind",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 30,
+            "text": "<i>Poor vision doesn't matter with strength like his.</i>",
+            "artist": "Matt Dixon",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_42h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_42h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_17h",
+            "dbfId": "46338",
+            "name": "Battlecrier Jin'zo",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 40,
+            "text": "<i>When he calls in the troops, they listen. Twice.</i>",
+            "artist": "Paul Mafayon",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_17h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_17h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_604o",
+            "dbfId": "1177",
+            "name": "Berserk",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "Increased Attack.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_411e",
+            "dbfId": "1521",
+            "name": "Bloodrage",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "No durability loss.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_068e",
+            "dbfId": "2755",
+            "name": "Bolstered",
+            "cardSet": "The Grand Tournament",
+            "type": "Enchantment",
+            "text": "+2/+2.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_20h",
+            "dbfId": "46339",
+            "name": "Brimstone Warden",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 30,
+            "text": "<i>At all costs, stop him from waking the\\nancient_guardians...</i>",
+            "artist": "Mauricio Herrera",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_20h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_20h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_41h",
+            "dbfId": "48600",
+            "name": "Brushwood Centurion",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 60,
+            "text": "<i>This once-stalwart defender of the woods now sows chaos.</i>",
+            "artist": "L. Lullabi & K. Turovec",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_41h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_41h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_BountyHunt_Brushwood",
+            "dbfId": "52859",
+            "name": "Brushwood Centurion",
+            "cardSet": "Tavern Brawl",
+            "type": "Hero",
+            "health": 60,
+            "text": "<i>This once-stalwart defender of the woods now sows chaos.</i>",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BountyHunt_Brushwood.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BountyHunt_Brushwood_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_084e",
+            "dbfId": "706",
+            "name": "Charge",
+            "cardSet": "Basic",
+            "type": "Enchantment",
+            "text": "Warsong Commander is granting this minion +1 Attack.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_103e2",
+            "dbfId": "1713",
+            "name": "Charge",
+            "cardSet": "Basic",
+            "type": "Enchantment",
+            "text": "Has <b>Charge</b>.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_MP_01e",
+            "dbfId": "39777",
+            "name": "Charge!",
+            "cardSet": "Tavern Brawl",
+            "type": "Enchantment",
+            "text": "Has <b>Charge</b>",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "NEW1_036e2",
+            "dbfId": "1711",
+            "name": "Commanding Shout",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "Your minions can't be reduced below 1 Health this turn.",
+            "playerClass": "Warrior",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "OneTurnEffect"
+                }
+            ]
+        },
+        {
+            "cardId": "NEW1_036e",
+            "dbfId": "521",
+            "name": "Commanding Shout",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "Can't be reduced below 1 Health this turn.",
+            "playerClass": "Warrior",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "OneTurnEffect"
+                }
+            ]
+        },
+        {
+            "cardId": "LOE_118e",
+            "dbfId": "35035",
+            "name": "Cursed Blade",
+            "cardSet": "The League of Explorers",
+            "type": "Enchantment",
+            "text": "Double all damage dealt to your hero.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_051e",
+            "dbfId": "39809",
+            "name": "Enraged",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Enchantment",
+            "text": "+1 Attack",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_414e",
+            "dbfId": "39835",
+            "name": "Enraged",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "+6 Attack",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_066e",
+            "dbfId": "2732",
+            "name": "Forges of Orgrimmar",
+            "cardSet": "The Grand Tournament",
+            "type": "Enchantment",
+            "text": "Increased Attack.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "HERO_01",
+            "dbfId": "7",
+            "name": "Garrosh Hellscream",
+            "cardSet": "Basic",
+            "type": "Hero",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "health": 30,
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/HERO_01.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/HERO_01_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_21h",
+            "dbfId": "46243",
+            "name": "Gnosh the Greatworm",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 40,
+            "text": "<i>Always looking to devour the largest, tastiest minions.</i>",
+            "artist": "Jaemin Kim",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_21h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_21h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_23h",
+            "dbfId": "48144",
+            "name": "Grubb the Swampdrinker",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 50,
+            "text": "<i>An iron gut, and quite the throwing arm.</i>",
+            "artist": "Chris Seaman",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_23h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_23h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_58h",
+            "dbfId": "48945",
+            "name": "Grum",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 40,
+            "text": "<i>Grum likes to smash. He also likes to bash. And crash.</i>",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_58h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_58h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_105e",
+            "dbfId": "78",
+            "name": "Heroic Strike",
+            "cardSet": "Basic",
+            "type": "Enchantment",
+            "text": "+4 Attack this turn.",
+            "playerClass": "Warrior",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "OneTurnEffect"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_607e",
+            "dbfId": "320",
+            "name": "Inner Rage",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "+2 Attack.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_39h",
+            "dbfId": "47258",
+            "name": "Kraxx",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 30,
+            "text": "<i>This ancient stone guardian prefers the loot to stay here.</i>",
+            "artist": "A.J. Nazzaro",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_39h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_39h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_929e",
+            "dbfId": "41419",
+            "name": "Magmic",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Enchantment",
+            "text": "Transforming into random weapons.",
+            "artist": "James Ryman",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "HERO_01a",
+            "dbfId": "2828",
+            "name": "Magni Bronzebeard",
+            "cardSet": "Hero Skins",
+            "type": "Hero",
+            "rarity": "Epic",
+            "health": 30,
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/HERO_01a.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/HERO_01a_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "KARA_13_01",
+            "dbfId": "39770",
+            "name": "Nazra Wildaxe",
+            "cardSet": "One Night in Karazhan",
+            "type": "Hero",
+            "health": 15,
+            "artist": "Alex Horley Orlandelli",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_13_01.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_13_01_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "KARA_13_01H",
+            "dbfId": "40734",
+            "name": "Nazra Wildaxe",
+            "cardSet": "One Night in Karazhan",
+            "type": "Hero",
+            "health": 15,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_13_01H.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_13_01H_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_411e2",
+            "dbfId": "1731",
+            "name": "Needs Sharpening",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "Decreased Attack.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "FB_TagTeam_Warrior_Ench",
+            "dbfId": "41013",
+            "name": "Next Hero: Warrior Ench",
+            "cardSet": "Tavern Brawl",
+            "type": "Enchantment",
+            "faction": "Neutral",
+            "text": "Add Warrior cards to your deck.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "FB_LK_Warrior_Ench_copy",
+            "dbfId": "46521",
+            "name": "Next Hero: Warrior Ench Copy",
+            "cardSet": "Tavern Brawl",
+            "type": "Enchantment",
+            "faction": "Neutral",
+            "text": "Add Warrior cards to your deck.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_11h",
+            "dbfId": "46311",
+            "name": "Overseer Mogark",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 20,
+            "text": "<i>This trogg commander is extra \"motivational\" to underlings.</i>",
+            "artist": "James Ryman",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_11h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_11h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_30h",
+            "dbfId": "46312",
+            "name": "Overseer Mogark",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 60,
+            "text": "<i>This trogg commander is extra \"motivational\" to underlings.</i>",
+            "artist": "James Ryman",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_30h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_30h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_05h",
+            "dbfId": "46269",
+            "name": "Pathmaker Hamm",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 20,
+            "text": "<i>There's more than\\none way for a kobold\\nto_dig_a_tunnel.</i>",
+            "artist": "Tooth",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_05h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_05h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_28h",
+            "dbfId": "46270",
+            "name": "Pathmaker Hamm",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 60,
+            "text": "<i>There's more than\\none way for a kobold\\nto_dig_a_tunnel.</i>",
+            "artist": "Tooth",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_28h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_28h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_104e",
+            "dbfId": "616",
+            "name": "Rampage",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "+3/+3.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GIL_803e",
+            "dbfId": "48688",
+            "name": "Reckless",
+            "cardSet": "The Witchwood",
+            "type": "Enchantment",
+            "text": "+3 Attack this turn.",
+            "playerClass": "Warrior",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "OneTurnEffect"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_069e",
+            "dbfId": "53061",
+            "name": "Rocketeer",
+            "cardSet": "The Boomsday Project",
+            "type": "Enchantment",
+            "text": "<b>Rush</b>.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_055e",
+            "dbfId": "2223",
+            "name": "Screwy Jank",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Enchantment",
+            "text": "+2/+2.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CFM_643e",
+            "dbfId": "40481",
+            "name": "Smuggling",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Enchantment",
+            "text": "+1 Attack from Hobart Grapplehammer.",
+            "artist": "A.J. Nazzaro",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CFM_643e2",
+            "dbfId": "42631",
+            "name": "Smuggling",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Enchantment",
+            "text": "+1 Attack from Hobart Grapplehammer.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_SPT_DPromo_Hero2",
+            "dbfId": "42165",
+            "name": "The Cow King",
+            "cardSet": "Tavern Brawl",
+            "type": "Hero",
+            "attack": 0,
+            "health": 30,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromo_Hero2.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromo_Hero2_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "InvisibleDeathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_069e",
+            "dbfId": "2734",
+            "name": "Training Complete",
+            "cardSet": "The Grand Tournament",
+            "type": "Enchantment",
+            "text": "<b>Taunt</b>",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_528e",
+            "dbfId": "47891",
+            "name": "Twilight Curse",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Enchantment",
+            "text": "Attack was swapped.",
+            "artist": "Tooth",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_409e",
+            "dbfId": "726",
+            "name": "Upgraded",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "+1 Attack and +1 Durability.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_312e",
+            "dbfId": "38973",
+            "name": "Upgraded",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Enchantment",
+            "text": "Increased Durability.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_603e",
+            "dbfId": "1645",
+            "name": "Whipped Into Shape",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "+2 Attack.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_41h",
+            "dbfId": "47303",
+            "name": "Whompwhisker",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 40,
+            "text": "<i>A kobold berserker who never fights alone.</i>",
+            "artist": "Mike Sass",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_41h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_41h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_05",
+            "dbfId": "47311",
+            "name": "Armor",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_05.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_05_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_06",
+            "dbfId": "49303",
+            "name": "Armory",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_06.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_06_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_04",
+            "dbfId": "49301",
+            "name": "Attack!",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_04.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_04_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_01",
+            "dbfId": "49298",
+            "name": "Berserker",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_01.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_01_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_01",
+            "dbfId": "47279",
+            "name": "Berserker",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_01.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_01_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_03",
+            "dbfId": "47334",
+            "name": "Charge!",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_03.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_03_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_07",
+            "dbfId": "49304",
+            "name": "Commander",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_07.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_07_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_600h",
+            "dbfId": "47787",
+            "name": "Darius Crowley",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "cost": 0,
+            "health": 20,
+            "artist": "Arthur Bozonnet",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_600h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_600h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_12",
+            "dbfId": "47325",
+            "name": "Dragon Heart",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_12.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_12_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_11",
+            "dbfId": "50564",
+            "name": "Dragonfire",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_11.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_11_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_02",
+            "dbfId": "47280",
+            "name": "Everybody Hurts",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_02.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_02_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_607",
+            "dbfId": "22",
+            "name": "Inner Rage",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 0,
+            "text": "Deal $1 damage to a minion and give it +2_Attack.",
+            "flavor": "They're only smiling on the outside.",
+            "artist": "Slawomir Maniak",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_607.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_607_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_10",
+            "dbfId": "48239",
+            "name": "Legendary",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_10.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_10_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_08",
+            "dbfId": "49305",
+            "name": "Legends",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_08.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_08_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_02",
+            "dbfId": "49299",
+            "name": "Pirates",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_02.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_02_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_06",
+            "dbfId": "47312",
+            "name": "Pirates",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_06.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_06_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_09",
+            "dbfId": "47318",
+            "name": "Re-Enforcer",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_09.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_09_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_13",
+            "dbfId": "47329",
+            "name": "Recruiter",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_13.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_13_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_067e",
+            "dbfId": "53066",
+            "name": "Rocket Boots",
+            "cardSet": "The Boomsday Project",
+            "type": "Enchantment",
+            "cost": 0,
+            "text": "<b>Rush</b>.",
+            "playerClass": "Warrior",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_ClassRandom_Warrior",
+            "dbfId": "40031",
+            "name": "Second Class: Warrior",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "cost": 0,
+            "text": "Add Warrior cards to your deck.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_ClassRandom_Warrior.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_ClassRandom_Warrior_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_08",
+            "dbfId": "47349",
+            "name": "Smash!",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_08.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_08_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_09",
+            "dbfId": "49306",
+            "name": "Strike",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_09.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_09_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_03",
+            "dbfId": "49300",
+            "name": "Tactical",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_03.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_03_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_07",
+            "dbfId": "47313",
+            "name": "Taunt",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_07.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_07_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_TagTeam_Warrior",
+            "dbfId": "41021",
+            "name": "The Rock",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "text": "Enrage your allies, while wielding weapons at your foes!",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_TagTeam_Warrior.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_TagTeam_Warrior_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_05",
+            "dbfId": "49302",
+            "name": "Vanguard",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_05.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_05_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_Darius_10",
+            "dbfId": "49307",
+            "name": "Warcry",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Darius_10.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Darius_10_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "FB_LK_Warrior_copy",
+            "dbfId": "46530",
+            "name": "Warrior",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "text": "Select Warrior as your next class.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_LK_Warrior_copy.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_LK_Warrior_copy_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Warrior_04",
+            "dbfId": "47310",
+            "name": "Weapons",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Warrior_04.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Warrior_04_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_238",
+            "dbfId": "42810",
+            "name": "Animated Berserker",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 1,
+            "attack": 1,
+            "health": 3,
+            "text": "After you play a minion, deal 1 damage to it.",
+            "flavor": "He'd be a lot easier to animate if he would just stand still.",
+            "artist": "Konstantin Turovec",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_238.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_238_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_398t",
+            "dbfId": "1707",
+            "name": "Battle Axe",
+            "cardSet": "Classic",
+            "type": "Weapon",
+            "cost": 1,
+            "attack": 2,
+            "durability": 2,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_398t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_398t_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_314",
+            "dbfId": "38918",
+            "name": "Blood To Ichor",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 1,
+            "text": "Deal $1 damage to a minion. If it survives, summon a 2/2 Slime.",
+            "flavor": "For his next trick, he turns the ichor back to blood and stuffs it back in you.",
+            "artist": "Jim Nelson",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_314.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_314_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_103",
+            "dbfId": "344",
+            "name": "Charge",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 1,
+            "text": "Give a friendly minion <b>Charge</b>. It can't attack heroes this turn.",
+            "flavor": "\"Guys! Guys! Slow down!\" - some kind of non-warrior minion",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked at Level 1.",
+            "howToGetGold": "Unlocked at Level 23.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_103.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_103_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Charge"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_922t1",
+            "dbfId": "42881",
+            "name": "Choose Your Path",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "cost": 1,
+            "text": "<b>Discover</b> a card.",
+            "artist": "James Paick",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_922t1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_922t1_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Discover"
+                }
+            ]
+        },
+        {
+            "cardId": "LOE_118",
+            "dbfId": "35025",
+            "name": "Cursed Blade",
+            "cardSet": "The League of Explorers",
+            "type": "Weapon",
+            "rarity": "Rare",
+            "cost": 1,
+            "attack": 2,
+            "durability": 3,
+            "text": "Double all damage dealt to your hero.",
+            "flavor": "The Curse is that you have to listen to \"MMMBop\" on repeat.",
+            "artist": "Craig Mullins",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked in the Hall of Explorers, in the League of Explorers adventure.",
+            "howToGetGold": "Crafting unlocked in the Hall of Explorers, in the League of Explorers adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOE_118.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOE_118_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "FB_Toki_Quest",
+            "dbfId": "53540",
+            "name": "Defeat the Anomalies",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "rarity": "Legendary",
+            "cost": 1,
+            "text": "<b>Quest:</b> Defeat\\n8 Anomalies\\n<b>Effect:</b>Summon Anomalous Rex.",
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki_Quest.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki_Quest_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                },
+                {
+                    "name": "Quest"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_059",
+            "dbfId": "48691",
+            "name": "Eternium Rover",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 1,
+            "attack": 1,
+            "health": 3,
+            "text": "Whenever this minion takes damage, gain 2_Armor.",
+            "flavor": "He's all beeps and smiles but you're just a walking pile of armor to him.",
+            "artist": "Vladimir Kafanov",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_059.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_059_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "FB_Champs_CS2_108",
+            "dbfId": "49274",
+            "name": "Execute",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 1,
+            "text": "Destroy a damaged enemy minion.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Champs_CS2_108.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Champs_CS2_108_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_934",
+            "dbfId": "41427",
+            "name": "Fire Plume's Heart",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "rarity": "Legendary",
+            "cost": 1,
+            "text": "[x]<b>Quest:</b> Play\\n7 <b>Taunt</b> minions.\\n<b>Reward:</b> Sulfuras.",
+            "flavor": "Why does an active volcano need to be defended? To save its ash.",
+            "artist": "Nate Bowden",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_934.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_934_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Quest"
+                },
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_409t",
+            "dbfId": "1661",
+            "name": "Heavy Axe",
+            "cardSet": "Classic",
+            "type": "Weapon",
+            "cost": 1,
+            "attack": 1,
+            "durability": 3,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_409t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_409t_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CFM_940",
+            "dbfId": "40839",
+            "name": "I Know a Guy",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 1,
+            "text": "<b>Discover</b> a <b>Taunt</b> minion.",
+            "flavor": "Well\u2026 a guy who knows a guy.",
+            "artist": "Kan Lui",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_940.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_940_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Discover"
+                },
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_923",
+            "dbfId": "41401",
+            "name": "Iron Hide",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 1,
+            "text": "Gain 5 Armor.",
+            "flavor": "Week 6. I remain covered head to toe with scales. They do not yet realize that I am not a dinosaur.",
+            "artist": "Phil Saunders",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_923.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_923_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_929",
+            "dbfId": "41420",
+            "name": "Molten Blade",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Weapon",
+            "rarity": "Rare",
+            "cost": 1,
+            "attack": 1,
+            "durability": 1,
+            "text": "Each turn this is in your hand, transform it into a new weapon.",
+            "flavor": "It\u2019s a sword! It\u2019s a knife! It\u2019s a swizzle-stick!",
+            "artist": "James Ryman",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_929.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_929_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_312",
+            "dbfId": "38914",
+            "name": "N'Zoth's First Mate",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "text": "<b>Battlecry:</b> Equip a 1/3 Rusty Hook.",
+            "flavor": "Hates when N'Zoth yells \"Ahoy Matey!!\", but there's not really much he can do about it.",
+            "artist": "Paul Mafayon",
+            "collectible": true,
+            "race": "Pirate",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_312.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_312_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_299",
+            "dbfId": "48515",
+            "name": "Omega Assembly",
+            "cardSet": "The Boomsday Project",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 1,
+            "text": "[x]<b>Discover</b> a Mech. If you\\nhave 10 Mana Crystals,\\nkeep all 3 cards.",
+            "flavor": "They told Dr. Boom he could only pick one. He disagreed.",
+            "artist": "Daren Bader",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_299.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_299_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Discover"
+                }
+            ]
+        },
+        {
+            "cardId": "KAR_026t",
+            "dbfId": "40501",
+            "name": "Pawn",
+            "cardSet": "One Night in Karazhan",
+            "type": "Minion",
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "text": "<b>Taunt</b>",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KAR_026t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KAR_026t_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_058",
+            "dbfId": "38363",
+            "name": "Rusty Hook",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Weapon",
+            "cost": 1,
+            "attack": 1,
+            "durability": 3,
+            "artist": "Grace Liu",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_058.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_058_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOE_009t",
+            "dbfId": "38325",
+            "name": "Scarab",
+            "cardSet": "The League of Explorers",
+            "type": "Minion",
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "text": "<b>Taunt</b>",
+            "artist": "Jaemin Kim",
+            "race": "Beast",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOE_009t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOE_009t_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_410",
+            "dbfId": "546",
+            "name": "Shield Slam",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Epic",
+            "cost": 1,
+            "text": "Deal 1 damage to a minion for each Armor you have.",
+            "flavor": "\"What is a better weapon? The sharp one your enemies expect, or the blunt one they ignore?\" - The Art of Warrior, Chapter 9",
+            "artist": "Raymond Swanland",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_410.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_410_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "AffectedBySpellPower"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_580",
+            "dbfId": "47133",
+            "name": "Town Crier",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Epic",
+            "cost": 1,
+            "attack": 1,
+            "health": 2,
+            "text": "<b>Battlecry:</b> Draw a <b>Rush</b> minion from your deck.",
+            "flavor": "When he was younger, he was the town crybaby.",
+            "artist": "Arthur Gimaldinov",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_580.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_580_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                },
+                {
+                    "name": "Rush"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_409",
+            "dbfId": "511",
+            "name": "Upgrade!",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 1,
+            "text": "If you have a weapon, give it +1/+1. Otherwise equip a 1/3 weapon.",
+            "flavor": "Easily worth 50 DKP.",
+            "artist": "Matt Cavotta",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_409.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_409_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_051",
+            "dbfId": "2019",
+            "name": "Warbot",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 1,
+            "attack": 1,
+            "health": 3,
+            "text": "Has +1 Attack while damaged.",
+            "flavor": "Mass production of warbots was halted when it was discovered that they were accidentally being produced at \"sample size.\"",
+            "artist": "Tyler Walpole",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_051.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_051_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_400",
+            "dbfId": "636",
+            "name": "Whirlwind",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 1,
+            "text": "Deal $1 damage to ALL_minions.",
+            "flavor": "The way to tell seasoned warriors from novice ones: the novices yell \"wheeeee\" while whirlwinding.",
+            "artist": "Jonboy Meyers",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked at Level 6.",
+            "howToGetGold": "Unlocked at Level 32.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_400.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_400_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_071",
+            "dbfId": "2758",
+            "name": "Alexstrasza's Champion",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 2,
+            "attack": 2,
+            "health": 3,
+            "text": "<b>Battlecry:</b> If you're holding a Dragon, gain +1 Attack and <b>Charge</b>.",
+            "flavor": "\"Put more spikes on her.  No, more spikes.  What part of 'more spikes' do you not understand?  MORE SPIKES!\" - Alexstrasza",
+            "artist": "Evgeniy Zagumennyy",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_071.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_071_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Charge"
+                },
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "CS2_102",
+            "dbfId": "725",
+            "name": "Armor Up!",
+            "cardSet": "Basic",
+            "type": "Hero Power",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nGain 2 Armor.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_102.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_102_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_102_H1",
+            "dbfId": "2830",
+            "name": "Armor Up!",
+            "cardSet": "Hero Skins",
+            "type": "Hero Power",
+            "rarity": "Free",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nGain 2 Armor.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_102_H1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_102_H1_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_402",
+            "dbfId": "596",
+            "name": "Armorsmith",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 2,
+            "attack": 1,
+            "health": 4,
+            "text": "Whenever a friendly minion_takes damage, gain 1 Armor.",
+            "flavor": "She accepts guild funds for repairs!",
+            "artist": "Greg Hildebrandt",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_402.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_402_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_392",
+            "dbfId": "400",
+            "name": "Battle Rage",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Draw a card for each damaged friendly character.",
+            "flavor": "\"You won't like me when I'm angry.\"",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_392.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_392_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_238p",
+            "dbfId": "48145",
+            "name": "Big Red Button",
+            "cardSet": "The Boomsday Project",
+            "type": "Hero Power",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "[x]<b>Hero Power</b>\\nActivate this turn's\\nMech Suit power!",
+            "artist": "Konstantin Turovec",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BOT_238p.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BOT_238p_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_044",
+            "dbfId": "43277",
+            "name": "Bladed Gauntlet",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Weapon",
+            "rarity": "Epic",
+            "cost": 2,
+            "attack": 0,
+            "durability": 2,
+            "text": "Has Attack equal to your Armor. Can't attack heroes.",
+            "flavor": "CAUTION: DO NOT SCRATCH NOSE.",
+            "artist": "Luca Zontini",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_044.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_044_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_834h",
+            "dbfId": "45585",
+            "name": "Bladestorm",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\n Deal $1 damage to all_minions.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_834h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_834h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_238p2",
+            "dbfId": "49365",
+            "name": "Blast Shield",
+            "cardSet": "The Boomsday Project",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nGain 7 Armor.\\nSwaps each turn.",
+            "artist": "Konstantin Turovec",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BOT_238p2.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BOT_238p2_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_068",
+            "dbfId": "2754",
+            "name": "Bolster",
+            "cardSet": "The Grand Tournament",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Give your <b>Taunt</b> minions +2/+2.",
+            "flavor": "The best offense is a good defense.",
+            "artist": "Mishi McCaig",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_068.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_068_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_837",
+            "dbfId": "43505",
+            "name": "Bring It On!",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 2,
+            "text": "Gain 10 Armor. Reduce the Cost of minions in your opponent's hand by (2).",
+            "flavor": "Brrr, it's cold in here. Let's hope she doesn't have an Auctioneer!",
+            "artist": "Mike Azevedo",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_837.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_837_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_114",
+            "dbfId": "940",
+            "name": "Cleave",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 2,
+            "text": "[x]Deal $2 damage to\\ntwo random enemy\\nminions.",
+            "flavor": "Hey you two\u2026could you stand next to each other for a second\u2026",
+            "artist": "Phroilan Gardner",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked at Level 2.",
+            "howToGetGold": "Unlocked at Level 40.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_114.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_114_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "NEW1_036",
+            "dbfId": "1026",
+            "name": "Commanding Shout",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 2,
+            "text": "Your minions can't be reduced below 1 Health this turn. Draw a card.",
+            "flavor": "\"Shout! Shout! Let it all out!\" - Advice to warriors-in-training",
+            "artist": "Wayne Reynolds",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/NEW1_036.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/NEW1_036_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_926",
+            "dbfId": "41406",
+            "name": "Cornered Sentry",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 2,
+            "attack": 2,
+            "health": 6,
+            "text": "<b>Taunt</b>. <b>Battlecry:</b> Summon three 1/1 Raptors for your_opponent.",
+            "flavor": "The Draenei are seriously considering cancelling \"Bring Your Murderous Pet to Work Day.\"",
+            "artist": "Jomaro Kindred",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_926.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_926_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                },
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_603",
+            "dbfId": "285",
+            "name": "Cruel Taskmaster",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "text": "<b>Battlecry:</b> Deal 1 damage to a minion and give it +2_Attack.",
+            "flavor": "\"I'm going to need you to come in on Sunday.\" - Cruel Taskmaster",
+            "artist": "Phroilan Gardner",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_603.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_603_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_091",
+            "dbfId": "42766",
+            "name": "Dead Man's Hand",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 2,
+            "text": "Shuffle a copy of your hand into your deck.",
+            "flavor": "I got two pair, Rags and Armorsmiths. What you got?",
+            "artist": "L. Lullabi & K. Turovec",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_091.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_091_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_238p4",
+            "dbfId": "49367",
+            "name": "Delivery Drone",
+            "cardSet": "The Boomsday Project",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\n<b>Discover</b> a Mech.\\nSwaps_each_turn.",
+            "artist": "Konstantin Turovec",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BOT_238p4.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BOT_238p4_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Discover"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_367",
+            "dbfId": "46031",
+            "name": "Drywhisker Armorer",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "text": "<b>Battlecry:</b> For each enemy minion, gain 2 Armor.",
+            "flavor": "Kobolds use anything for armor: Pots, pans, garbage cans\u2026 even other kobolds.",
+            "artist": "Jim Nelson",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_367.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_367_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "CS2_108",
+            "dbfId": "785",
+            "name": "Execute",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 2,
+            "text": "Destroy a damaged enemy minion.",
+            "flavor": "It's okay, he deserved it.",
+            "artist": "Dany Orizio",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked at Level 1.",
+            "howToGetGold": "Unlocked at Level 47.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_108.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_108_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_922",
+            "dbfId": "41400",
+            "name": "Explore Un'Goro",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 2,
+            "text": "Replace your deck with_copies of \"<b>Discover</b> a card.\"",
+            "flavor": "It turns out cards DO grow on trees!",
+            "artist": "Jerry Mascho",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_922.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_922_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Discover"
+                }
+            ]
+        },
+        {
+            "cardId": "FB_Champs_CS2_106",
+            "dbfId": "48880",
+            "name": "Fiery War Axe",
+            "cardSet": "Tavern Brawl",
+            "type": "Weapon",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 2,
+            "attack": 3,
+            "durability": 2,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Champs_CS2_106.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Champs_CS2_106_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_281",
+            "dbfId": "42998",
+            "name": "Forge of Souls",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Draw 2 weapons from your deck.",
+            "flavor": "Powerful weaponry forged by Bronjahm, the Godfather of Souls.",
+            "artist": "Daria Tuzova",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_281.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_281_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_042t",
+            "dbfId": "49473",
+            "name": "Gearblade",
+            "cardSet": "The Boomsday Project",
+            "type": "Weapon",
+            "cost": 2,
+            "attack": 2,
+            "health": 0,
+            "durability": 3,
+            "artist": "Jason Kang",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BOT_042t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BOT_042t_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_218t",
+            "dbfId": "49278",
+            "name": "Guard Bot",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "cost": 2,
+            "attack": 2,
+            "health": 3,
+            "text": "<b>Taunt</b>",
+            "artist": "Sam Nielsen",
+            "race": "Mech",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BOT_218t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BOT_218t_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "CS2_105",
+            "dbfId": "1007",
+            "name": "Heroic Strike",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 2,
+            "text": "Give your hero +4_Attack this turn.",
+            "flavor": "Really, if you're a hero, this is <i>every</i> strike.",
+            "artist": "Jonboy Meyers",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked at Level 1.",
+            "howToGetGold": "Unlocked at Level 15.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_105.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_105_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CFM_643",
+            "dbfId": "40482",
+            "name": "Hobart Grapplehammer",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "text": "<b>Battlecry:</b> Give all weapons in your hand and deck +1 Attack.",
+            "flavor": "Grapplehammer is the horrible mind behind the Automatic Piranha Launcher (banned in 7 districts)!",
+            "artist": "A.J. Nazzaro",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_643.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_643_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_238p3",
+            "dbfId": "49366",
+            "name": "KABOOM!",
+            "cardSet": "The Boomsday Project",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nDeal $1 damage to all enemies. Swaps each turn.",
+            "artist": "Konstantin Turovec",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BOT_238p3.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BOT_238p3_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_238p6",
+            "dbfId": "49370",
+            "name": "Micro-Squad",
+            "cardSet": "The Boomsday Project",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nSummon three 1/1 Microbots.\\nSwaps_each_turn.",
+            "artist": "Vladimir Kafanov",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BOT_238p6.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BOT_238p6_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "KARA_13_03",
+            "dbfId": "39772",
+            "name": "Orc Warrior",
+            "cardSet": "One Night in Karazhan",
+            "type": "Minion",
+            "cost": 2,
+            "attack": 3,
+            "health": 2,
+            "artist": "Jim Nelson",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_13_03.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_13_03_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "KARA_13_03H",
+            "dbfId": "40732",
+            "name": "Orc Warrior",
+            "cardSet": "One Night in Karazhan",
+            "type": "Minion",
+            "cost": 2,
+            "attack": 3,
+            "health": 3,
+            "text": "<b>Charge</b>",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_13_03H.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_13_03H_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Charge"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_300",
+            "dbfId": "40364",
+            "name": "Public Defender",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 0,
+            "health": 7,
+            "text": "<b>Taunt</b>",
+            "flavor": "Happy to defend any public offender!",
+            "artist": "Alex Alexandrov",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_300.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_300_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "CS2_104",
+            "dbfId": "1108",
+            "name": "Rampage",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Give a damaged minion +3/+3.",
+            "flavor": "Minion get ANGRY.   Minion SMASH!",
+            "artist": "Jonboy Meyers",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_104.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_104_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GIL_155",
+            "dbfId": "46725",
+            "name": "Redband Wasp",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 2,
+            "attack": 1,
+            "health": 3,
+            "text": "<b>Rush</b>\\nHas +3 Attack while damaged.",
+            "flavor": "Also comes in other colors, but red's in fashion this season.",
+            "artist": "Dave Allsop",
+            "collectible": true,
+            "race": "Beast",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_155.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_155_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Rush"
+                }
+            ]
+        },
+        {
+            "cardId": "BRM_015",
+            "dbfId": "2296",
+            "name": "Revenge",
+            "cardSet": "Blackrock Mountain",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 2,
+            "text": "Deal $1 damage to all minions. If you have 12 or less Health, deal $3 damage instead.",
+            "flavor": "This is better than Arcane Explosion, so I guess warriors are finally getting revenge on mages for Mortal Strike being worse than Fireball.",
+            "artist": "Ben Olson",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked in Blackwing Lair, in the Blackrock Mountain adventure.",
+            "howToGetGold": "Crafting unlocked in Blackwing Lair, in the Blackrock Mountain adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BRM_015.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BRM_015_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_067",
+            "dbfId": "47925",
+            "name": "Rocket Boots",
+            "cardSet": "The Boomsday Project",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Give a minion <b>Rush</b>. Draw a card.",
+            "flavor": "This is the happiest moment of Grik's life. We'll miss him.",
+            "artist": "Steve Prescott",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_067.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_067_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Rush"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_391",
+            "dbfId": "1074",
+            "name": "Slam",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Deal $2 damage to a minion. If it survives, draw a card.",
+            "flavor": "\"Dun da dun, dun da dun\": if you've heard an ogre sing this, it's too late.",
+            "artist": "E.M. Gist",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_391.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_391_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CFM_716",
+            "dbfId": "41414",
+            "name": "Sleep with the Fishes",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 2,
+            "text": "Deal $3 damage to all damaged minions.",
+            "flavor": "If you're sleeping with the fishes, we highly suggest not bringing an electric blanket.",
+            "artist": "James Ryman",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_716.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_716_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_314b",
+            "dbfId": "38968",
+            "name": "Slime",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_314b.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_314b_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_069",
+            "dbfId": "2733",
+            "name": "Sparring Partner",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 2,
+            "attack": 3,
+            "health": 2,
+            "text": "<b>Taunt</b>\\n<b>Battlecry:</b> Give a\\nminion <b>Taunt</b>.",
+            "flavor": "Come at me, bro.",
+            "artist": "Jim Nelson",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_069.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_069_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                },
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_752",
+            "dbfId": "40566",
+            "name": "Stolen Goods",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 2,
+            "text": "Give a random <b>Taunt</b> minion in your hand +3/+3.",
+            "flavor": "It fell off a kodo, I promise!",
+            "artist": "Mark Gibbons",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_752.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_752_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_132_WARRIOR",
+            "dbfId": "2745",
+            "name": "Tank Up!",
+            "cardSet": "The Grand Tournament",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nGain 4 Armor.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_WARRIOR.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_WARRIOR_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_102_H1_AT_132",
+            "dbfId": "30374",
+            "name": "Tank Up!",
+            "cardSet": "Hero Skins",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nGain 4 Armor.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_102_H1_AT_132.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_102_H1_AT_132_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "KARA_13_02",
+            "dbfId": "39771",
+            "name": "The Horde",
+            "cardSet": "One Night in Karazhan",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "[x]<b>Hero Power</b>\\nSummon a 3/2 Orc.",
+            "artist": "Jim Nelson",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_13_02.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_13_02_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "KARA_13_02H",
+            "dbfId": "40733",
+            "name": "The Horde",
+            "cardSet": "One Night in Karazhan",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "[x]<b>Hero Power</b>\\nSummon a 3/3 Orc\\nwith <b>Charge</b>.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_13_02H.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_13_02H_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_SPT_DPromoSecret4",
+            "dbfId": "42164",
+            "name": "Visions of Fate",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "<b>Secret:</b> When your opponent takes lethal damage... save him.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoSecret4.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoSecret4_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_SPT_DPromoSecret10",
+            "dbfId": "42181",
+            "name": "Visions of Hate",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "<b>Secret:</b> When both heroes have 15 or less Health, BRAWL!",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoSecret10.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoSecret10_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_SPT_DPromoSecret9",
+            "dbfId": "42178",
+            "name": "Visions of Knowledge",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "<b>Secret:</b> When your opponent's hand has 9 or more cards, reduce the cost of all cards in both hands to (1).",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoSecret9.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoSecret9_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_SPT_DPromoSecret5",
+            "dbfId": "42171",
+            "name": "Visions of the Amazon",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "<b>Secret:</b> When your opponent plays a minion with <b>Battlecry</b>, Summon a Mirror Image for both players.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoSecret5.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoSecret5_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_SPT_DPromoSecre8",
+            "dbfId": "42176",
+            "name": "Visions of the Assassin",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "<b>Secret:</b> When your opponent plays a minion with <b>Stealth</b>, All minions equip a dagger.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoSecre8.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoSecre8_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_SPT_DPromoSecret1",
+            "dbfId": "42159",
+            "name": "Visions of the Barbarian",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "<b>Secret:</b> When your opponent plays a minion with <b>Charge</b>, THUNDER FURY!",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoSecret1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoSecret1_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_SPT_DPromoSecret2",
+            "dbfId": "42162",
+            "name": "Visions of the Crusader",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "<b>Secret:</b> When your opponent plays a minion with <b>Taunt</b>, change all minions'\\nattacks to 1.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoSecret2.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoSecret2_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_SPT_DPromoSecret7",
+            "dbfId": "42174",
+            "name": "Visions of the Necromancer",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "<b>Secret:</b> When your opponent plays a card with <b>Deathrattle</b>, destroy it.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoSecret7.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoSecret7_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_SPT_DPromoSecret6",
+            "dbfId": "42173",
+            "name": "Visions of the Sorcerer",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "<b>Secret:</b> When your opponent plays a minion with <b>Spell Damage</b>, Summon 2 Guardians.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoSecret6.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoSecret6_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_SPT_DPromoSecret3",
+            "dbfId": "42163",
+            "name": "Visions of Valor",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 2,
+            "text": "<b>Secret:</b> When your opponent plays a Legendary minion, give all minions <b>Windfury</b>",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoSecret3.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoSecret3_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_654",
+            "dbfId": "47515",
+            "name": "Warpath",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 0,
+            "health": 0,
+            "text": "<b>Echo</b>\\nDeal $1 damage to all_minions.",
+            "flavor": "\"Left, right, left, right, there's none of the enemy left\u2026 Right?\"",
+            "artist": "Phil Saunders",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_654.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_654_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Echo"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_042",
+            "dbfId": "47860",
+            "name": "Weapons Project",
+            "cardSet": "The Boomsday Project",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Each player equips a 2/3 Weapon and\\ngains 6 Armor.",
+            "flavor": "Harrison Jones was kicked off this project.",
+            "artist": "J. Paick & K. Turovec",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_042.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_042_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GIL_653",
+            "dbfId": "47511",
+            "name": "Woodcutter's Axe",
+            "cardSet": "The Witchwood",
+            "type": "Weapon",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 2,
+            "durability": 2,
+            "text": "<b>Deathrattle:</b> Give +2/+1 to a random friendly <b>Rush</b> minion.",
+            "flavor": "It's a lumberjack's axe and that's ok.",
+            "artist": "Izzy Hoover",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_653.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_653_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Rush"
+                },
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_238p1",
+            "dbfId": "49364",
+            "name": "Zap Cannon",
+            "cardSet": "The Boomsday Project",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nDeal $3 damage.\\nSwaps each turn.",
+            "artist": "Konstantin Turovec",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BOT_238p1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BOT_238p1_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_064",
+            "dbfId": "2729",
+            "name": "Bash",
+            "cardSet": "The Grand Tournament",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 3,
+            "text": "Deal $3 damage.\\nGain 3 Armor.",
+            "flavor": "You might think bashing doesn't take a lot of practice.  It doesn't.",
+            "artist": "Dany Orizio",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_064.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_064_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BCON_026",
+            "dbfId": "49251",
+            "name": "Blazing Longsword",
+            "cardSet": "Basic",
+            "type": "Weapon",
+            "rarity": "Free",
+            "cost": 3,
+            "attack": 2,
+            "durability": 3,
+            "text": "Also damages minions next to whomever your hero attacks.",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BCON_026.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BCON_026_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_276",
+            "dbfId": "38848",
+            "name": "Blood Warriors",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 3,
+            "text": "Add a copy of each damaged friendly minion to your hand.",
+            "flavor": "They have an uneasy rivalry with the Blood Paladins.",
+            "artist": "A.J. Nazzaro",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_276.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_276_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_315",
+            "dbfId": "38920",
+            "name": "Bloodsail Cultist",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 3,
+            "health": 4,
+            "text": "<b>Battlecry:</b> If you control another Pirate, give your weapon +1/+1.",
+            "flavor": "They're really just in it for the Blood Parrot.",
+            "artist": "Matt Dixon",
+            "collectible": true,
+            "race": "Pirate",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_315.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_315_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "GVG_050",
+            "dbfId": "2018",
+            "name": "Bouncing Blade",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 3,
+            "text": "Deal $1 damage to a random minion. Repeat until a minion dies.",
+            "flavor": "Only goblins would think this was a good idea. Even they are starting to have their doubts.",
+            "artist": "Andrew Hou",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_050.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_050_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOE_022",
+            "dbfId": "2894",
+            "name": "Fierce Monkey",
+            "cardSet": "The League of Explorers",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 3,
+            "attack": 3,
+            "health": 4,
+            "text": "<b>Taunt</b>",
+            "flavor": "Fierce monkey.  That funky monkey.",
+            "artist": "Peter Stapleton",
+            "collectible": true,
+            "race": "Beast",
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked in Uldaman, in the League of Explorers adventure.",
+            "howToGetGold": "Crafting unlocked in Uldaman, in the League of Explorers adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOE_022.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOE_022_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "CS2_106",
+            "dbfId": "401",
+            "name": "Fiery War Axe",
+            "cardSet": "Basic",
+            "type": "Weapon",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 3,
+            "attack": 3,
+            "durability": 2,
+            "flavor": "During times of tranquility and harmony, this weapon was called by its less popular name, Chilly Peace Axe.",
+            "artist": "Lucas Graciano",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked at Level 1.",
+            "howToGetGold": "Unlocked at Level 49.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_106.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_106_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_604",
+            "dbfId": "654",
+            "name": "Frothing Berserker",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 2,
+            "health": 4,
+            "text": "Whenever a minion takes damage, gain +1 Attack.",
+            "flavor": "He used to work as an accountant before he tried his hand at Berserkering.",
+            "artist": "Simon Bisley",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_604.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_604_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CFM_755",
+            "dbfId": "40569",
+            "name": "Grimestreet Pawnbroker",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 3,
+            "health": 3,
+            "text": "<b>Battlecry:</b> Give a random weapon in your hand +1/+1.",
+            "flavor": "\"I don't know a lot about used GvG cards, so I'm going to have to call in an expert.\"",
+            "artist": "Mauricio Herrera",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_755.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_755_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_065",
+            "dbfId": "2756",
+            "name": "King's Defender",
+            "cardSet": "The Grand Tournament",
+            "type": "Weapon",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 3,
+            "durability": 2,
+            "text": "<b>Battlecry:</b> If you have a minion with <b>Taunt</b>, gain +1 Durability.",
+            "flavor": "\"King's Attacker\" is a shield.  Funny, huh?",
+            "artist": "Michael Franchina",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_065.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_065_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                },
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_041",
+            "dbfId": "43269",
+            "name": "Kobold Barbarian",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 4,
+            "health": 4,
+            "text": "At the start of your turn, attack a random enemy.",
+            "flavor": "What is best in life? To make candle. To keep candle. To hear lamentations of candle-takers.",
+            "artist": "Mike Sass",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_041.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_041_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_062",
+            "dbfId": "42698",
+            "name": "Mountainfire Armor",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 4,
+            "health": 3,
+            "text": "<b>Deathrattle:</b> If it's your opponent's turn,\\ngain 6 Armor.",
+            "flavor": "Excuse me. Your mountain is on fire.",
+            "artist": "Ian Ameling",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_062.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_062_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "GVG_054",
+            "dbfId": "2022",
+            "name": "Ogre Warmaul",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Weapon",
+            "rarity": "Common",
+            "cost": 3,
+            "attack": 4,
+            "durability": 2,
+            "text": "50% chance to attack the wrong enemy.",
+            "flavor": "Simple, misguided, and incredibly dangerous. You know, like most things ogre.",
+            "artist": "Richard Wright",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_054.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_054_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_066",
+            "dbfId": "2711",
+            "name": "Orgrimmar Aspirant",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 3,
+            "attack": 3,
+            "health": 3,
+            "text": "<b>Inspire:</b> Give your weapon +1 Attack.",
+            "flavor": "\"Four out of three orcs struggle with math.\" - Angry Zurge",
+            "artist": "Hideaki Takamura",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_066.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_066_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Inspire"
+                }
+            ]
+        },
+        {
+            "cardId": "KAR_026",
+            "dbfId": "39495",
+            "name": "Protect the King!",
+            "cardSet": "One Night in Karazhan",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 3,
+            "text": "For each enemy minion, summon a 1/1 Pawn with <b>Taunt</b>.",
+            "flavor": "Form ranks! Everyone into the King's Tuskarr Defense!",
+            "artist": "Jim Nelson",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked in the Parlor, in One Night in Karazhan.",
+            "howToGetGold": "Crafting unlocked in the Parlor, in One Night in Karazhan.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KAR_026.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/KAR_026_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_113",
+            "dbfId": "46650",
+            "name": "Rabid Worgen",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 3,
+            "attack": 3,
+            "health": 3,
+            "text": "<b>Rush</b>",
+            "flavor": "\"I'm sorry, son.  We had to send Old Howler off\u2026to a farm\u2026to play\u2026\"",
+            "artist": "Chris Seaman",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_113.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_113_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Rush"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_149",
+            "dbfId": "38530",
+            "name": "Ravaging Ghoul",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 3,
+            "attack": 3,
+            "health": 3,
+            "text": "<b>Battlecry:</b> Deal 1 damage to all other minions.",
+            "flavor": "But goes by \"Ravishing Ghoul\" when he hits the club.",
+            "artist": "Dany Orizio",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_149.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_149_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_364",
+            "dbfId": "46026",
+            "name": "Reckless Flurry",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 3,
+            "text": "Spend all your Armor. Deal that much damage to all minions.",
+            "flavor": "Look. Cautious Flurries will only get you so far in life.",
+            "artist": "Arthur Gimaldinov",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_364.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_364_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_606",
+            "dbfId": "1023",
+            "name": "Shield Block",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 3,
+            "text": "Gain 5 Armor.\\nDraw a card.",
+            "flavor": "Shields were invented because Face Block is USELESS.",
+            "artist": "Michael Komarck",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked at Level 8.",
+            "howToGetGold": "Unlocked at Level 28.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_606.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_606_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_934t1",
+            "dbfId": "41426",
+            "name": "Sulfuras",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Weapon",
+            "cost": 3,
+            "attack": 4,
+            "durability": 2,
+            "text": "<b>Battlecry:</b> Your Hero Power becomes 'Deal 8_damage to a random enemy.'",
+            "artist": "James Ryman",
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_934t1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_934t1_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_408",
+            "dbfId": "42671",
+            "name": "Val'kyr Soulclaimer",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 1,
+            "health": 4,
+            "text": "[x]After this minion\\nsurvives damage,\\nsummon a 2/2 Ghoul.",
+            "flavor": "My Ghoul friend is back and you're gonna be in trouble.",
+            "artist": "Hideaki Takamura",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_408.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_408_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_084",
+            "dbfId": "1009",
+            "name": "Warsong Commander",
+            "cardSet": "Basic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 3,
+            "attack": 2,
+            "health": 3,
+            "text": "Your <b>Charge</b> minions have +1 Attack.",
+            "flavor": "The Warsong clan is <i>such drama</i>. It's really not worth it to become a commander.",
+            "artist": "Wei Wang",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked at Level 1.",
+            "howToGetGold": "Unlocked at Level 36.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_084.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_084_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Charge"
+                },
+                {
+                    "name": "Aura"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_398",
+            "dbfId": "538",
+            "name": "Arathi Weaponsmith",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 4,
+            "attack": 3,
+            "health": 3,
+            "text": "<b>Battlecry:</b> Equip a 2/2_weapon.",
+            "flavor": "50% off fist weapons, limited time only!",
+            "artist": "Samwise",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_398.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_398_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "BRM_016",
+            "dbfId": "2297",
+            "name": "Axe Flinger",
+            "cardSet": "Blackrock Mountain",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 4,
+            "attack": 2,
+            "health": 5,
+            "text": "Whenever this minion takes damage, deal 2 damage to the enemy hero.",
+            "flavor": "Once a lowly \"Stick Flinger\", he's been relentless on the path to his ultimate dream: \"Tauren Flinger\".",
+            "artist": "Efrem Palacios",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked in Molten Core, in the Blackrock Mountain adventure.",
+            "howToGetGold": "Crafting unlocked in Molten Core, in the Blackrock Mountain adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BRM_016.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BRM_016_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_064",
+            "dbfId": "42700",
+            "name": "Blood Razor",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Weapon",
+            "rarity": "Common",
+            "cost": 4,
+            "attack": 2,
+            "durability": 2,
+            "text": "<b>Battlecry and Deathrattle:</b>\\nDeal 1 damage to all_minions.",
+            "flavor": "For the close shave that you've always wanted. Caution: Very sharp.",
+            "artist": "Joe Wilson",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_064.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_064_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                },
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_218",
+            "dbfId": "38738",
+            "name": "Bloodhoof Brave",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 4,
+            "attack": 2,
+            "health": 6,
+            "text": "<b>Taunt</b>\\nHas +3 Attack while damaged.",
+            "flavor": "He thought the set was called \"Flippers of the Old Cods\" and hungrily volunteered to be in it.  He is definitely going to get his hearing checked.",
+            "artist": "Paul Mafayon",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_218.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_218_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_631",
+            "dbfId": "40438",
+            "name": "Brass Knuckles",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Weapon",
+            "rarity": "Epic",
+            "cost": 4,
+            "attack": 2,
+            "durability": 3,
+            "text": "[x]After your hero attacks,\\ngive a random minion in\\nyour hand +1/+1.",
+            "flavor": "For the goon that wants to make a fashion statement.",
+            "artist": "Anton Magdalina",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_631.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_631_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "FP1_021",
+            "dbfId": "1805",
+            "name": "Death's Bite",
+            "cardSet": "Naxxramas",
+            "type": "Weapon",
+            "rarity": "Common",
+            "cost": 4,
+            "attack": 4,
+            "durability": 2,
+            "text": "<b>Deathrattle:</b> Deal 1 damage to all minions.",
+            "flavor": "\"Take a bite outta Death.\" - McScruff the Deathlord",
+            "artist": "Jim Nelson",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked in The Construct Quarter, in the Naxxramas adventure.",
+            "howToGetGold": "Crafting unlocked in The Construct Quarter, in the Naxxramas adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FP1_021.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/FP1_021_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "TOT_342",
+            "dbfId": "51147",
+            "name": "Fatecleaver",
+            "cardSet": "Taverns of Time",
+            "type": "Weapon",
+            "cost": 4,
+            "attack": 4,
+            "durability": 2,
+            "text": "[x]After this kills a minion,\\ndestroy all copies of it\\n<i>(wherever they are).</i>",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TOT_342.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TOT_342_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CFM_754",
+            "dbfId": "40568",
+            "name": "Grimy Gadgeteer",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 4,
+            "attack": 4,
+            "health": 3,
+            "text": "At the end of your turn, give a random minion in your hand +2/+2.",
+            "flavor": "\"You look like a Gadgetgun 3000-Mark IV man, am I right?\"",
+            "artist": "Wayne Reynolds",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_754.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_754_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "NEW1_011",
+            "dbfId": "28",
+            "name": "Kor'kron Elite",
+            "cardSet": "Basic",
+            "type": "Minion",
+            "rarity": "Free",
+            "cost": 4,
+            "attack": 4,
+            "health": 3,
+            "text": "<b>Charge</b>",
+            "flavor": "The Kor'kron are the elite forces of Garrosh Hellscream. Let's just say you don't want to run into these guys while wearing a blue tabard.",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked at Level 4.",
+            "howToGetGold": "Unlocked at Level 44.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/NEW1_011.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/NEW1_011_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Charge"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_067",
+            "dbfId": "2753",
+            "name": "Magnataur Alpha",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Epic",
+            "cost": 4,
+            "attack": 5,
+            "health": 3,
+            "text": "Also damages the minions next to whomever\\nhe attacks.",
+            "flavor": "Playing him also gets you into the Magnataur Beta.",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_067.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_067_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GIL_803",
+            "dbfId": "47825",
+            "name": "Militia Commander",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 4,
+            "attack": 2,
+            "health": 5,
+            "text": "<b>Rush</b>\\n<b>Battlecry:</b> Gain +3_Attack this turn.",
+            "flavor": "She only needs two commands: \"Heel\" and \"Sic 'em!\"",
+            "artist": "Tyler West Studio",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_803.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_803_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Rush"
+                },
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_408",
+            "dbfId": "804",
+            "name": "Mortal Strike",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 4,
+            "text": "Deal $4 damage. If you have 12 or less Health, deal $6 instead.",
+            "flavor": "\"If you only use one ability, use Mortal Strike.\" - The Warrior Code, Line 6",
+            "artist": "Zoltan & Gabor",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_408.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_408_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_055",
+            "dbfId": "2023",
+            "name": "Screwjank Clunker",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 4,
+            "attack": 2,
+            "health": 5,
+            "text": "<b>Battlecry:</b> Give a friendly Mech +2/+2.",
+            "flavor": "If it breaks, just kick it a couple of times while yelling \"Durn thing!\"",
+            "artist": "Jesper Ejsing",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_055.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_055_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_756",
+            "dbfId": "40574",
+            "name": "Alley Armorsmith",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 5,
+            "attack": 2,
+            "health": 7,
+            "text": "[x]<b>Taunt</b>\\nWhenever this minion\\ndeals damage, gain\\nthat much Armor.",
+            "flavor": "The rent is cheap and she passes the savings onto YOU!",
+            "artist": "Rafael Zanchetin",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_756.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_756_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "CS2_112",
+            "dbfId": "304",
+            "name": "Arcanite Reaper",
+            "cardSet": "Basic",
+            "type": "Weapon",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 5,
+            "attack": 5,
+            "durability": 2,
+            "flavor": "No\u2026 actually you should fear the Reaper.",
+            "artist": "Stefan Kopinski",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked at Level 10.",
+            "howToGetGold": "Unlocked at Level 51.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_112.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_112_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_407",
+            "dbfId": "75",
+            "name": "Brawl",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Epic",
+            "cost": 5,
+            "text": "Destroy all minions except one. <i>(chosen randomly)</i>",
+            "flavor": "Do you know the first rule of Brawl Club?",
+            "artist": "Wayne Reynolds",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_407.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_407_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GIL_547",
+            "dbfId": "47053",
+            "name": "Darius Crowley",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 5,
+            "attack": 4,
+            "health": 4,
+            "text": "[x]<b>Rush</b>\\nAfter this attacks and kills\\na minion, gain +2/+2.",
+            "flavor": "You either die a villain, or live long enough to see yourself become the hero.",
+            "artist": "Arthur Bozonnet",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_547.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_547_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Rush"
+                }
+            ]
+        },
+        {
+            "cardId": "GILA_600h2",
+            "dbfId": "49563",
+            "name": "Darius Crowley",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "rarity": "Legendary",
+            "cost": 5,
+            "health": 30,
+            "armor": "5",
+            "text": "[x]<b>Battlecry:</b> Deal 5 damage\\nto all minions and choose\\na <b>Passive</b> Treasure.",
+            "artist": "Arthur Bozonnet",
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_600h2.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_600h2_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_450",
+            "dbfId": "42392",
+            "name": "Death Revenant",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 5,
+            "attack": 3,
+            "health": 3,
+            "text": "<b>Battlecry:</b> Gain +1/+1 for each damaged minion.",
+            "flavor": "How's everyone doing? Hurt? Bleeding? Wounded? ... Excellent.",
+            "artist": "Konstantin Turovec",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_450.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_450_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_957",
+            "dbfId": "41890",
+            "name": "Direhorn Hatchling",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 5,
+            "attack": 3,
+            "health": 6,
+            "text": "<b>Taunt</b>\\n<b>Deathrattle:</b> Shuffle a 6/9 Direhorn with <b>Taunt</b> into your deck.",
+            "flavor": "His mom could beat up your mom.",
+            "artist": "Peter Stapleton",
+            "collectible": true,
+            "race": "Beast",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_957.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_957_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                },
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_957t1",
+            "dbfId": "41889",
+            "name": "Direhorn Matriarch",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "cost": 5,
+            "attack": 6,
+            "health": 9,
+            "text": "<b>Taunt</b>",
+            "artist": "Peter Stapleton",
+            "race": "Beast",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_957t1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_957t1_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_104",
+            "dbfId": "48542",
+            "name": "Dyn-o-matic",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 5,
+            "attack": 3,
+            "health": 4,
+            "text": "<b>Battlecry:</b> Deal 5 damage randomly split among all minions_except_Mechs.",
+            "flavor": "Star player on the inter-office Boomball team.",
+            "artist": "Mauricio Herrera",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_104.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_104_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_655",
+            "dbfId": "47516",
+            "name": "Festeroot Hulk",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 5,
+            "attack": 2,
+            "health": 7,
+            "text": "After a friendly minion attacks, gain +1 Attack.",
+            "flavor": "Tree puns arboring.",
+            "artist": "Evgeniy Dlinnov",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_655.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_655_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "KAR_028",
+            "dbfId": "39417",
+            "name": "Fool's Bane",
+            "cardSet": "One Night in Karazhan",
+            "type": "Weapon",
+            "rarity": "Common",
+            "cost": 5,
+            "attack": 3,
+            "durability": 4,
+            "text": "Unlimited attacks each turn. Can't attack heroes.",
+            "flavor": "A fool and his bane are soon parted.",
+            "artist": "Anton Zemskov",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked in the Menagerie, in One Night in Karazhan.",
+            "howToGetGold": "Crafting unlocked in the Menagerie, in One Night in Karazhan.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KAR_028.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/KAR_028_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_285t3t",
+            "dbfId": "45772",
+            "name": "Iron Golem",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "cost": 5,
+            "attack": 5,
+            "health": 5,
+            "artist": "Zoltan Boros",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_285t3t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_285t3t_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "KAR_091",
+            "dbfId": "39747",
+            "name": "Ironforge Portal",
+            "cardSet": "One Night in Karazhan",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 5,
+            "text": "Gain 4 Armor.\\nSummon a random\\n4-Cost minion.",
+            "flavor": "Come to beautiful Ironforge! Where irons are forged and the forges are iron!",
+            "artist": "Nate Bowden",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked in the Spire, in One Night in Karazhan.",
+            "howToGetGold": "Crafting unlocked in the Spire, in One Night in Karazhan.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KAR_091.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/KAR_091_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_203t4",
+            "dbfId": "46076",
+            "name": "Mithril Golem",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "cost": 5,
+            "attack": 5,
+            "health": 5,
+            "artist": "A.J. Nazzaro",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_203t4.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_203t4_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_086",
+            "dbfId": "2054",
+            "name": "Siege Engine",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 5,
+            "attack": 5,
+            "health": 5,
+            "text": "Whenever you gain Armor, give this minion +1 Attack.",
+            "flavor": "Wintergrasp Keep's only weakness!",
+            "artist": "Zero Yue",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_086.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_086_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_285t4t",
+            "dbfId": "46062",
+            "name": "Spiked Shield",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Weapon",
+            "cost": 5,
+            "attack": 5,
+            "durability": 2,
+            "artist": "Zoltan Boros",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_285t4t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_285t4t_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_927",
+            "dbfId": "41407",
+            "name": "Sudden Genesis",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 5,
+            "text": "Summon copies of your damaged minions.",
+            "flavor": "Being hurt can make you another person.",
+            "artist": "Zoltan Boros",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_927.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_927_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_406",
+            "dbfId": "48526",
+            "name": "Supercollider",
+            "cardSet": "The Boomsday Project",
+            "type": "Weapon",
+            "rarity": "Epic",
+            "cost": 5,
+            "attack": 1,
+            "health": 0,
+            "durability": 3,
+            "text": "[x]After you attack a minion,\\nforce it to attack one\\nof its neighbors.",
+            "flavor": "Boom's Second Law of Motion:\\nHIT IT VERY HARD!",
+            "artist": "Jason Kang",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_406.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_406_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_033",
+            "dbfId": "38279",
+            "name": "Tentacles for Arms",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Weapon",
+            "rarity": "Epic",
+            "cost": 5,
+            "attack": 2,
+            "durability": 2,
+            "text": "<b>Deathrattle:</b> Return this to your hand.",
+            "flavor": "That's right. Garrosh just slapped you to death with a tentacle.",
+            "artist": "Alex Konstad",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_033.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_033_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "GVG_056t",
+            "dbfId": "2221",
+            "name": "Burrowing Mine",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Spell",
+            "cost": 6,
+            "text": "<b>Casts When Drawn</b>\\nYou take 10 damage.",
+            "artist": "Chris Seaman",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_056t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_056t_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "ImmuneToSpellpower"
+                },
+                {
+                    "name": "Casts When Drawn"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_537",
+            "dbfId": "47016",
+            "name": "Deadly Arsenal",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 6,
+            "text": "Reveal a weapon from your deck. Deal its Attack to all minions.",
+            "flavor": "Oh look. A Gorehowl.",
+            "artist": "Wayne Reynolds",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_537.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_537_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "AffectedBySpellPower"
+                }
+            ]
+        },
+        {
+            "cardId": "TOT_316",
+            "dbfId": "51072",
+            "name": "Draconic Herald",
+            "cardSet": "Taverns of Time",
+            "type": "Minion",
+            "cost": 6,
+            "attack": 5,
+            "health": 6,
+            "text": "<b>Battlecry:</b> <b>Discover</b> a minion.\\nGive it +3/+3 then put it on top of your deck.",
+            "race": "Dragon",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TOT_316.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TOT_316_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Discover"
+                },
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_370",
+            "dbfId": "46058",
+            "name": "Gather Your Party",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 6,
+            "text": "<b>Recruit</b> a minion.",
+            "flavor": "Thrilling adventure! Danger guaranteed! Loot uncertain! Death optional!  Who\u2019s with me?",
+            "artist": "L. Lullabi & K. Turovec",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_370.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_370_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Recruit"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_365",
+            "dbfId": "46027",
+            "name": "Gemstudded Golem",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 6,
+            "attack": 5,
+            "health": 9,
+            "text": "<b>Taunt</b>\\nCan only attack if you have 5 or more Armor.",
+            "flavor": "Perfectly accessorized to attract adventurers.",
+            "artist": "Luca Zontini",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_365.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_365_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "GVG_056",
+            "dbfId": "2024",
+            "name": "Iron Juggernaut",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 6,
+            "attack": 6,
+            "health": 5,
+            "text": "<b>Battlecry:</b> Shuffle a Mine into your opponent's deck. When drawn, it explodes for 10 damage.",
+            "flavor": "The Iron Juggernaut guards Orgrimmar and has just earned the \"Employee of the Month\" award!",
+            "artist": "Raymond Swanland",
+            "collectible": true,
+            "elite": true,
+            "race": "Mech",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_056.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_056_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_925",
+            "dbfId": "41404",
+            "name": "Ornery Direhorn",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 6,
+            "attack": 5,
+            "health": 5,
+            "text": "<b>Taunt</b>\\n<b>Battlecry:</b> <b>Adapt</b>.",
+            "flavor": "\"It's an herbivore.  How dangerous can it be?\"  - Famous last words",
+            "artist": "Luca Zontini",
+            "collectible": true,
+            "race": "Beast",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_925.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_925_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                },
+                {
+                    "name": "Adapt"
+                },
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_285t3",
+            "dbfId": "45773",
+            "name": "Runed Shield",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 6,
+            "text": "Gain 5 Armor.\\nSummon a 5/5 Golem.",
+            "artist": "Zoltan Boros",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_285t3.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_285t3_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_130",
+            "dbfId": "2723",
+            "name": "Sea Reaver",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Epic",
+            "cost": 6,
+            "attack": 6,
+            "health": 7,
+            "text": "When you draw this, deal 1 damage to your minions.",
+            "flavor": "A little better than Sea Minus Reaver.",
+            "artist": "James Ryman",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_130.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_130_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_218",
+            "dbfId": "48100",
+            "name": "Security Rover",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 6,
+            "attack": 2,
+            "health": 5,
+            "text": "[x]Whenever this minion\\ntakes damage, summon a\\n2/3 Mech with <b>Taunt</b>.",
+            "flavor": "Insecurity detected. Alerting hugbots.",
+            "artist": "Adam Byrne",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_218.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_218_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_285t2",
+            "dbfId": "45771",
+            "name": "Serrated Shield",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 6,
+            "text": "Gain 5 Armor.\\nDeal $5 damage.",
+            "artist": "Zoltan Boros",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_285t2.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_285t2_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_053",
+            "dbfId": "2021",
+            "name": "Shieldmaiden",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 6,
+            "attack": 5,
+            "health": 5,
+            "text": "<b>Battlecry:</b> Gain 5 Armor.",
+            "flavor": "She has three shieldbearers in her party to supply her with back ups when she gets low on durability.",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_053.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_053_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_285t4",
+            "dbfId": "45774",
+            "name": "Spiked Shield",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 6,
+            "text": "Gain 5 Armor.\\nEquip a 5/2 weapon.",
+            "artist": "Zoltan Boros",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_285t4.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_285t4_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_285t",
+            "dbfId": "45770",
+            "name": "Tower Shield +10",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 6,
+            "text": "Gain 5 Armor.\\nGain 10 more Armor.",
+            "artist": "Zoltan Boros",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_285t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_285t_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_285",
+            "dbfId": "45775",
+            "name": "Unidentified Shield",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 6,
+            "text": "Gain 5 Armor.\\nGains a bonus effect in_your hand.",
+            "flavor": "The kobold stared at the bundle for a long time. \u201cAh hah!\u201d he said. \u201cIt\u2019s a shield.\u201d",
+            "artist": "Dan Scott",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_285.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_285_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_301",
+            "dbfId": "38897",
+            "name": "Ancient Shieldbearer",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 7,
+            "attack": 6,
+            "health": 6,
+            "text": "<b>Battlecry:</b> If your C'Thun has at least 10 Attack, gain 10 Armor.",
+            "flavor": "Back in her day, each shield weighed two tons and she had to carry four of them on each arm!",
+            "artist": "Alex Konstad",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_301.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_301_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_237",
+            "dbfId": "48142",
+            "name": "Beryllium Nullifier",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "rarity": "Epic",
+            "cost": 7,
+            "attack": 3,
+            "health": 8,
+            "text": "<b>Magnetic</b>\\nCan't be targeted by spells or Hero Powers.",
+            "flavor": "Why Beryllium? Because it's hard to spell.",
+            "artist": "Anton Zemskov",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_237.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_237_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Magnetic"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_152",
+            "dbfId": "46721",
+            "name": "Blackhowl Gunspire",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 7,
+            "attack": 3,
+            "health": 8,
+            "text": "[x]Can't attack. Whenever\\nthis minion takes damage,\\ndeal 3 damage to a\\nrandom enemy.",
+            "flavor": "The upper windows used to be for aiming. Then we thought: \"Hey! MORE cannons!\"",
+            "artist": "Jason Kang",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_152.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_152_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_052",
+            "dbfId": "2020",
+            "name": "Crush",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 7,
+            "text": "Destroy a minion. If you have a damaged minion, this costs (4) less.",
+            "flavor": "Using this card on your enemies is one of the best things in life, according to some barbarians.",
+            "artist": "Michael Sutfin",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_052.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_052_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_238",
+            "dbfId": "48146",
+            "name": "Dr. Boom, Mad Genius",
+            "cardSet": "The Boomsday Project",
+            "type": "Hero",
+            "rarity": "Legendary",
+            "cost": 7,
+            "health": 30,
+            "armor": "7",
+            "text": "<b>Battlecry:</b> For the rest of the game, your Mechs have <b>Rush</b>.",
+            "flavor": "\"Of course I've gone mad with power. Ever try going mad without it?\"",
+            "artist": "Matt Dixon",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_238.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_238_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                },
+                {
+                    "name": "Rush"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_411",
+            "dbfId": "810",
+            "name": "Gorehowl",
+            "cardSet": "Classic",
+            "type": "Weapon",
+            "faction": "Neutral",
+            "rarity": "Epic",
+            "cost": 7,
+            "attack": 7,
+            "durability": 1,
+            "text": "Attacking a minion costs 1 Attack instead of 1 Durability.",
+            "flavor": "Grommash Hellscream's famous axe.  Somehow this ended up in Prince Malchezaar's possession.  Quite the mystery!",
+            "artist": "Zoltan & Gabor",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_411.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_411_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_203t3",
+            "dbfId": "46064",
+            "name": "Greater Mithril Spellstone",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 7,
+            "text": "Summon three 5/5 Mithril Golems.",
+            "artist": "A.J. Nazzaro",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_203t3.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_203t3_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_203",
+            "dbfId": "45519",
+            "name": "Lesser Mithril Spellstone",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 7,
+            "text": "Summon one 5/5 Mithril Golem. <i>(Equip a weapon to upgrade.)</i>",
+            "flavor": "To dwarves of stone the demon called\\nWith promises of might, enthralled\\nIn grasping greed they found their doom\\nForever bound in mithril tombs.",
+            "artist": "A.J. Nazzaro",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_203.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_203_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_220",
+            "dbfId": "38739",
+            "name": "Malkorok",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 7,
+            "attack": 6,
+            "health": 5,
+            "text": "<b>Battlecry:</b> Equip a random weapon.",
+            "flavor": "Garrosh's best buddy. It's true. Look it up.",
+            "artist": "E. Guiton & Nutchapol ",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_220.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_220_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_203t2",
+            "dbfId": "46063",
+            "name": "Mithril Spellstone",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 7,
+            "text": "Summon two 5/5 Mithril Golems. <i>(Equip a weapon to upgrade.)</i>",
+            "artist": "A.J. Nazzaro",
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_203t2.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_203t2_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOE_009",
+            "dbfId": "2881",
+            "name": "Obsidian Destroyer",
+            "cardSet": "The League of Explorers",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 7,
+            "attack": 7,
+            "health": 7,
+            "text": "At the end of your turn, summon a 1/1 Scarab with <b>Taunt</b>.",
+            "flavor": "No obsidian is safe around the Obsidian Destroyer!",
+            "artist": "Anton Zemskov",
+            "collectible": true,
+            "playerClass": "Warrior",
+            "howToGet": "Unlocked in the Temple of Orsis, in the League of Explorers adventure.",
+            "howToGetGold": "Crafting unlocked in the Temple of Orsis, in the League of Explorers adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOE_009.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOE_009_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_838",
+            "dbfId": "41881",
+            "name": "Tar Lord",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 7,
+            "attack": 1,
+            "health": 11,
+            "text": "<b>Taunt</b>\\nHas +4 Attack during your opponent\u2019s turn.",
+            "flavor": "Tar Lord, man... legendary monster? Aw, forget it.",
+            "artist": "Jim Nelson",
+            "collectible": true,
+            "race": "Elemental",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_838.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_838_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Taunt"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_519",
+            "dbfId": "46442",
+            "name": "Geosculptor Yip",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 8,
+            "attack": 4,
+            "health": 8,
+            "text": "At the end of your turn, summon a random minion with_Cost_equal_to_your Armor <i>(up to 10)</i>.",
+            "flavor": "Once crafted a gauntlet out of earwax and pure ambition.",
+            "artist": "Mike Azevedo",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_519.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_519_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_414",
+            "dbfId": "338",
+            "name": "Grommash Hellscream",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Legendary",
+            "cost": 8,
+            "attack": 4,
+            "health": 9,
+            "text": "<b>Charge</b>\\nHas +6 Attack while damaged.",
+            "flavor": "Grommash drank the tainted blood of Mannoroth, dooming the orcs to green skin and red eyes!  Maybe not his best decision.",
+            "artist": "Glenn Rane",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_414.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_414_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Charge"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_405",
+            "dbfId": "42630",
+            "name": "Rotface",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 8,
+            "attack": 4,
+            "health": 6,
+            "text": "[x]After this minion\\nsurvives damage,\\nsummon a random\\n<b>Legendary</b> minion.",
+            "flavor": "Daddy! I think I made a Legendary!",
+            "artist": "Anton Zemskov",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_405.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_405_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_834",
+            "dbfId": "43423",
+            "name": "Scourgelord Garrosh",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Hero",
+            "rarity": "Legendary",
+            "cost": 8,
+            "health": 30,
+            "armor": "5",
+            "text": "<b>Battlecry</b>: Equip a 4/3_Shadowmourne that also damages adjacent minions.",
+            "flavor": "\"You dare to challenge me? Come! Draw your last breath - and then, you are mine.\"",
+            "artist": "Greg Staples",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_834.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_834_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_DK_Garrosh",
+            "dbfId": "52233",
+            "name": "Scourgelord Garrosh",
+            "cardSet": "Tavern Brawl",
+            "type": "Hero",
+            "rarity": "Legendary",
+            "cost": 8,
+            "health": 30,
+            "armor": "0",
+            "text": "<b>Battlecry</b>: Equip a 4/3_Shadowmourne that also damages adjacent minions.",
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_DK_Garrosh.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_DK_Garrosh_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_834w",
+            "dbfId": "45297",
+            "name": "Shadowmourne",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Weapon",
+            "cost": 8,
+            "attack": 4,
+            "durability": 3,
+            "text": "Also damages the minions next to whomever your hero_attacks.",
+            "artist": "Thomas Tenery",
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_834w.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_834w_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_380",
+            "dbfId": "46077",
+            "name": "Woecleaver",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Weapon",
+            "rarity": "Legendary",
+            "cost": 8,
+            "attack": 3,
+            "durability": 3,
+            "text": "After your hero attacks, <b>Recruit</b> a minion.",
+            "flavor": "Turn that frown into TWO frowns!",
+            "artist": "Matthew O'Connor",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_380.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_380_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Recruit"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_933",
+            "dbfId": "41425",
+            "name": "King Mosh",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Legendary",
+            "cost": 9,
+            "attack": 9,
+            "health": 7,
+            "text": "<b>Battlecry:</b> Destroy all damaged minions.",
+            "flavor": "He's a terror at concerts.",
+            "artist": "James Ryman",
+            "collectible": true,
+            "elite": true,
+            "race": "Beast",
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_933.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_933_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_069",
+            "dbfId": "47928",
+            "name": "The Boomship",
+            "cardSet": "The Boomsday Project",
+            "type": "Spell",
+            "rarity": "Legendary",
+            "cost": 9,
+            "text": "Summon 3 random minions from your hand. Give them <b>Rush</b>.",
+            "flavor": "Dr. Boom ends his motivational speeches by dropping the mechs.",
+            "artist": "Zoltan Boros",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_069.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_069_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Rush"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_072",
+            "dbfId": "2760",
+            "name": "Varian Wrynn",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 10,
+            "attack": 7,
+            "health": 7,
+            "text": "<b>Battlecry:</b> Draw 3 cards.\\nPut any minions you drew directly into the battlefield.",
+            "flavor": "Leader of the Alliance!  Father of Anduin!  Also he likes to play Arena, and he averages 12 wins.",
+            "artist": "Wei Wang",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Warrior",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_072.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_072_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        }
+    ]
+}

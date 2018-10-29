@@ -1,0 +1,4221 @@
+{
+    "data": [
+        {
+            "cardId": "BOT_087e",
+            "dbfId": "48992",
+            "name": "Academic Espionage",
+            "cardSet": "The Boomsday Project",
+            "type": "Enchantment",
+            "text": "Costs (1).",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_52h2",
+            "dbfId": "48874",
+            "name": "Beastly Pete",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 50,
+            "artist": "Garrett Hanna",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_52h2.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_52h2_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_45h",
+            "dbfId": "47316",
+            "name": "Bink the Burglar",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 10,
+            "text": "<i>This low-down thief preys on starting adventurers.</i>",
+            "artist": "Dan Scott",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_45h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_45h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_12h",
+            "dbfId": "46317",
+            "name": "Candlebeard",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 20,
+            "text": "<i>This kobold pirate's favorite move is chaaaarrrge!</i>",
+            "artist": "Anton Zemskov",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_12h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_12h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_31h",
+            "dbfId": "46318",
+            "name": "Candlebeard",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 60,
+            "text": "<i>This kobold pirate's favorite move is chaaaarrrge!</i>",
+            "artist": "Anton Zemskov",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_31h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_31h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_60h",
+            "dbfId": "48951",
+            "name": "Captain Shivers",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 75,
+            "text": "<i>Vowing vengeance, his cursed crew haunts Gilnean shores.</i>",
+            "artist": "James Ryman",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_60h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_60h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_073e2",
+            "dbfId": "1625",
+            "name": "Cold Blood",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "+4 Attack.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_073e",
+            "dbfId": "1626",
+            "name": "Cold Blood",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "+2 Attack.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_128e",
+            "dbfId": "1756",
+            "name": "Concealed",
+            "cardSet": "Hall of Fame",
+            "type": "Enchantment",
+            "text": "Stealthed until your next turn.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_22h",
+            "dbfId": "48070",
+            "name": "Cutthroat Willie",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 25,
+            "text": "<i>WANTED: For doing exactly what his name suggests.</i>",
+            "artist": "Konstantin Turovec",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_22h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_22h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_827p",
+            "dbfId": "43188",
+            "name": "Death's Shadow",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Hero Power",
+            "text": "<b>Passive Hero Power</b>\\nDuring your turn, add a 'Shadow Reflection' to your hand.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_827p.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_827p_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_DK_Valeera_HP",
+            "dbfId": "53150",
+            "name": "Death's Shadow",
+            "cardSet": "Tavern Brawl",
+            "type": "Hero Power",
+            "text": "<b>Passive Hero Power</b>\\nDuring your turn, add a 'Shadow Reflection' to your hand.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_DK_Valeera_HP.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_DK_Valeera_HP_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "NEW1_014e",
+            "dbfId": "38405",
+            "name": "Disguised",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "Stealthed until your next turn.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_Superfriends002e",
+            "dbfId": "39895",
+            "name": "Draw Offensive Play",
+            "cardSet": "Tavern Brawl",
+            "type": "Enchantment",
+            "text": "Draw Offensive Play on first, third, and fifth turn",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_56h",
+            "dbfId": "48940",
+            "name": "Face Collector",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 60,
+            "text": "[x]<i>Beware his terrible\\nminions and their\\never-shifting faces.</i>",
+            "artist": "James Ryman",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_56h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_56h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_Superfriends001e",
+            "dbfId": "39881",
+            "name": "Facilitated",
+            "cardSet": "Tavern Brawl",
+            "type": "Enchantment",
+            "text": "The next legend you cast this turn costs (3) less.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_51h",
+            "dbfId": "48868",
+            "name": "Garrow, the Rancorous",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 40,
+            "text": "<i>Missing? Dead? He'll still collect.</i>",
+            "artist": "Vladimir Kafanov",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_51h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_51h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_26h",
+            "dbfId": "48196",
+            "name": "Gnomenapper",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 40,
+            "text": "<i>A collector of gnomes. Real ones.</i>",
+            "artist": "Paul Mafayon",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_26h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_26h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_027e",
+            "dbfId": "2220",
+            "name": "Ironed Out",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Enchantment",
+            "text": "Increased stats.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_283e",
+            "dbfId": "48470",
+            "name": "Kinetic Energy",
+            "cardSet": "The Boomsday Project",
+            "type": "Enchantment",
+            "text": "Increased stats.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_542e",
+            "dbfId": "47070",
+            "name": "Kingsbane Shuffle",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Enchantment",
+            "text": "Getting ready to shuffle in.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_034e",
+            "dbfId": "2764",
+            "name": "Laced",
+            "cardSet": "The Grand Tournament",
+            "type": "Enchantment",
+            "text": "Increased Attack.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_221e",
+            "dbfId": "42664",
+            "name": "Leeching Poison",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Enchantment",
+            "text": "<b>Lifesteal</b>",
+            "playerClass": "Rogue",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Lifesteal"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_342e",
+            "dbfId": "40790",
+            "name": "Looted Blade",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Enchantment",
+            "text": "+4/+4.",
+            "artist": "Mark Gibbons",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "HERO_03a",
+            "dbfId": "40195",
+            "name": "Maiev Shadowsong",
+            "cardSet": "Hero Skins",
+            "type": "Hero",
+            "faction": "Neutral",
+            "rarity": "Epic",
+            "health": 30,
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/HERO_03a.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/HERO_03a_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_243e",
+            "dbfId": "49384",
+            "name": "Necroalchemy",
+            "cardSet": "The Boomsday Project",
+            "type": "Enchantment",
+            "text": "Copied Deathrattle from {0}.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "FB_TagTeam_Rogue_Ench",
+            "dbfId": "41010",
+            "name": "Next Hero: Rogue Ench",
+            "cardSet": "Tavern Brawl",
+            "type": "Enchantment",
+            "faction": "Neutral",
+            "text": "Add Rogue cards to your deck.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "FB_LK_Rogue_Ench_copy",
+            "dbfId": "46518",
+            "name": "Next Hero: Rogue Ench Copy",
+            "cardSet": "Tavern Brawl",
+            "type": "Enchantment",
+            "faction": "Neutral",
+            "text": "Add Rogue cards to your deck.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_576e",
+            "dbfId": "50551",
+            "name": "Overcharged",
+            "cardSet": "The Boomsday Project",
+            "type": "Enchantment",
+            "text": "+4 Attack.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_145o",
+            "dbfId": "1760",
+            "name": "Preparation",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "The next spell you cast this turn costs (3) less.",
+            "playerClass": "Rogue",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "OneTurnEffect"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_240e",
+            "dbfId": "46044",
+            "name": "Resilient Weapon",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Enchantment",
+            "text": "No durability loss.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_51h",
+            "dbfId": "47365",
+            "name": "Russell the Bard",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 30,
+            "text": "<i>His tunes are catchy. Just ask your minions.</i>",
+            "artist": "Garrett Hanna",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_51h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_51h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_850e",
+            "dbfId": "45716",
+            "name": "Shaded",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Enchantment",
+            "text": "<b>Immune</b> this turn.",
+            "playerClass": "Rogue",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "OneTurnEffect"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_827e",
+            "dbfId": "43390",
+            "name": "Shadow Reflection",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Enchantment",
+            "text": "Always copy your last played card.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_ShadowReflection_001e",
+            "dbfId": "48308",
+            "name": "Shadow Reflection",
+            "cardSet": "Tavern Brawl",
+            "type": "Enchantment",
+            "text": "Always copy your last played card.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_032e",
+            "dbfId": "2769",
+            "name": "Shady Deals",
+            "cardSet": "The Grand Tournament",
+            "type": "Enchantment",
+            "text": "+1/+1.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_083e",
+            "dbfId": "1644",
+            "name": "Sharpened",
+            "cardSet": "Basic",
+            "type": "Enchantment",
+            "text": "+1 Attack this turn.",
+            "playerClass": "Rogue",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "OneTurnEffect"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_BlingBrawl_Hero1e",
+            "dbfId": "38974",
+            "name": "Sharpened",
+            "cardSet": "Tavern Brawl",
+            "type": "Enchantment",
+            "text": "+1 Attack",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BCON_016e",
+            "dbfId": "50133",
+            "name": "Smoke Bombed",
+            "cardSet": "Basic",
+            "type": "Enchantment",
+            "text": "Stealthed until your next turn.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_063e",
+            "dbfId": "41215",
+            "name": "Sprout",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Enchantment",
+            "text": "Increased stats.",
+            "artist": "Craig Elliot",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_267e",
+            "dbfId": "39100",
+            "name": "Squid Oil Sheen",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Enchantment",
+            "text": "+2 Attack",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_500h3",
+            "dbfId": "48486",
+            "name": "Tess Greymane",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 20,
+            "artist": "J. Axer",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_500h3.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_500h3_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_13h",
+            "dbfId": "46321",
+            "name": "Thaddock the Thief",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 40,
+            "text": "<i>One moment her minions are there... the next... gone!</i>",
+            "artist": "Dave Allsop",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_13h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_13h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GILA_BOSS_50h",
+            "dbfId": "48814",
+            "name": "The Whisperer",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "health": 25,
+            "text": "<i>Do you hear the echoes of his whispers?</i>",
+            "artist": "Phil Saunders",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_50h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_50h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_070e",
+            "dbfId": "38390",
+            "name": "Thirsty Blades",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Enchantment",
+            "rarity": "Common",
+            "text": "+1/+1.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CFM_694e",
+            "dbfId": "40789",
+            "name": "Trained",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Enchantment",
+            "text": "+2/+2.",
+            "artist": "Andrew Hou",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOE_019e",
+            "dbfId": "38323",
+            "name": "Unearthed Raptor",
+            "cardSet": "The League of Explorers",
+            "type": "Enchantment",
+            "text": "Copied Deathrattle from {0}.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "HERO_03",
+            "dbfId": "930",
+            "name": "Valeera Sanguinar",
+            "cardSet": "Basic",
+            "type": "Hero",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "health": 30,
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/HERO_03.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/HERO_03_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_613e",
+            "dbfId": "593",
+            "name": "VanCleef's Vengeance",
+            "cardSet": "Classic",
+            "type": "Enchantment",
+            "text": "Increased stats.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_827e3",
+            "dbfId": "45396",
+            "name": "Veil of Shadows",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Enchantment",
+            "text": "<b>Stealth</b> until your next turn.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_38h",
+            "dbfId": "47001",
+            "name": "Voodoomaster Vex",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "health": 50,
+            "text": "<i>He wants to be a troll. He cries for battle and rattles for death.</i>",
+            "artist": "Matt Dixon",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_38h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_38h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_018e",
+            "dbfId": "45884",
+            "name": "Witty Weaponplay",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Enchantment",
+            "text": "Increased stats.",
+            "playerClass": "Rogue",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_01",
+            "dbfId": "47382",
+            "name": "Adrenaline Rush",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_01.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_01_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_10",
+            "dbfId": "47403",
+            "name": "Assassin",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_10.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_10_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_072",
+            "dbfId": "180",
+            "name": "Backstab",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 0,
+            "text": "Deal $2 damage to an undamaged minion.",
+            "flavor": "It's funny how often yelling \"Look over there!\" gets your opponent to turn around.",
+            "artist": "Michael Sutfin",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked at Level 1.",
+            "howToGetGold": "Unlocked at Level 36.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_072.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_072_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_13",
+            "dbfId": "47407",
+            "name": "Bag of Tricks",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_13.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_13_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_03",
+            "dbfId": "47384",
+            "name": "Blademaster",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_03.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_03_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_CoOpv3_201",
+            "dbfId": "41667",
+            "name": "Cast from Shadow",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "cost": 0,
+            "text": "Destroy all undamaged minions. Return the rest to their owner's hand.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_CoOpv3_201.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_CoOpv3_201_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CFM_630",
+            "dbfId": "40437",
+            "name": "Counterfeit Coin",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 0,
+            "text": "Gain 1 Mana Crystal this turn only.",
+            "flavor": "There is something funny about this coin\u2026 can't quite put my finger on it\u2026",
+            "artist": "Joe Wilson",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_630.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_630_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_15",
+            "dbfId": "47580",
+            "name": "Cult of C'thun",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_15.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_15_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_04",
+            "dbfId": "47385",
+            "name": "Death Dealer",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_04.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_04_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_02",
+            "dbfId": "47383",
+            "name": "Evasive",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_02.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_02_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_16",
+            "dbfId": "47581",
+            "name": "Exhaustion",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_16.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_16_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_07",
+            "dbfId": "47400",
+            "name": "Greed",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_07.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_07_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_05",
+            "dbfId": "47398",
+            "name": "Jade Lotus",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_05.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_05_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_99h",
+            "dbfId": "47210",
+            "name": "King Togwaggle",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "cost": 0,
+            "health": 70,
+            "text": "<i>Look out! He's loaded with loot from failed adventurers.</i>",
+            "artist": "Konstantin Turovec",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_99h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_99h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_11",
+            "dbfId": "47404",
+            "name": "Outlaws",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_11.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_11_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_145",
+            "dbfId": "1158",
+            "name": "Preparation",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Epic",
+            "cost": 0,
+            "text": "The next spell you cast this turn costs (3) less.",
+            "flavor": "\"Be Prepared\" - Rogue Motto",
+            "artist": "Clint Langley",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_145.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_145_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "FB_LK_Rogue_copy",
+            "dbfId": "46527",
+            "name": "Rogue",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "text": "Select Rogue as your next class.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_LK_Rogue_copy.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_LK_Rogue_copy_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_ClassRandom_Rogue",
+            "dbfId": "40039",
+            "name": "Second Class: Rogue",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "cost": 0,
+            "text": "Add Rogue cards to your deck.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_ClassRandom_Rogue.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_ClassRandom_Rogue_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_827t",
+            "dbfId": "45724",
+            "name": "Shadow Reflection",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Spell",
+            "cost": 0,
+            "text": "Each time you play a card, transform this into a copy of it.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_827t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_827t_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_ShadowReflection_001",
+            "dbfId": "48320",
+            "name": "Shadow Reflection",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "cost": 0,
+            "text": "Each time you play a card, transform this into a copy of it until the end of your turn.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_ShadowReflection_001.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_ShadowReflection_001_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_144",
+            "dbfId": "365",
+            "name": "Shadowstep",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 0,
+            "text": "Return a friendly minion to your hand. It_costs (2) less.",
+            "flavor": "Rogue dance troops will sometimes Shadowstep away at the end of a performance.  Crowds love it.",
+            "artist": "Graven Tung",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_144.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_144_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_809e",
+            "dbfId": "47533",
+            "name": "Test Subject",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Enchantment",
+            "rarity": "Common",
+            "cost": 0,
+            "attack": 0,
+            "health": 0,
+            "text": "<b>Poisonous</b>",
+            "playerClass": "Rogue",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Poisonous"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_TagTeam_Rogue",
+            "dbfId": "41018",
+            "name": "The Saint",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "text": "Assassinate with blinding speed!",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_TagTeam_Rogue.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_TagTeam_Rogue_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_Rogue_09",
+            "dbfId": "47402",
+            "name": "Thief",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 0,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Rogue_09.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Rogue_09_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOTA_BOSS_52h",
+            "dbfId": "47465",
+            "name": "Treasure Vault",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Hero",
+            "cost": 0,
+            "health": 60,
+            "text": "<i>Grab all you can, as fast as you can!</i>",
+            "artist": "James Paick",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_52h.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_52h_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_070",
+            "dbfId": "38391",
+            "name": "Bladed Cultist",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 1,
+            "attack": 1,
+            "health": 2,
+            "text": "<b>Combo:</b> Gain +1/+1.",
+            "flavor": "He has a poor understanding of the law of diminishing returns.",
+            "artist": "Jakub Kasber",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_070.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_070_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_080c",
+            "dbfId": "38938",
+            "name": "Bloodthistle Toxin",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Spell",
+            "cost": 1,
+            "text": "Return a friendly minion to your hand.\\nIt costs (2) less.",
+            "artist": "Nutchapol Thitinunthakorn",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_080c.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_080c_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_080d",
+            "dbfId": "38940",
+            "name": "Briarthorn Toxin",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Spell",
+            "cost": 1,
+            "text": "Give a minion +3 Attack.",
+            "artist": "Matthew O'Connor",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_080d.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_080d_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_029",
+            "dbfId": "2715",
+            "name": "Buccaneer",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "text": "Whenever you equip a weapon, give it +1 Attack.",
+            "flavor": "The best part of buccaneering is the pants.",
+            "artist": "Matt Dixon",
+            "collectible": true,
+            "race": "Pirate",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_029.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_029_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_073",
+            "dbfId": "268",
+            "name": "Cold Blood",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 1,
+            "text": "Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.",
+            "flavor": "\"I'm cold blooded, check it and see!\"",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_073.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_073_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_128",
+            "dbfId": "990",
+            "name": "Conceal",
+            "cardSet": "Hall of Fame",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 1,
+            "text": "Give your minions <b>Stealth</b> until your next_turn.",
+            "flavor": "Rogues conceal everything but their emotions.  You can't get 'em to shut up about feelings.",
+            "artist": "Steve Hui",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_128.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_128_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                }
+            ]
+        },
+        {
+            "cardId": "CS2_074",
+            "dbfId": "459",
+            "name": "Deadly Poison",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 1,
+            "text": "Give your weapon +2_Attack.",
+            "flavor": "Rogues guard the secrets to poison-making carefully, lest magi start incorporating poison into their spells.  Poisonbolt? Rain of Poison?  Poison Elemental?  Nobody wants that.",
+            "artist": "Trevor Jacobs",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked at Level 1.",
+            "howToGetGold": "Unlocked at Level 43.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_074.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_074_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_131t",
+            "dbfId": "488",
+            "name": "Defias Bandit",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_131t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_131t_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TOT_108",
+            "dbfId": "51049",
+            "name": "D\u00e9j\u00e0 Vu",
+            "cardSet": "Taverns of Time",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 1,
+            "text": "<b>Discover</b> a copy of a spell you played this game.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TOT_108.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TOT_108_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Discover"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_233",
+            "dbfId": "42801",
+            "name": "Doomerang",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 1,
+            "text": "Throw your weapon at a minion. It deals its damage, then returns to_your hand.",
+            "flavor": "Guaranteed to return your weapon directly to your hand! (Wear gloves. Thick ones.)",
+            "artist": "L. Lullabi & K. Turovec",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_233.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_233_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "ImmuneToSpellpower"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_080e",
+            "dbfId": "38942",
+            "name": "Fadeleaf Toxin",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Spell",
+            "cost": 1,
+            "text": "Give a friendly minion <b>Stealth</b> until your next turn.",
+            "artist": "Joe Wilson",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_080e.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_080e_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_080f",
+            "dbfId": "38935",
+            "name": "Firebloom Toxin",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Spell",
+            "cost": 1,
+            "text": "Deal $2 damage.",
+            "artist": "Izzy Hoover",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_080f.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_080f_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_856",
+            "dbfId": "42011",
+            "name": "Hallucination",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 1,
+            "text": "<b>Discover</b> a card from your opponent's class.",
+            "flavor": "It's the good kind of hallucination.",
+            "artist": "Daria Tuzova",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_856.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_856_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Discover"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_072",
+            "dbfId": "38393",
+            "name": "Journey Below",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 1,
+            "text": "<b>Discover</b> a <b>Deathrattle</b> card.",
+            "flavor": "Don't stop believing there's something below.",
+            "artist": "Zoltan Boros",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_072.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_072_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Discover"
+                },
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_542",
+            "dbfId": "47035",
+            "name": "Kingsbane",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Weapon",
+            "rarity": "Legendary",
+            "cost": 1,
+            "attack": 1,
+            "health": 3,
+            "durability": 3,
+            "text": "[x]<b>Deathrattle:</b> Shuffle\\nthis into your deck.\\nIt keeps any\\nenchantments.",
+            "flavor": "But it has a soft spot for emperors.",
+            "artist": "Evgeniy Dlinnov",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_542.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_542_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_080b",
+            "dbfId": "38934",
+            "name": "Kingsblood Toxin",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Spell",
+            "cost": 1,
+            "text": "Draw a card.",
+            "artist": "Tyler Walpole",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_080b.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_080b_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOE_010",
+            "dbfId": "2882",
+            "name": "Pit Snake",
+            "cardSet": "The League of Explorers",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "text": "<b>Poisonous</b>",
+            "flavor": "It could be worse.  It could be a Snake Pit.",
+            "artist": "Bernie Kang",
+            "collectible": true,
+            "race": "Beast",
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked in The Ruined City, in the League of Explorers adventure.",
+            "howToGetGold": "Crafting unlocked in The Ruined City, in the League of Explorers adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOE_010.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOE_010_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Poisonous"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_132_ROGUEt",
+            "dbfId": "2746",
+            "name": "Poisoned Dagger",
+            "cardSet": "The Grand Tournament",
+            "type": "Weapon",
+            "cost": 1,
+            "attack": 2,
+            "durability": 2,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_ROGUEt.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_ROGUEt_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_132_ROGUEt_H1",
+            "dbfId": "46055",
+            "name": "Poisoned Dagger",
+            "cardSet": "Hero Skins",
+            "type": "Weapon",
+            "cost": 1,
+            "attack": 2,
+            "durability": 2,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_ROGUEt_H1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_ROGUEt_H1_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_565t",
+            "dbfId": "49360",
+            "name": "Radioactive Ooze",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "text": "<b>Poisonous</b>\\n<b>Rush</b>",
+            "artist": "Anton Kagounkin",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BOT_565t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BOT_565t_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Poisonous"
+                },
+                {
+                    "name": "Rush"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_057t1",
+            "dbfId": "41206",
+            "name": "Razorpetal",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "faction": "Neutral",
+            "cost": 1,
+            "text": "Deal $1 damage.",
+            "artist": "Akkapoj Thawornsathitwong",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_057t1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_057t1_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_075",
+            "dbfId": "710",
+            "name": "Sinister Strike",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 1,
+            "text": "Deal $3 damage to the_enemy hero.",
+            "flavor": "There's something about this strike that just feels off.  Sinister, even.",
+            "artist": "Frank Cho",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked at Level 1.",
+            "howToGetGold": "Unlocked at Level 15.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_075.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_075_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BCON_016",
+            "dbfId": "49241",
+            "name": "Smoke Bomb",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "rarity": "Free",
+            "cost": 1,
+            "text": "Give a minion <b>Stealth</b> until your next turn. Draw a card.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BCON_016.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BCON_016_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "KAR_069",
+            "dbfId": "39698",
+            "name": "Swashburglar",
+            "cardSet": "One Night in Karazhan",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "text": "<b>Battlecry:</b> Add a random card to your hand <i>(from your opponent's class).</i>",
+            "flavor": "Was almost named \"Swashb-AAAARRHHH-gler\"",
+            "artist": "Zoltan Boros",
+            "collectible": true,
+            "race": "Pirate",
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked in the Opera, in One Night in Karazhan.",
+            "howToGetGold": "Crafting unlocked in the Opera, in One Night in Karazhan.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KAR_069.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/KAR_069_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_067",
+            "dbfId": "41222",
+            "name": "The Caverns Below",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "rarity": "Legendary",
+            "cost": 1,
+            "text": "[x]<b>Quest:</b> Play five minions\\nwith the same name.\\n<b>Reward:</b> Crystal Core.",
+            "flavor": "Why can't it ever be The Taverns Below?",
+            "artist": "James Ryman",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_067.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_067_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Quest"
+                }
+            ]
+        },
+        {
+            "cardId": "CS2_082_H1",
+            "dbfId": "46054",
+            "name": "Wicked Knife",
+            "cardSet": "Hero Skins",
+            "type": "Weapon",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 1,
+            "attack": 1,
+            "durability": 2,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_082_H1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_082_H1_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_082",
+            "dbfId": "485",
+            "name": "Wicked Knife",
+            "cardSet": "Basic",
+            "type": "Weapon",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 1,
+            "attack": 1,
+            "durability": 2,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_082.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_082_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_126",
+            "dbfId": "282",
+            "name": "Betrayal",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Force an enemy minion to deal its damage to the minions next to it.",
+            "flavor": "Everyone has a price. Gnomes, for example, can be persuaded by stuffed animals and small amounts of chocolate.",
+            "artist": "Lucas Graciano",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_126.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_126_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_063",
+            "dbfId": "41216",
+            "name": "Biteweed",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Epic",
+            "cost": 2,
+            "attack": 1,
+            "health": 1,
+            "text": "<b>Combo:</b> Gain +1/+1 for each other card you've played this turn.",
+            "flavor": "AKA Edwin VanLeaf.",
+            "artist": "Craig Elliot",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_063.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_063_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "FB_Champs_CS2_233",
+            "dbfId": "48851",
+            "name": "Blade Flurry",
+            "cardSet": "Tavern Brawl",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 2,
+            "text": "Destroy your weapon and deal its damage to all enemies.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Champs_CS2_233.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Champs_CS2_233_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "AffectedBySpellPower"
+                }
+            ]
+        },
+        {
+            "cardId": "TP_Bling_HP2",
+            "dbfId": "38991",
+            "name": "Cash In",
+            "cardSet": "Tavern Brawl",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "Destroy your weapon, gaining a random one.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TP_Bling_HP2.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TP_Bling_HP2_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_033",
+            "dbfId": "43237",
+            "name": "Cavern Shinyfinder",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 3,
+            "health": 1,
+            "durability": 0,
+            "text": "<b>Battlecry:</b> Draw a weapon from your deck.",
+            "flavor": "They call her the candled vandal.",
+            "artist": "Max Grecke",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_033.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_033_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_506",
+            "dbfId": "46897",
+            "name": "Cheap Shot",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "<b>Echo</b>\\n Deal $2 damage to a_minion.",
+            "flavor": "50% off. Every shot must go!",
+            "artist": "Rock Niu",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_506.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_506_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Echo"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_204",
+            "dbfId": "45520",
+            "name": "Cheat Death",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "<b>Secret:</b> When a friendly minion dies, return it to your hand.\\nIt costs (2) less.",
+            "flavor": "Reported.",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_204.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_204_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_031",
+            "dbfId": "2766",
+            "name": "Cutpurse",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "text": "Whenever this minion attacks a hero, add the Coin to your hand.",
+            "flavor": "He has a giant collection of purses now.  One for every outfit!",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_031.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_031_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_083b",
+            "dbfId": "730",
+            "name": "Dagger Mastery",
+            "cardSet": "Basic",
+            "type": "Hero Power",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nEquip a 1/2 Dagger.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_083b.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_083b_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_083b_H1",
+            "dbfId": "45821",
+            "name": "Dagger Mastery",
+            "cardSet": "Hero Skins",
+            "type": "Hero Power",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nEquip a 1/2 Dagger.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_083b_H1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_083b_H1_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_131",
+            "dbfId": "201",
+            "name": "Defias Ringleader",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "text": "<b>Combo:</b> Summon a 2/1 Defias Bandit.",
+            "flavor": "He stole the deed to town years ago, so technically the town <i>is</i> his. He just calls people Scrub to be mean.",
+            "artist": "Dany Orizio",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_131.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_131_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_214",
+            "dbfId": "45535",
+            "name": "Evasion",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 2,
+            "text": "<b>Secret:</b> After your hero takes damage, become <b>Immune</b> this turn.",
+            "flavor": "Works on weapons, missiles, and taxes.",
+            "artist": "Mauricio Herrera",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_214.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_214_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_124",
+            "dbfId": "904",
+            "name": "Eviscerate",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Deal $2 damage. <b>Combo:</b> Deal $4 damage instead.",
+            "flavor": "There is a high cost to Eviscerating your opponent:  It takes a long time to get blood stains out of leather armor.",
+            "artist": "Ariel Olivetti",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_124.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_124_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_693",
+            "dbfId": "40696",
+            "name": "Gadgetzan Ferryman",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 2,
+            "attack": 2,
+            "health": 3,
+            "text": "<b>Combo:</b> Return a friendly minion to your hand.",
+            "flavor": "Is it just me, or is there something fishy about that ferryman?",
+            "artist": "Zoltan Boros",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_693.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_693_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "BRM_007",
+            "dbfId": "2304",
+            "name": "Gang Up",
+            "cardSet": "Blackrock Mountain",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Choose a minion. Shuffle 3 copies of it into your deck.",
+            "flavor": "If you are thinking about visiting Moonbrook, you better roll deep.",
+            "artist": "Jim Nelson",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked in Blackrock Depths, in the Blackrock Mountain adventure.",
+            "howToGetGold": "Crafting unlocked in Blackrock Depths, in the Blackrock Mountain adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BRM_007.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BRM_007_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_023",
+            "dbfId": "1988",
+            "name": "Goblin Auto-Barber",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 3,
+            "health": 2,
+            "text": "<b>Battlecry:</b> Give your weapon +1 Attack.",
+            "flavor": "This guy is excellent at adjusting your haircut and/or height.",
+            "artist": "Zolton Boros",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_023.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_023_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_690",
+            "dbfId": "40698",
+            "name": "Jade Shuriken",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Deal $2 damage.\\n<b>Combo:</b> Summon a <b>Jade Golem</b>.",
+            "flavor": "Good news is, after you remove it from your wound, you can use it to pay your medical bills!",
+            "artist": "Izzy Hoover",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_690.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_690_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Jade Golem"
+                },
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_691",
+            "dbfId": "40697",
+            "name": "Jade Swarmer",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 1,
+            "health": 1,
+            "text": "<b>Stealth</b>\\n<b>Deathrattle:</b> Summon a <b>Jade Golem</b>.",
+            "flavor": "He's so good at swarming, he can swarm all by himself!",
+            "artist": "Slawomir Maniak",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_691.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_691_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Jade Golem"
+                },
+                {
+                    "name": "Deathrattle"
+                },
+                {
+                    "name": "Stealth"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_288",
+            "dbfId": "48480",
+            "name": "Lab Recruiter",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 3,
+            "health": 2,
+            "text": "<b>Battlecry:</b> Shuffle 3 copies of a friendly minion into your deck.",
+            "flavor": "Join the chemistry lab! We've got all the solutions.",
+            "artist": "Zoltan Boros",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_288.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_288_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_221",
+            "dbfId": "42665",
+            "name": "Leeching Poison",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Give your weapon <b>Lifesteal</b>.",
+            "flavor": "No actual leeches were harmed in the creation of this card.",
+            "artist": "Ben Thompson",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_221.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_221_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Lifesteal"
+                }
+            ]
+        },
+        {
+            "cardId": "GVG_025",
+            "dbfId": "1990",
+            "name": "One-eyed Cheat",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 2,
+            "attack": 4,
+            "health": 1,
+            "text": "Whenever you summon a Pirate, gain <b>Stealth</b>.",
+            "flavor": "When pirates say there is no \"Eye\" in \"team,\" they are very literal about it.",
+            "artist": "Danny Beck",
+            "collectible": true,
+            "race": "Pirate",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_025.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_025_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_522",
+            "dbfId": "1133",
+            "name": "Patient Assassin",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Epic",
+            "cost": 2,
+            "attack": 1,
+            "health": 1,
+            "text": "<b>Stealth</b>\\n <b>Poisonous</b>",
+            "flavor": "He\u2019s not really that patient. It just takes a while for someone to walk by that he can actually reach.",
+            "artist": "Ben Olson",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_522.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_522_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                },
+                {
+                    "name": "Poisonous"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_696",
+            "dbfId": "47799",
+            "name": "Pick Pocket",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 2,
+            "text": "<b>Echo</b>\\nAdd a random card to your hand <i>(from your opponent's class).</i>",
+            "flavor": "He'll pick anyone's pocket, except a gnome's. He'd never stoop so low.",
+            "artist": "Mauricio Herrera",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_696.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_696_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Echo"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_283",
+            "dbfId": "48471",
+            "name": "Pogo-Hopper",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 2,
+            "attack": 1,
+            "health": 1,
+            "text": "[x]<b>Battlecry:</b> Gain +2/+2 for\\neach other Pogo-Hopper\\nyou played this game.",
+            "flavor": "Once you hop, you just can't stop!",
+            "artist": "Matt Dixon",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_283.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_283_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_132_ROGUE",
+            "dbfId": "2743",
+            "name": "Poisoned Daggers",
+            "cardSet": "The Grand Tournament",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nEquip a 2/2 Weapon.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_ROGUE.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_ROGUE_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_132_ROGUE_H1",
+            "dbfId": "46053",
+            "name": "Poisoned Daggers",
+            "cardSet": "Hero Skins",
+            "type": "Hero Power",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nEquip a 2/2 Weapon.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_ROGUE_H1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_ROGUE_H1_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_058",
+            "dbfId": "41208",
+            "name": "Razorpetal Lasher",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "text": "[x]<b>Battlecry:</b> Add a\\nRazorpetal to your hand\\nthat deals 1 damage.",
+            "flavor": "The reason why there are no zombies in Un'goro.",
+            "artist": "Sojin Hwang",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_058.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_058_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_057",
+            "dbfId": "41207",
+            "name": "Razorpetal Volley",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "Add two Razorpetals to_your hand that deal_1 damage.",
+            "flavor": "The result of a fundamental misunderstanding of the phrase \"flower power\".",
+            "artist": "Chanchai Luechaiwattanasopon",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_057.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_057_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_201",
+            "dbfId": "42560",
+            "name": "Roll the Bones",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 2,
+            "text": "Draw a card.\\nIf it has <b>Deathrattle</b>, cast this again.",
+            "flavor": "Call it: Heads or Tailbone\u2026",
+            "artist": "Zoltan Boros",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_201.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_201_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_581",
+            "dbfId": "461",
+            "name": "Sap",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 2,
+            "text": "Return an enemy minion to your opponent's hand.",
+            "flavor": "Rogues love sappy movies.",
+            "artist": "Scott Altmann",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked at Level 1.",
+            "howToGetGold": "Unlocked at Level 40.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_581.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_581_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "TB_BlingBrawl_Hero1p",
+            "dbfId": "38975",
+            "name": "Sharpen",
+            "cardSet": "Tavern Brawl",
+            "type": "Hero Power",
+            "rarity": "Free",
+            "cost": 2,
+            "text": "<b>Hero Power</b>\\nIncrease your weapon's attack by 1",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BlingBrawl_Hero1p.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BlingBrawl_Hero1p_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_278",
+            "dbfId": "573",
+            "name": "Shiv",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 2,
+            "text": "Deal $1 damage.\\nDraw a card.",
+            "flavor": "Rogues are experts at SHIV-al-ry.",
+            "artist": "Alex Garner",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked at Level 6.",
+            "howToGetGold": "Unlocked at Level 45.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_278.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_278_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_210",
+            "dbfId": "45529",
+            "name": "Sudden Betrayal",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 2,
+            "text": "<b>Secret:</b> When a minion attacks your hero, instead it attacks one of_its neighbors.",
+            "flavor": "You thought he was your bro-bold, but turns out he's your foe-bold.",
+            "artist": "Matt Dixon",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_210.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_210_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Secret"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_330",
+            "dbfId": "39026",
+            "name": "Undercity Huckster",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "text": "<b>Deathrattle:</b> Add a random card to your hand <i>(from your opponent's class)</i>.",
+            "flavor": "Psst! Wanna buy a random class card (from your opponent's class)?",
+            "artist": "Jon Neimeister",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_330.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_330_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_030",
+            "dbfId": "2767",
+            "name": "Undercity Valiant",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 2,
+            "attack": 3,
+            "health": 2,
+            "text": "<b>Combo:</b> Deal 1 damage.",
+            "flavor": "Almost went to play for Stormwind before signing with Undercity.",
+            "artist": "Zoltan Boros ",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_030.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_030_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_035",
+            "dbfId": "2587",
+            "name": "Beneath the Grounds",
+            "cardSet": "The Grand Tournament",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 3,
+            "text": "Shuffle 3 Ambushes into your opponent's deck. When drawn, you summon a 4/4 Nerubian.",
+            "flavor": "Can you hold these eggs for just a second?  I promise they're not full of giant enraged undead spider things.",
+            "artist": "Daren Bader",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_035.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_035_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GIL_827",
+            "dbfId": "48199",
+            "name": "Blink Fox",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 3,
+            "attack": 3,
+            "health": 3,
+            "text": "<b>Battlecry:</b> Add a random card to your hand <i>(from your opponent's class).</i>",
+            "flavor": "It's like, SUPER bad at staring contests.",
+            "artist": "Eva Wildermann",
+            "collectible": true,
+            "race": "Beast",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_827.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_827_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_033",
+            "dbfId": "2770",
+            "name": "Burgle",
+            "cardSet": "The Grand Tournament",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 3,
+            "text": "Add 2 random cards to your hand <i>(from your opponent's class)</i>.",
+            "flavor": "Yoink!",
+            "artist": "Matt Dixon",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_033.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_033_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_024",
+            "dbfId": "1989",
+            "name": "Cogmaster's Wrench",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Weapon",
+            "rarity": "Epic",
+            "cost": 3,
+            "attack": 1,
+            "durability": 3,
+            "text": "Has +2 Attack while you have a Mech.",
+            "flavor": "For tightening cogs and smashin' troggs!",
+            "artist": "Richard Wright",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_024.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_024_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GIL_902",
+            "dbfId": "48585",
+            "name": "Cutthroat Buccaneer",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 3,
+            "attack": 2,
+            "health": 4,
+            "text": "<b>Combo:</b> Give your weapon +1 Attack.",
+            "flavor": "In life he worked as a sword swallower.",
+            "artist": "Konstantin Turovec",
+            "collectible": true,
+            "race": "Pirate",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_902.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_902_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "KAR_094",
+            "dbfId": "39822",
+            "name": "Deadly Fork",
+            "cardSet": "One Night in Karazhan",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 3,
+            "attack": 3,
+            "health": 2,
+            "text": "<b>Deathrattle:</b> Add a 3/2 weapon to your hand.",
+            "flavor": "For a proper setting, place the deadly fork <i>after</i> the salad fork, but <i>before</i> the dinner fork.",
+            "artist": "Konstantin Turovec",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked in the Parlor, in One Night in Karazhan.",
+            "howToGetGold": "Crafting unlocked in the Parlor, in One Night in Karazhan.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KAR_094.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/KAR_094_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_613",
+            "dbfId": "306",
+            "name": "Edwin VanCleef",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Legendary",
+            "cost": 3,
+            "attack": 2,
+            "health": 2,
+            "text": "<b>Combo:</b> Gain +2/+2 for each other card you've played this turn.",
+            "flavor": "He led the Stonemasons in the reconstruction of Stormwind, and when the nobles refused to pay, he founded the Defias Brotherhood to, well, <i>deconstruct</i> Stormwind.",
+            "artist": "Efrem Palacios",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_613.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_613_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_823",
+            "dbfId": "41834",
+            "name": "Envenom Weapon",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 3,
+            "text": "Give your weapon <b>Poisonous</b>.",
+            "flavor": "Like Deadly Poison, but deadlier.",
+            "artist": "Mauricio Herrera",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_823.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_823_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Poisonous"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_677",
+            "dbfId": "47599",
+            "name": "Face Collector",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 3,
+            "attack": 2,
+            "health": 2,
+            "text": "<b>Echo</b>\\n<b>Battlecry:</b> Add a random <b>Legendary</b> minion to your hand.",
+            "flavor": "\u201cI\u2019ll trade you a Malfurion for an Anduin.\u201d",
+            "artist": "James Ryman",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_677.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_677_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                },
+                {
+                    "name": "Echo"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_129",
+            "dbfId": "667",
+            "name": "Fan of Knives",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 3,
+            "text": "Deal $1 damage to all enemy minions. Draw_a card.",
+            "flavor": "I wouldn't say I LOVE knives, but I'm definitely a fan.",
+            "artist": "Andrew Robinson",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked at Level 4.",
+            "howToGetGold": "Unlocked at Level 28.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_129.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_129_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_137",
+            "dbfId": "708",
+            "name": "Headcrack",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 3,
+            "text": "Deal $2 damage to the enemy hero. <b>Combo:</b> Return this to your hand next turn.",
+            "flavor": "When all else fails, nothing beats a swift whack upside the head.",
+            "artist": "James Zhang",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_137.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_137_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "GVG_027",
+            "dbfId": "1992",
+            "name": "Iron Sensei",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 2,
+            "health": 2,
+            "text": "At the end of your turn, give another friendly Mech +2/+2.",
+            "flavor": "Mechs like learning from him because he really speaks their language.\\n\\n0110100001101001",
+            "artist": "Brian Despain",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_027.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_027_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_060",
+            "dbfId": "41212",
+            "name": "Mimic Pod",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 3,
+            "text": "Draw a card, then add a copy of it to your hand.",
+            "flavor": "Jinx!",
+            "artist": "Zoltan Boros",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_060.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_060_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_286",
+            "dbfId": "48478",
+            "name": "Necrium Blade",
+            "cardSet": "The Boomsday Project",
+            "type": "Weapon",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 3,
+            "durability": 2,
+            "text": "<b>Deathrattle:</b> Trigger the <b>Deathrattle</b> of a random friendly minion.",
+            "flavor": "Grab death by the handle.",
+            "artist": "Vlad Botos",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_286.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_286_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_035t",
+            "dbfId": "2847",
+            "name": "Nerubian Ambush!",
+            "cardSet": "The Grand Tournament",
+            "type": "Spell",
+            "cost": 3,
+            "text": "<b>Casts When Drawn</b>\\nSummon a 4/4 Nerubian for your opponent.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_035t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_035t_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Casts When Drawn"
+                }
+            ]
+        },
+        {
+            "cardId": "EX1_133",
+            "dbfId": "391",
+            "name": "Perdition's Blade",
+            "cardSet": "Classic",
+            "type": "Weapon",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 2,
+            "durability": 2,
+            "text": "<b>Battlecry:</b> Deal 1 damage. <b>Combo:</b> Deal 2 instead.",
+            "flavor": "Perdition's Blade is Ragnaros's back-up weapon while Sulfuras is in the shop.",
+            "artist": "Daren Bader",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_133.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_133_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                },
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_809",
+            "dbfId": "43028",
+            "name": "Plague Scientist",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 3,
+            "attack": 2,
+            "health": 3,
+            "text": "<b>Combo:</b> Give a friendly minion <b>Poisonous</b>.",
+            "flavor": "The excruciating pain means it's working!",
+            "artist": "Dave Allsop",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_809.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_809_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Poisonous"
+                },
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_636",
+            "dbfId": "40464",
+            "name": "Shadow Rager",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 3,
+            "attack": 5,
+            "health": 1,
+            "text": "<b>Stealth</b>",
+            "flavor": "WE WENT THERE!",
+            "artist": "Jon Neimeister",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_636.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_636_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_176",
+            "dbfId": "38578",
+            "name": "Shadow Strike",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 3,
+            "text": "Deal $5 damage to an undamaged character.",
+            "flavor": "It's like a backstab, only from the front. And with two more stabs.",
+            "artist": "Dave Allsop",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_176.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_176_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_850",
+            "dbfId": "45338",
+            "name": "Shadowblade",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Weapon",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 3,
+            "durability": 2,
+            "text": "<b>Battlecry:</b> Your hero is <b>Immune</b> this turn.",
+            "flavor": "It's tacky to call it \"Shadeblade.\"",
+            "artist": "Matthew O'Connor",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_850.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_850_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_032",
+            "dbfId": "2768",
+            "name": "Shady Dealer",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 4,
+            "health": 3,
+            "text": "<b>Battlecry:</b> If you have a Pirate, gain +1/+1.",
+            "flavor": "I have great deal for you... for 4 damage to your face!",
+            "artist": "Tooth",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_032.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_032_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_781",
+            "dbfId": "40905",
+            "name": "Shaku, the Collector",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 3,
+            "attack": 2,
+            "health": 3,
+            "text": "[x]<b>Stealth</b>. Whenever this\\nattacks, add a random card\\nto your hand <i>(from your\\nopponent's class).</i>",
+            "flavor": "Aya even staged an intervention once, but Shaku still insists that he is not a hoarder.",
+            "artist": "James Ryman",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_781.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_781_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                }
+            ]
+        },
+        {
+            "cardId": "KAR_094a",
+            "dbfId": "39821",
+            "name": "Sharp Fork",
+            "cardSet": "One Night in Karazhan",
+            "type": "Weapon",
+            "cost": 3,
+            "attack": 3,
+            "durability": 2,
+            "artist": "Konstantin Turovec",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KAR_094a.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KAR_094a_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "EX1_134",
+            "dbfId": "1117",
+            "name": "SI:7 Agent",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 3,
+            "health": 3,
+            "text": "<b>Combo:</b> Deal 2 damage.",
+            "flavor": "The agents of SI:7 are responsible for Stormwind's covert activities.  Their duties include espionage, assassination, and throwing surprise birthday parties for the royal family.",
+            "artist": "Chris Moeller",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_134.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_134_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_165",
+            "dbfId": "45263",
+            "name": "Sonya Shadowdancer",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 3,
+            "attack": 2,
+            "health": 2,
+            "text": "After a friendly minion dies, add a 1/1 copy of it to your hand. It costs (1).",
+            "flavor": "Love like you've never been hurt. Dance like a 1/1 is watching.",
+            "artist": "J. Axer",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_165.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_165_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOE_019",
+            "dbfId": "2891",
+            "name": "Unearthed Raptor",
+            "cardSet": "The League of Explorers",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 3,
+            "attack": 3,
+            "health": 4,
+            "text": "<b>Battlecry:</b> Choose a friendly minion. Gain a copy of its_<b>Deathrattle</b>.",
+            "flavor": "Still hunting for the ones who earthed him.",
+            "artist": "Trent Kaniuga",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked in Uldaman, in the League of Explorers adventure.",
+            "howToGetGold": "Crafting unlocked in Uldaman, in the League of Explorers adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOE_019.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOE_019_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                },
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_084",
+            "dbfId": "48035",
+            "name": "Violet Haze",
+            "cardSet": "The Boomsday Project",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 3,
+            "text": "Add 2 random <b>Deathrattle</b> cards to_your hand.",
+            "flavor": "Elite Tauren Chieftain's next hit single.",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_084.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_084_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_087",
+            "dbfId": "48040",
+            "name": "Academic Espionage",
+            "cardSet": "The Boomsday Project",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Epic",
+            "cost": 4,
+            "text": "Shuffle 10 cards from your opponent's class into your deck. They_cost (1).",
+            "flavor": "The tenth Pyroblast really felt like overkill.",
+            "artist": "Konstantin Turovec",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_087.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_087_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "FP1_026",
+            "dbfId": "1810",
+            "name": "Anub'ar Ambusher",
+            "cardSet": "Naxxramas",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 4,
+            "attack": 5,
+            "health": 5,
+            "text": "<b>Deathrattle:</b> Return a random friendly minion to your hand.",
+            "flavor": "Originally he was called \"Anub'ar Guy who bounces a guy back to your hand\", but it lacked a certain zing.",
+            "artist": "Nate Bowden",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked in The Arachnid Quarter, in the Naxxramas adventure.",
+            "howToGetGold": "Crafting unlocked in The Arachnid Quarter, in the Naxxramas adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FP1_026.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/FP1_026_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "CS2_233",
+            "dbfId": "1064",
+            "name": "Blade Flurry",
+            "cardSet": "Classic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 4,
+            "text": "Destroy your weapon and deal its damage to all enemy minions.",
+            "flavor": "\"Look, it's not just about waving daggers around really fast.  It's a lot more complicated than that.\" - Shan, Rogue Trainer",
+            "artist": "Hideaki Takamura",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_233.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_233_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "AffectedBySpellPower"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_565",
+            "dbfId": "49361",
+            "name": "Blightnozzle Crawler",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Rare",
+            "cost": 4,
+            "attack": 2,
+            "health": 4,
+            "text": "<b>Deathrattle:</b> Summon a 1/1 Ooze with <b>Poisonous</b> and <b>Rush</b>.",
+            "flavor": "\"Well we HAD it contained. Then you went and gave it legs!\"",
+            "artist": "Anton Kagounkin",
+            "collectible": true,
+            "race": "Mech",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_565.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_565_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                },
+                {
+                    "name": "Rush"
+                },
+                {
+                    "name": "Poisonous"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_211",
+            "dbfId": "45531",
+            "name": "Elven Minstrel",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 4,
+            "attack": 3,
+            "health": 2,
+            "text": "<b>Combo:</b> Draw 2 minions from your deck.",
+            "flavor": "\"After that gig in Hamlin went south, I swore off rats.\"",
+            "artist": "Wayne Wu ",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_211.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_211_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_026",
+            "dbfId": "43228",
+            "name": "Fal'dorei Strider",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "rarity": "Epic",
+            "cost": 4,
+            "attack": 4,
+            "health": 4,
+            "text": "[x]<b>Battlecry:</b> Shuffle 3\\nAmbushes into your deck.\\nWhen drawn, summon\\na 4/4 Spider.",
+            "flavor": "What\u2019s worse? Seeing the spider, or NOT seeing the spider, but knowing it\u2019s somewhere in your deck?",
+            "artist": "Tyler West Studios",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_026.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_026_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_412",
+            "dbfId": "45936",
+            "name": "Kobold Illusionist",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "faction": "Alliance",
+            "rarity": "Rare",
+            "cost": 4,
+            "attack": 3,
+            "health": 3,
+            "text": "<b>Deathrattle:</b> Summon a 1/1 copy of a minion from your hand.",
+            "flavor": "He can make ANYTHING look like a candle.",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_412.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_412_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_026t",
+            "dbfId": "45869",
+            "name": "Leyline Spider",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Minion",
+            "cost": 4,
+            "attack": 4,
+            "health": 4,
+            "artist": "Tyler West Studios",
+            "race": "Beast",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_026t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_026t_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_811",
+            "dbfId": "43031",
+            "name": "Lilian Voss",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 4,
+            "attack": 4,
+            "health": 5,
+            "text": "<b>Battlecry:</b> Replace spells in your hand with random spells <i>(from your opponent's class).</i>",
+            "flavor": "She doesn't feel pity, or remorse, or fear. And she absolutely will not stop... ever, until all necromancers are dead.",
+            "artist": "Gonzalo Ordonez",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_811.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_811_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "NEW1_014",
+            "dbfId": "887",
+            "name": "Master of Disguise",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 4,
+            "attack": 4,
+            "health": 4,
+            "text": "<b>Battlecry:</b> Give a friendly minion <b>Stealth</b> until your next turn.",
+            "flavor": "She's actually a male tauren.  People don't call him \"Master of Disguise\" for nothing.",
+            "artist": "Ron Spencer",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/NEW1_014.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/NEW1_014_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                },
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_510",
+            "dbfId": "46908",
+            "name": "Mistwraith",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 4,
+            "attack": 3,
+            "health": 5,
+            "text": "Whenever you play an <b>Echo</b>_card, gain +1/+1.",
+            "flavor": "One little Mistwraith sitting in a tree. M-I-S-T-I-N-G.",
+            "artist": "Phil Saunders",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_510.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_510_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Echo"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_036t",
+            "dbfId": "3010",
+            "name": "Nerubian",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "cost": 4,
+            "attack": 4,
+            "health": 4,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_036t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_036t_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "UNG_061",
+            "dbfId": "41213",
+            "name": "Obsidian Shard",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Weapon",
+            "rarity": "Rare",
+            "cost": 4,
+            "attack": 3,
+            "durability": 3,
+            "text": "[x]Costs (1) less for each\\ncard you've played from\\nanother class.",
+            "flavor": "You know you\u2019re a Rogue when a sharp rock makes you go \u201cOoh!\u00a0 Dagger!\u201d",
+            "artist": "Konstantin Turovec",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_061.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_061_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "AT_034",
+            "dbfId": "2763",
+            "name": "Poisoned Blade",
+            "cardSet": "The Grand Tournament",
+            "type": "Weapon",
+            "rarity": "Epic",
+            "cost": 4,
+            "attack": 1,
+            "durability": 3,
+            "text": "Your Hero Power gives this weapon +1 Attack instead of replacing it.",
+            "flavor": "How much more poisoned can a blade get?  The answer is a lot.  A lot more poisoned.",
+            "artist": "Nutthapon Petchthai",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_034.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_034_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_240",
+            "dbfId": "42819",
+            "name": "Runeforge Haunter",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 4,
+            "attack": 5,
+            "health": 3,
+            "text": "During your turn, your weapon doesn't lose Durability.",
+            "flavor": "Don't worry, he'll keep an eye on that for you.",
+            "artist": "Slawomir Maniak",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_240.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_240_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Aura"
+                }
+            ]
+        },
+        {
+            "cardId": "CRED_40",
+            "dbfId": "3040",
+            "name": "Ryan Masterson",
+            "cardSet": "Credits",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 4,
+            "attack": 7,
+            "health": 2,
+            "text": "<b>Battlecry:</b> Cast copies of Backstab, Cold Blood, and Eviscerate. <i>(targets chosen randomly).</i>",
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CRED_40.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CRED_40_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_047",
+            "dbfId": "2015",
+            "name": "Sabotage",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 4,
+            "text": "Destroy a random enemy minion. <b>Combo:</b> And your opponent's weapon.",
+            "flavor": "Rogues can't stand it. They know you planned it! They are going to set you straight!",
+            "artist": "Dave Allsop",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_047.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_047_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_694",
+            "dbfId": "40695",
+            "name": "Shadow Sensei",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 4,
+            "attack": 4,
+            "health": 4,
+            "text": "<b>Battlecry:</b> Give a <b>Stealthed</b> minion +2/+2.",
+            "flavor": "He used to be Aya's tutor, but she fired him for bugging her too much.",
+            "artist": "Andrew Hou",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_694.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_694_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                },
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_065",
+            "dbfId": "41218",
+            "name": "Sherazin, Corpse Flower",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 4,
+            "attack": 5,
+            "health": 3,
+            "text": "<b>Deathrattle:</b> Go dormant. Play 4 cards in a turn to revive this minion.",
+            "flavor": "A Tortollan gardener's worst nightmare.",
+            "artist": "Matt Dixon",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_065.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_065_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_267",
+            "dbfId": "38825",
+            "name": "Southsea Squidface",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 4,
+            "attack": 4,
+            "health": 4,
+            "text": "<b>Deathrattle:</b> Give your weapon +2 Attack.",
+            "flavor": "Quick! Before I drown! Let me sharpen your sword for you.",
+            "artist": "Mike Sass",
+            "collectible": true,
+            "race": "Pirate",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_267.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_267_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_672",
+            "dbfId": "47594",
+            "name": "Spectral Cutlass",
+            "cardSet": "The Witchwood",
+            "type": "Weapon",
+            "rarity": "Epic",
+            "cost": 4,
+            "attack": 2,
+            "durability": 2,
+            "text": "[x]<b>Lifesteal</b>\\nWhenever you play a card\\nfrom another class,\\ngain +1 Durability.",
+            "flavor": "So sharp it can cut through a spectral tomato!",
+            "artist": "Nutchapol Thitinunthakorn",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_672.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_672_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Lifesteal"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_026e",
+            "dbfId": "45870",
+            "name": "Spider Ambush!",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "cost": 4,
+            "text": "<b>Casts When Drawn</b>\\nSummon a 4/4 Spider.",
+            "artist": "Tyler West Studios",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_026e.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_026e_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Casts When Drawn"
+                }
+            ]
+        },
+        {
+            "cardId": "TOT_107",
+            "dbfId": "51048",
+            "name": "Thief of Futures",
+            "cardSet": "Taverns of Time",
+            "type": "Minion",
+            "cost": 4,
+            "attack": 4,
+            "health": 3,
+            "text": "<b>Battlecry:</b> Add a copy of the top card of your opponent's deck to your hand.",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TOT_107.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TOT_107_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "GVG_022",
+            "dbfId": "2095",
+            "name": "Tinker's Sharpsword Oil",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Spell",
+            "rarity": "Common",
+            "cost": 4,
+            "text": "Give your weapon +3 Attack. <b>Combo:</b> Give a random friendly minion +3 Attack.",
+            "flavor": "\"Get ready to strike oil!\" - Super-cheesy battle cry",
+            "artist": "Den",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_022.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_022_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "LOE_012",
+            "dbfId": "2884",
+            "name": "Tomb Pillager",
+            "cardSet": "The League of Explorers",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 4,
+            "attack": 5,
+            "health": 4,
+            "text": "<b>Deathrattle:</b> Add a Coin to your hand.",
+            "flavor": "After the guild broke up, he could no longer raid the tombs.",
+            "artist": "Dave Allsop",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked in the Hall of Explorers, in the League of Explorers adventure.",
+            "howToGetGold": "Crafting unlocked in the Hall of Explorers, in the League of Explorers adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOE_012.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOE_012_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_687",
+            "dbfId": "47625",
+            "name": "WANTED!",
+            "cardSet": "The Witchwood",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 4,
+            "text": "Deal $3 damage to a minion. If that kills it, add a Coin to your hand.",
+            "flavor": "Wanted: Dead or Undead.",
+            "artist": "Konstantin Turovec",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_687.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_687_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "OG_080",
+            "dbfId": "38403",
+            "name": "Xaril, Poisoned Mind",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 4,
+            "attack": 3,
+            "health": 2,
+            "text": "<b>Battlecry and Deathrattle:</b> Add a random Toxin card to your hand.",
+            "flavor": "It's basically your own fault if you go around drinking weird green potions handed out by creepy mantid dudes.",
+            "artist": "Jaemin Kim",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_080.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_080_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                },
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "CS2_080",
+            "dbfId": "421",
+            "name": "Assassin's Blade",
+            "cardSet": "Basic",
+            "type": "Weapon",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 5,
+            "attack": 3,
+            "durability": 4,
+            "flavor": "Guaranteed to have been owned by a real assassin.   Certificate of authenticity included.",
+            "artist": "Brian Huang",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked at Level 2.",
+            "howToGetGold": "Unlocked at Level 32.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_080.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_080_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_076",
+            "dbfId": "345",
+            "name": "Assassinate",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 5,
+            "text": "Destroy an enemy minion.",
+            "flavor": "If you don't want to be assassinated, move to the Barrens and change your name. Good luck!",
+            "artist": "Glenn Rane",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked at Level 1.",
+            "howToGetGold": "Unlocked at Level 47.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_076.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_076_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "ICC_065",
+            "dbfId": "42712",
+            "name": "Bone Baron",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 5,
+            "attack": 5,
+            "health": 5,
+            "text": "<b>Deathrattle:</b> Add two 1/1 Skeletons to your hand.",
+            "flavor": "\"Oil,\" \"Rail,\" and \"Blubber\" were already taken.",
+            "artist": "Brian Despain",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_065.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_065_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_576",
+            "dbfId": "49494",
+            "name": "Crazed Chemist",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 5,
+            "attack": 4,
+            "health": 4,
+            "text": "<b>Combo:</b> Give a friendly minion +4 Attack.",
+            "flavor": "You don't have to be crazy to work here, but it helps.",
+            "artist": "Max Greck",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_576.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_576_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_067t1",
+            "dbfId": "41221",
+            "name": "Crystal Core",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Spell",
+            "cost": 5,
+            "text": "For the rest of the game, your minions are 4/4.",
+            "artist": "James Ryman",
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_067t1.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_067t1_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BRM_008",
+            "dbfId": "2291",
+            "name": "Dark Iron Skulker",
+            "cardSet": "Blackrock Mountain",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 5,
+            "attack": 4,
+            "health": 3,
+            "text": "<b>Battlecry:</b> Deal 2 damage to all undamaged enemy minions.",
+            "flavor": "He loves skulking. He skulks after hours just for the joy of it, but his friends are pretty worried he'll get burnt out.",
+            "artist": "Eric Braddock",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked in Blackwing Lair, in the Blackrock Mountain adventure.",
+            "howToGetGold": "Crafting unlocked in Blackwing Lair, in the Blackrock Mountain adventure.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BRM_008.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BRM_008_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "KAR_070",
+            "dbfId": "39700",
+            "name": "Ethereal Peddler",
+            "cardSet": "One Night in Karazhan",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 5,
+            "attack": 5,
+            "health": 6,
+            "text": "<b>Battlecry:</b> If you're holding any cards from another class, reduce their Cost by (2).",
+            "flavor": "Yeah, sure. That Ragnaros \"fell off the back of a truck\".",
+            "artist": "Alex Horley Orlandelli",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked in the Spire, in One Night in Karazhan.",
+            "howToGetGold": "Crafting unlocked in the Spire, in One Night in Karazhan.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KAR_070.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/KAR_070_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_503t2",
+            "dbfId": "46295",
+            "name": "Greater Onyx Spellstone",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 5,
+            "text": "Destroy up to 3 random enemy minions.",
+            "artist": "Arthur Bozonnet",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_503t2.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_503t2_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "LOOT_503",
+            "dbfId": "46296",
+            "name": "Lesser Onyx Spellstone",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 5,
+            "text": "<i>(Play 3 <b>Deathrattle</b> cards to upgrade.)</i>",
+            "flavor": "The trolls of old embraced the gift\\nA jewel of black for daggers swift\\nNo party lasts who finds the stone\\nThose wielding it soon stand alone.",
+            "artist": "Arthur Bozonnet",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_503.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_503_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_634",
+            "dbfId": "40441",
+            "name": "Lotus Assassin",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Epic",
+            "cost": 5,
+            "attack": 5,
+            "health": 5,
+            "text": "<b>Stealth</b>. Whenever this attacks and kills a minion, gain <b>Stealth</b>.",
+            "flavor": "For 5000g, you can just give the Jade Lotus any name and they will assassinate and/or embarrass them.",
+            "artist": "Garrett Hanna",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_634.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_634_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_243",
+            "dbfId": "48159",
+            "name": "Myra Rotspring",
+            "cardSet": "The Boomsday Project",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 5,
+            "attack": 4,
+            "health": 2,
+            "text": "[x]<b>Battlecry:</b> <b>Discover</b> a\\n<b>Deathrattle</b> minion. Also\\ngain its <b>Deathrattle</b>.",
+            "flavor": "On her first day on the job, Myra removed the smoke detectors.",
+            "artist": "Slawomir Maniak",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_243.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_243_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                },
+                {
+                    "name": "Battlecry"
+                },
+                {
+                    "name": "Discover"
+                }
+            ]
+        },
+        {
+            "cardId": "BOT_242",
+            "dbfId": "48487",
+            "name": "Myra's Unstable Element",
+            "cardSet": "The Boomsday Project",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Legendary",
+            "cost": 5,
+            "text": "Draw the rest of\\nyour deck.",
+            "flavor": "What could go wrong?",
+            "artist": "Arthur Gimaldinov",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_242.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_242_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "BOT_508",
+            "dbfId": "48748",
+            "name": "Necrium Vial",
+            "cardSet": "The Boomsday Project",
+            "type": "Spell",
+            "rarity": "Epic",
+            "cost": 5,
+            "attack": 0,
+            "health": 0,
+            "text": "Trigger a friendly minion's <b>Deathrattle</b> twice.",
+            "flavor": "Two near-death experiences for the price of one!",
+            "artist": "Vlad Botos",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_508.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_508_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "GVG_088",
+            "dbfId": "2056",
+            "name": "Ogre Ninja",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 5,
+            "attack": 6,
+            "health": 6,
+            "text": "<b>Stealth</b>\\n50% chance to attack the wrong enemy.",
+            "flavor": "He didn't have the grades to get into ninja school, but his dad pulled some strings.",
+            "artist": "Samwise",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_088.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_088_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                }
+            ]
+        },
+        {
+            "cardId": "LOOT_503t",
+            "dbfId": "46297",
+            "name": "Onyx Spellstone",
+            "cardSet": "Kobolds & Catacombs",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 5,
+            "artist": "Arthur Bozonnet",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_503t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_503t_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_028",
+            "dbfId": "2765",
+            "name": "Shado-Pan Rider",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Common",
+            "cost": 5,
+            "attack": 3,
+            "health": 7,
+            "text": "<b>Combo:</b> Gain +3 Attack.",
+            "flavor": "He needed a break after that business in the Vale of Eternal Blossoms. Naturally, he chose to spend his vacation in an icy snowscape killing monsters.",
+            "artist": "Ryan Metcalf",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_028.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_028_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_291",
+            "dbfId": "38876",
+            "name": "Shadowcaster",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Epic",
+            "cost": 5,
+            "attack": 4,
+            "health": 4,
+            "text": "<b>Battlecry:</b> Choose a friendly minion. Add a 1/1 copy to_your hand that costs_(1).",
+            "flavor": "I mean, it's not creepy if you ASK before you steal their shadow to make a small replica of them to keep on your shelf.",
+            "artist": "J. Meyers & A. Bozonnet",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_291.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_291_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_064",
+            "dbfId": "41217",
+            "name": "Vilespine Slayer",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Epic",
+            "cost": 5,
+            "attack": 3,
+            "health": 4,
+            "text": "<b>Combo:</b> Destroy a minion.",
+            "flavor": "'Cause slayers gonna slay, slay, slay, slay, slay.",
+            "artist": "Efrem Palacios",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_064.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_064_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "GIL_557",
+            "dbfId": "47071",
+            "name": "Cursed Castaway",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Rare",
+            "cost": 6,
+            "attack": 5,
+            "health": 3,
+            "text": "<b>Rush</b>\\n<b>Deathrattle:</b> Draw a <b>Combo</b> card from your deck.",
+            "flavor": "She was an ordinary castaway... until she found that cursed volleyball.",
+            "artist": "Tyler West Studio",
+            "collectible": true,
+            "race": "Pirate",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_557.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_557_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Rush"
+                },
+                {
+                    "name": "Deathrattle"
+                },
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "NEW1_005",
+            "dbfId": "287",
+            "name": "Kidnapper",
+            "cardSet": "Classic",
+            "type": "Minion",
+            "rarity": "Epic",
+            "cost": 6,
+            "attack": 5,
+            "health": 3,
+            "text": "<b>Combo:</b> Return a minion to_its owner's hand.",
+            "flavor": "He just wants people to see his vacation photos.",
+            "artist": "Dave Allsop",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/NEW1_005.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/NEW1_005_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "CFM_342",
+            "dbfId": "40791",
+            "name": "Luckydo Buccaneer",
+            "cardSet": "Mean Streets of Gadgetzan",
+            "type": "Minion",
+            "rarity": "Epic",
+            "cost": 6,
+            "attack": 5,
+            "health": 5,
+            "text": "<b>Battlecry:</b> If your weapon has at least 3 Attack, gain +4/+4.",
+            "flavor": "You can't just leave a Luckydo somewhere.  You gotta keep 'em with you!  Especially in Gadgetzan!",
+            "artist": "Mark Gibbons",
+            "collectible": true,
+            "race": "Pirate",
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_342.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_342_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_910",
+            "dbfId": "45975",
+            "name": "Spectral Pillager",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Minion",
+            "faction": "Neutral",
+            "rarity": "Epic",
+            "cost": 6,
+            "attack": 5,
+            "health": 5,
+            "text": "[x]<b>Combo:</b> Deal damage equal\\nto the number of other cards\\nyou've played this turn.",
+            "flavor": "It turns out you CAN take it with you.",
+            "artist": "Sam Nielsen",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_910.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_910_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Combo"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_073",
+            "dbfId": "38395",
+            "name": "Thistle Tea",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Spell",
+            "rarity": "Rare",
+            "cost": 6,
+            "text": "Draw a card. Add 2 extra copies of it to your hand.",
+            "flavor": "Aren't Thistles prickly?  Why would you drink them? I don't get Rogues.",
+            "artist": "Matthew O'Connor",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_073.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_073_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GVG_028",
+            "dbfId": "1993",
+            "name": "Trade Prince Gallywix",
+            "cardSet": "Goblins vs Gnomes",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 6,
+            "attack": 5,
+            "health": 8,
+            "text": "Whenever your opponent casts a spell, gain a copy of it and give them a Coin.",
+            "flavor": "Gallywix believes in supply and demand. He supplies the beatings and demands you pay up!",
+            "artist": "Wei Wang",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_028.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_028_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "NEW1_004",
+            "dbfId": "196",
+            "name": "Vanish",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "rarity": "Free",
+            "cost": 6,
+            "text": "Return all minions to their owner's hand.",
+            "artist": "Sean O\u2019Daniels",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked at Level 8.",
+            "howToGetGold": "Unlocked at Level 23.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/NEW1_004.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/NEW1_004_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "CS2_077",
+            "dbfId": "630",
+            "name": "Sprint",
+            "cardSet": "Basic",
+            "type": "Spell",
+            "faction": "Neutral",
+            "rarity": "Free",
+            "cost": 7,
+            "text": "Draw 4 cards.",
+            "flavor": "Rogues are not good joggers.",
+            "artist": "James Zhang",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "howToGet": "Unlocked at Level 10.",
+            "howToGetGold": "Unlocked at Level 49.",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_077.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_077_premium.gif",
+            "locale": "enUS"
+        },
+        {
+            "cardId": "GIL_598",
+            "dbfId": "47211",
+            "name": "Tess Greymane",
+            "cardSet": "The Witchwood",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 8,
+            "attack": 6,
+            "health": 6,
+            "text": "[x]<b>Battlecry:</b> Replay every card\\nfrom another class you've\\nplayed this game <i>(targets\\nchosen randomly)</i>.",
+            "flavor": "Those who cannot remember their card history are doomed to repeat it.",
+            "artist": "J. Axer",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_598.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_598_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "GILA_500h4",
+            "dbfId": "49566",
+            "name": "Tess Greymane",
+            "cardSet": "The Witchwood",
+            "type": "Hero",
+            "rarity": "Legendary",
+            "cost": 8,
+            "health": 30,
+            "armor": "5",
+            "text": "[x]<b>Battlecry:</b> Deal 8 damage\\nto all minions and choose\\na <b>Passive</b> Treasure.",
+            "artist": "J. Axer",
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_500h4.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_500h4_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "AT_036",
+            "dbfId": "2586",
+            "name": "Anub'arak",
+            "cardSet": "The Grand Tournament",
+            "type": "Minion",
+            "rarity": "Legendary",
+            "cost": 9,
+            "attack": 8,
+            "health": 4,
+            "text": "<b>Deathrattle:</b> Return this to your hand and summon a 4/4 Nerubian.",
+            "flavor": "Was actually a pretty nice guy before, you know, the whole Lich King thing.",
+            "artist": "Eric Braddock",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_036.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_036_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Deathrattle"
+                }
+            ]
+        },
+        {
+            "cardId": "OG_282",
+            "dbfId": "38861",
+            "name": "Blade of C'Thun",
+            "cardSet": "Whispers of the Old Gods",
+            "type": "Minion",
+            "rarity": "Epic",
+            "cost": 9,
+            "attack": 4,
+            "health": 4,
+            "text": "<b>Battlecry:</b> Destroy a minion. Add its Attack and Health to_your C'Thun's <i>(wherever it is).</i>",
+            "flavor": "C'Thun demands a sacrifice! Preferably a Deathwing.",
+            "artist": "Steve Prescott",
+            "collectible": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/OG_282.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/OG_282_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "ICC_827",
+            "dbfId": "43392",
+            "name": "Valeera the Hollow",
+            "cardSet": "Knights of the Frozen Throne",
+            "type": "Hero",
+            "rarity": "Legendary",
+            "cost": 9,
+            "health": 30,
+            "armor": "5",
+            "text": "<b>Battlecry:</b> Gain <b>Stealth</b> until your next turn.",
+            "flavor": "\"Run away. Hide in your precious keeps, behind your walls and your bodyguards. Night always falls, and shadows will fill your hallowed halls. One day, one of those shadows will be me.\"",
+            "artist": "James Ryman",
+            "collectible": true,
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_827.png",
+            "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_827_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Battlecry"
+                },
+                {
+                    "name": "Stealth"
+                }
+            ]
+        },
+        {
+            "cardId": "TB_DK_Valeera",
+            "dbfId": "52234",
+            "name": "Valeera the Hollow",
+            "cardSet": "Tavern Brawl",
+            "type": "Hero",
+            "rarity": "Legendary",
+            "cost": 9,
+            "health": 30,
+            "armor": "0",
+            "text": "<b>Battlecry:</b> Gain <b>Stealth</b> until your next turn.",
+            "elite": true,
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_DK_Valeera.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_DK_Valeera_premium.gif",
+            "locale": "enUS",
+            "mechanics": [
+                {
+                    "name": "Stealth"
+                },
+                {
+                    "name": "Battlecry"
+                }
+            ]
+        },
+        {
+            "cardId": "UNG_065t",
+            "dbfId": "42796",
+            "name": "Sherazin, Seed",
+            "cardSet": "Journey to Un'Goro",
+            "type": "Minion",
+            "cost": 11,
+            "attack": 0,
+            "health": 1,
+            "text": "When you play 4 cards in a_turn, revive this minion.",
+            "artist": "Matt Dixon",
+            "playerClass": "Rogue",
+            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_065t.png",
+            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_065t_premium.gif",
+            "locale": "enUS"
+        }
+    ]
+}
