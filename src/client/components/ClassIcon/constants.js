@@ -55,4 +55,8 @@ export const iconList = [
     name: 'Warrior',
     icon: WarriorIcon,
   },
+  {
+    name: 'Neutral',
+    icon: WarriorIcon,
+  },
 ];

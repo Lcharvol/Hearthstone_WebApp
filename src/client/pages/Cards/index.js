@@ -35,6 +35,7 @@ import {
   getShamanCards,
   getWarlockCards,
   getWarriorCards,
+  getNeutralCards,
 } from '../../selectors/cards';
 import { getClasses } from '../../selectors/app';
 import {
@@ -49,6 +50,7 @@ import {
   SHAMAN,
   WARLOCK,
   WARRIOR,
+  NEUTRAL,
 } from './constants';
 import { CARD_WIDTH, CARD_HEIGHT } from '../../constants/card';
 
@@ -92,6 +94,7 @@ const getCardsByCategorieAndMana = (categorie, cards = [], manaFilter) => {
   else if (categorie === SHAMAN) ret = cards.shamanCards || [];
   else if (categorie === WARLOCK) ret = cards.warlockCards || [];
   else if (categorie === WARRIOR) ret = cards.warriorCards || [];
+  else if (categorie === NEUTRAL) ret = cards.neutralCards || [];
   return filterByMana(ret, manaFilter);
 };
 
@@ -119,7 +122,7 @@ const Cards = ({
       ? Math.floor(width / 100) * 100 - 100
       : 1200;
   const isArrowActive = (direction, start, length) => {
-    if (equals(direction, RIGHT)) return start + pageSize <= length;
+    if (equals(direction, RIGHT)) return start + pageSize < length;
     if (equals(direction, LEFT)) return start - pageSize >= 0;
   };
   return (
@@ -210,7 +213,7 @@ const Cards = ({
             )}
             action={() =>
               handleChangeStart(
-                start + pageSize <=
+                start + pageSize <
                 length(
                   getCardsByCategorieAndMana(
                     categorie,
@@ -248,6 +251,7 @@ const mapStateToProps = state => ({
   shamanCards: getShamanCards(state),
   warlockCards: getWarlockCards(state),
   warriorCards: getWarriorCards(state),
+  neutralCards: getNeutralCards(state),
 });
 
 const enhance = compose(
@@ -311,6 +315,7 @@ const enhance = compose(
         shamanCards,
         warlockCards,
         warriorCards,
+        neutralCards,
         width,
         height,
         updateLineSize,
@@ -375,6 +380,11 @@ const enhance = compose(
           loadCardsByClass(WARRIOR).then(warriorCards =>
             enhanceCards({ warriorCards }),
           );
+        if (categorie === NEUTRAL && isEmpty(neutralCards)) {
+          loadCardsByClass(NEUTRAL).then(neutralCards =>
+            enhanceCards({ neutralCards }),
+          );
+        }
       }
     },
     componentDidMount() {

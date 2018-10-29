@@ -26,6 +26,8 @@ export const WARLOCK = 'Warlock';
 
 export const WARRIOR = 'Warrior';
 
+export const NEUTRAL = 'Neutral';
+
 export const categories = [
   CARD_BACKS,
   DEATH_KNIGHT,
@@ -38,4 +40,5 @@ export const categories = [
   SHAMAN,
   WARLOCK,
   WARRIOR,
+  NEUTRAL,
 ];

@@ -19,3 +19,5 @@ export const getShamanCards = state => state.cards.shamanCards;
 export const getWarlockCards = state => state.cards.warlockCards;
 
 export const getWarriorCards = state => state.cards.warriorCards;
+
+export const getNeutralCards = state => state.cards.neutralCards;

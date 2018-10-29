@@ -12,6 +12,7 @@ const initialState = {
   shamanCards: [],
   warlockCards: [],
   warriorCards: [],
+  neutralCards: [],
 };
 
 const reducer = (state = initialState, action) => {
