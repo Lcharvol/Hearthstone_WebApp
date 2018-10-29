@@ -1,67 +1,6 @@
 {
     "data": [
         {
-            "cardId": "BOT_531e",
-            "dbfId": "49192",
-            "name": "Celestial Power",
-            "cardSet": "The Boomsday Project",
-            "type": "Enchantment",
-            "text": "You have <b>Spell Damage +2</b> for your next spell this turn.",
-            "playerClass": "Mage",
-            "locale": "enUS",
-            "mechanics": [
-                {
-                    "name": "OneTurnEffect"
-                }
-            ]
-        },
-        {
-            "cardId": "BOT_531e2",
-            "dbfId": "52826",
-            "name": "Celestial Power",
-            "cardSet": "The Boomsday Project",
-            "type": "Enchantment",
-            "text": "You have <b>Spell Damage +2</b> for your next spell this turn.",
-            "playerClass": "Mage",
-            "locale": "enUS",
-            "mechanics": [
-                {
-                    "name": "OneTurnEffect"
-                }
-            ]
-        },
-        {
-            "cardId": "BRM_003e",
-            "dbfId": "2285",
-            "name": "Dragon's Might",
-            "cardSet": "Blackrock Mountain",
-            "type": "Enchantment",
-            "text": "Costs (3) less this turn.",
-            "playerClass": "Mage",
-            "locale": "enUS",
-            "mechanics": [
-                {
-                    "name": "OneTurnEffect"
-                }
-            ]
-        },
-        {
-            "cardId": "CFM_687e",
-            "dbfId": "41957",
-            "name": "Free Spell",
-            "cardSet": "Mean Streets of Gadgetzan",
-            "type": "Enchantment",
-            "text": "The next spell you cast this turn costs (0).",
-            "artist": "J. Ejsing & E. Amundsen",
-            "playerClass": "Mage",
-            "locale": "enUS",
-            "mechanics": [
-                {
-                    "name": "OneTurnEffect"
-                }
-            ]
-        },
-        {
             "cardId": "LOOTA_BOSS_09h",
             "dbfId": "46915",
             "name": "Frostfur",
@@ -71,7 +10,7 @@
             "text": "<i>These furbolg warrens feel unnaturally cold...</i>",
             "artist": "Eric Braddock",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_09h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_BOSS_09h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_09h_premium.gif",
             "locale": "enUS"
         },
@@ -85,7 +24,7 @@
             "text": "<i>Watch those lips, she'll kiss just about anything.</i>",
             "artist": "Sam Hogg",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_36h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_BOSS_36h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_36h_premium.gif",
             "locale": "enUS"
         },
@@ -114,7 +53,7 @@
             "text": "<i>One either dies a hero or mangles time enough to become a villain.</i>",
             "artist": "Adam Byrne",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_BOSS_48h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_BOSS_48h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_BOSS_48h_premium.gif",
             "locale": "enUS"
         },
@@ -142,7 +81,7 @@
             "rarity": "Common",
             "health": 30,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TU4a_006.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TU4a_006.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TU4a_006_premium.gif",
             "locale": "enUS"
         },
@@ -155,7 +94,7 @@
             "faction": "Neutral",
             "health": 30,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BossRumble_003.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_BossRumble_003.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BossRumble_003_premium.gif",
             "locale": "enUS"
         },
@@ -183,7 +122,7 @@
             "text": "<i>She loves fire. Her minions love that she loves fire.</i>",
             "artist": "Will Murai",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_37h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_BOSS_37h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_37h_premium.gif",
             "locale": "enUS"
         },
@@ -220,7 +159,7 @@
             "health": 30,
             "artist": "James Ryman",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_00_03.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_00_03.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_00_03_premium.gif",
             "locale": "enUS"
         },
@@ -232,7 +171,7 @@
             "type": "Hero",
             "health": 30,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_00_03H.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_00_03H.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_00_03H_premium.gif",
             "locale": "enUS"
         },
@@ -245,7 +184,7 @@
             "rarity": "Common",
             "health": 20,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TU4b_001.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TU4b_001.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TU4b_001_premium.gif",
             "locale": "enUS"
         },
@@ -279,7 +218,7 @@
             "type": "Hero",
             "health": 45,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX4_01H.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/NAX4_01H.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX4_01H_premium.gif",
             "locale": "enUS"
         },
@@ -291,7 +230,7 @@
             "type": "Hero",
             "health": 30,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX4_01.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/NAX4_01.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX4_01_premium.gif",
             "locale": "enUS"
         },
@@ -381,7 +320,7 @@
             "type": "Hero",
             "health": 30,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_12_01.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_12_01.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_12_01_premium.gif",
             "locale": "enUS"
         },
@@ -393,7 +332,7 @@
             "type": "Hero",
             "health": 30,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_12_01H.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_12_01H.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_12_01H_premium.gif",
             "locale": "enUS"
         },
@@ -437,7 +376,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_28.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_28.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_28_premium.gif",
             "locale": "enUS"
         },
@@ -450,7 +389,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_27.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_27.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_27_premium.gif",
             "locale": "enUS"
         },
@@ -463,7 +402,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_11.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_11.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_11_premium.gif",
             "locale": "enUS"
         },
@@ -478,7 +417,7 @@
             "health": 1,
             "text": "At the end of each turn, deal damage equal to this minion's Attack to all other minions.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki_Boss_spell.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_Toki_Boss_spell.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki_Boss_spell_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -496,7 +435,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_01.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_01.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_01_premium.gif",
             "locale": "enUS"
         },
@@ -509,7 +448,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_20.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_20.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_20_premium.gif",
             "locale": "enUS"
         },
@@ -524,7 +463,7 @@
             "text": "<i>Once she powers\\nup, beware of her\\nmastery of time!</i>",
             "artist": "Adam Byrne",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_53h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_BOSS_53h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_53h_premium.gif",
             "locale": "enUS"
         },
@@ -537,7 +476,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_31.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_31.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_31_premium.gif",
             "locale": "enUS"
         },
@@ -551,7 +490,7 @@
             "cost": 0,
             "text": "Guard your secrets and unleash elemental fury!",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_TagTeam_Mage.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_TagTeam_Mage.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_TagTeam_Mage_premium.gif",
             "locale": "enUS"
         },
@@ -564,7 +503,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_07.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_07.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_07_premium.gif",
             "locale": "enUS"
         },
@@ -577,7 +516,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_21.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_21.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_21_premium.gif",
             "locale": "enUS"
         },
@@ -590,7 +529,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_03.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_03.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_03_premium.gif",
             "locale": "enUS"
         },
@@ -605,7 +544,7 @@
             "text": "Gain 5 Mana Crystals this turn only.",
             "artist": "Mauricio Herrera",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_00_11.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_00_11.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_00_11_premium.gif",
             "locale": "enUS"
         },
@@ -618,7 +557,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_24.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_24.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_24_premium.gif",
             "locale": "enUS"
         },
@@ -675,7 +614,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_23.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_23.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_23_premium.gif",
             "locale": "enUS"
         },
@@ -688,7 +627,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_04.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_04.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_04_premium.gif",
             "locale": "enUS"
         },
@@ -701,7 +640,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_30.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_30.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_30_premium.gif",
             "locale": "enUS"
         },
@@ -714,7 +653,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_25.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_25.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_25_premium.gif",
             "locale": "enUS"
         },
@@ -728,7 +667,7 @@
             "health": 50,
             "artist": "Adam Byrne",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_BOSS_53h2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_BOSS_53h2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_BOSS_53h2_premium.gif",
             "locale": "enUS"
         },
@@ -741,7 +680,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_06.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_06.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_06_premium.gif",
             "locale": "enUS"
         },
@@ -754,7 +693,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_05.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_05.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_05_premium.gif",
             "locale": "enUS"
         },
@@ -767,7 +706,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_09.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_09.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_09_premium.gif",
             "locale": "enUS"
         },
@@ -780,7 +719,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_29.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_29.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_29_premium.gif",
             "locale": "enUS"
         },
@@ -794,7 +733,7 @@
             "cost": 0,
             "text": "Select Mage as your next class.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_LK_Mage_copy.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_LK_Mage_copy.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_LK_Mage_copy_premium.gif",
             "locale": "enUS"
         },
@@ -807,7 +746,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_08.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_08.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_08_premium.gif",
             "locale": "enUS"
         },
@@ -820,7 +759,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_22.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_22.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_22_premium.gif",
             "locale": "enUS"
         },
@@ -833,7 +772,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_10.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_10.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_10_premium.gif",
             "locale": "enUS"
         },
@@ -850,7 +789,7 @@
             "health": 2,
             "text": "<b>Taunt</b>",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_mirror.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_mirror.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_mirror_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -868,7 +807,7 @@
             "cost": 0,
             "text": "Add Mage cards to your deck.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_ClassRandom_Mage.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_ClassRandom_Mage.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_ClassRandom_Mage_premium.gif",
             "locale": "enUS"
         },
@@ -898,7 +837,7 @@
             "cost": 0,
             "health": 30,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki_Hero.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_Toki_Hero.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki_Hero_premium.gif",
             "locale": "enUS"
         },
@@ -912,7 +851,7 @@
             "health": 20,
             "artist": "Adam Byrne",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_900h.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_900h.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_900h_premium.gif",
             "locale": "enUS"
         },
@@ -925,7 +864,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOTA_Mage_32.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOTA_Mage_32.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOTA_Mage_32_premium.gif",
             "locale": "enUS"
         },
@@ -938,7 +877,7 @@
             "faction": "Neutral",
             "cost": 0,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_Toki_02.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_Toki_02.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_Toki_02_premium.gif",
             "locale": "enUS"
         },
@@ -1018,7 +957,7 @@
             "cost": 1,
             "text": "Summon a random <b>Legendary</b> minion.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_00_07.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_00_07.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_00_07_premium.gif",
             "locale": "enUS"
         },
@@ -1081,7 +1020,7 @@
             "health": 1,
             "text": "At the end of each turn, deal damage equal to this minion's Attack to characters opposite it.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki_Boss_baby.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_Toki_Boss_baby.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki_Boss_baby_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1101,7 +1040,7 @@
             "health": 0,
             "text": "Give your minions +2/+2.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_Firefest2_003.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_Firefest2_003.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_Firefest2_003_premium.gif",
             "locale": "enUS"
         },
@@ -1116,7 +1055,7 @@
             "health": 0,
             "text": "<b>Freeze</b> <i>literally</i> everything. Add a \"Frostbite\" to your opponent's hand.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_Firefest2_004.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_Firefest2_004.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_Firefest2_004_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1136,7 +1075,7 @@
             "health": 1,
             "text": "<b>Poisonous.</b> At end of each turn, deal damage equal to this minion's Attack to characters opposite it.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki_Boss_Poison.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_Toki_Boss_Poison.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki_Boss_Poison_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1160,7 +1099,7 @@
             "text": "[x]<b>Deathrattle:</b> Add a\\nrandom <b>Legendary</b> minion\\nto your hand.",
             "artist": "Matthew O'Connor",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_838t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_838t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_838t_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1229,7 +1168,7 @@
             "text": "Gain 10 Armor.",
             "artist": "Arthur Bozonnet",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_00_09.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_00_09.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_00_09_premium.gif",
             "locale": "enUS"
         },
@@ -1292,7 +1231,7 @@
             "health": 1,
             "text": "At the end of each turn, gain <b>Divine Shield</b>.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki_Boss_Shielded.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_Toki_Boss_Shielded.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki_Boss_Shielded_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1329,7 +1268,7 @@
             "attack": 1,
             "health": 3,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/tt_010a.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/tt_010a.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/tt_010a_premium.gif",
             "locale": "enUS"
         },
@@ -1344,7 +1283,7 @@
             "health": 1,
             "text": "At the end of each turn, summon two 2/3 Paradoxes.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki_Boss_mental.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_Toki_Boss_mental.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki_Boss_mental_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1362,7 +1301,7 @@
             "cost": 1,
             "text": "Deal $3 damage to the enemy hero for each spell in their hand.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA04_002.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA04_002.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA04_002_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1382,7 +1321,7 @@
             "health": 1,
             "text": "At the end of each turn, deal damage equal to this minion's Attack to each Hero.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki_Boss_aggro.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_Toki_Boss_aggro.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki_Boss_aggro_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1421,7 +1360,7 @@
             "text": "You have <b>Spell Damage</b> +5 this turn.",
             "artist": "James Ryman",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_00_06.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_00_06.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_00_06_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -1489,7 +1428,7 @@
             "text": "Whenever you cast a spell, shuffle a copy of it into your deck.",
             "artist": "Evgeniy Zaqumyenny",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_00_08.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_00_08.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_00_08_premium.gif",
             "locale": "enUS"
         },
@@ -1539,7 +1478,7 @@
             "health": 3,
             "text": "At the end of your turn, add a random spell that costs (2) or less to your hand.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TOT_308.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TOT_308.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TOT_308_premium.gif",
             "locale": "enUS"
         },
@@ -1626,7 +1565,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nDeal $1 damage.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_034.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_034.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_034_premium.gif",
             "locale": "enUS"
         },
@@ -1640,7 +1579,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nDeal $1 damage.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_034_H1.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_034_H1.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_034_H1_premium.gif",
             "locale": "enUS"
         },
@@ -1654,7 +1593,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nDeal $1 damage.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_034_H2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_034_H2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_034_H2_premium.gif",
             "locale": "enUS"
         },
@@ -1667,7 +1606,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nDeal $2 damage.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_MAGE.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_132_MAGE.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_MAGE_premium.gif",
             "locale": "enUS"
         },
@@ -1680,7 +1619,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nDeal $2 damage.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_034_H1_AT_132.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_034_H1_AT_132.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_034_H1_AT_132_premium.gif",
             "locale": "enUS"
         },
@@ -1693,7 +1632,7 @@
             "cost": 2,
             "text": "<b>Hero Power</b>\\nDeal $2 damage.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_034_H2_AT_132.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_034_H2_AT_132.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_034_H2_AT_132_premium.gif",
             "locale": "enUS"
         },
@@ -1743,7 +1682,7 @@
             "health": 0,
             "text": "Destroy all enemy minions.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_Firefest2_005.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_Firefest2_005.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_Firefest2_005_premium.gif",
             "locale": "enUS"
         },
@@ -1783,7 +1722,7 @@
             "text": "Add 3 random Mage spells to your hand.",
             "artist": "Zoltan Boros",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_103t2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_103t2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_103t2_premium.gif",
             "locale": "enUS"
         },
@@ -1822,7 +1761,7 @@
             "cost": 2,
             "text": "<b>Discover</b> a card from your opponent's hand.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki2_Hero.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_Toki2_Hero.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki2_Hero_premium.gif",
             "locale": "enUS"
         },
@@ -1991,7 +1930,7 @@
             "cost": 2,
             "artist": "Zoltan Boros",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_103t1.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_103t1.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_103t1_premium.gif",
             "locale": "enUS"
         },
@@ -2143,7 +2082,7 @@
             "text": "Does TWO powers each turn!\\n<b>Deathrattle</b>: You win!",
             "elite": true,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki_Boss_teen.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_Toki_Boss_teen.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki_Boss_teen_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -2182,7 +2121,7 @@
             "text": "Your spells cost (0) this turn.",
             "artist": "Kevin Chen",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_00_05.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_00_05.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_00_05_premium.gif",
             "locale": "enUS"
         },
@@ -2392,7 +2331,7 @@
             "text": "<b>Secret:</b> When an enemy attacks, deal 5 damage to all other enemies.",
             "artist": "Evgeniy Zaqumyenny",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_12_03.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_12_03.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_12_03_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -2413,7 +2352,7 @@
             "cost": 3,
             "text": "<b>Secret:</b> When an enemy attacks, deal 10 damage to all other enemies.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_12_03H.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_12_03H.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_12_03H_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -2568,7 +2507,7 @@
             "health": 30,
             "armor": "0",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_Toki2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_Toki2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_Toki2_premium.gif",
             "locale": "enUS"
         },
@@ -2679,7 +2618,7 @@
             "text": "Put 5 random Mage <b>Secrets</b> into the battlefield.",
             "artist": "Slawomir Maniak",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_00_10.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/KARA_00_10.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_00_10_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -2743,7 +2682,7 @@
             "cost": 3,
             "text": "Replace your deck with a fresh one.\\n<i>Death does not feel fatigue</i>",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_LK002.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_LK002.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_LK002_premium.gif",
             "locale": "enUS"
         },
@@ -2757,7 +2696,7 @@
             "text": "Deal $6 damage.",
             "artist": "Richard Wright",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOE_002t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOE_002t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOE_002t_premium.gif",
             "locale": "enUS"
         },
@@ -2884,7 +2823,7 @@
             "artist": "Adam Byrne",
             "elite": true,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/GILA_900h2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/GILA_900h2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GILA_900h2_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -3040,7 +2979,7 @@
             "cost": 4,
             "text": "Add 3 random spells from the past to your hand.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TOT_341.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TOT_341.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TOT_341_premium.gif",
             "locale": "enUS"
         },
@@ -3191,7 +3130,7 @@
             "cost": 4,
             "text": "Deal $6 damage.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_LevelUp_002.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_LevelUp_002.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_LevelUp_002_premium.gif",
             "locale": "enUS"
         },
@@ -3383,7 +3322,7 @@
             "artist": "John Avon",
             "race": "Elemental",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_833t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_833t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_833t_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -3635,7 +3574,7 @@
             "artist": "James Ryman",
             "race": "Dragon",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_535t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_535t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_535t_premium.gif",
             "locale": "enUS"
         },
@@ -3666,7 +3605,7 @@
             "cost": 5,
             "text": "Choose a minion. <b>Discover</b> a new minion to transform it into.",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/BCON_004.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/BCON_004.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BCON_004_premium.gif",
             "locale": "enUS"
         },
@@ -3680,7 +3619,7 @@
             "text": "<b>Casts When Drawn</b>\\nCast a random spell.",
             "artist": "Efrem Palacios",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_106t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_106t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_106t_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -3724,7 +3663,7 @@
             "artist": "Rafael Zanchetin",
             "elite": true,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_028t.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_028t.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_028t_premium.gif",
             "locale": "enUS"
         },
@@ -3900,7 +3839,7 @@
             "elite": true,
             "race": "Elemental",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_027t2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_027t2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_027t2_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -4238,7 +4177,7 @@
             "text": "[x]<b>Battlecry:</b> Summon a\\n3/6 Water Elemental.\\nYour Elementals have\\n<b>Lifesteal</b> this game.",
             "elite": true,
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_DK_Jaina.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/TB_DK_Jaina.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_DK_Jaina_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -4310,7 +4249,7 @@
             "elite": true,
             "race": "Elemental",
             "playerClass": "Mage",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_027t4.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_027t4.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_027t4_premium.gif",
             "locale": "enUS"
         }

@@ -1,36 +1,7 @@
 import debug from 'debug';
 import { map, split, last, reject, propEq, compose } from 'ramda';
 
-import { testCardUrl } from '../officialApiRequest';
-
 const loginfo = debug('app:cardManager');
-
-const removeUntakableImg = allCards => {
-  const mainPromise = new Promise(resolve => {
-    loginfo('removeUntakableImg: ');
-    const promiseTable = map(
-      card =>
-        new Promise(resolve => {
-          testCardUrl(card.img)
-            .then(() => {
-              loginfo(card.img);
-              loginfo('Good img');
-              resolve(card);
-            })
-            .catch(() => {
-              loginfo('CANT LOAD IMAGE');
-              return {};
-            });
-        }),
-      allCards,
-    );
-    Promise.all(promiseTable).then(newCards => {
-      loginfo('C EST FINIIIIIIi');
-      resolve(newCards);
-    });
-  });
-  return mainPromise;
-};
 
 const replaceCardsImgPath = allCards => {
   loginfo('Replace wrong img path');

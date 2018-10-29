@@ -1,52 +1,6 @@
 {
     "data": [
         {
-            "cardId": "ICCA08_023e",
-            "dbfId": "45653",
-            "name": "Plagued",
-            "cardSet": "Knights of the Frozen Throne",
-            "type": "Enchantment",
-            "text": "1/1.",
-            "playerClass": "Death Knight",
-            "locale": "enUS"
-        },
-        {
-            "cardId": "ICCA08_030p",
-            "dbfId": "45698",
-            "name": "Remorseless Winter",
-            "cardSet": "Knights of the Frozen Throne",
-            "type": "Hero Power",
-            "cost": 0,
-            "text": " damage to the enemy hero. +1 Damage each time.",
-            "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_030p.png",
-            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_030p_premium.gif",
-            "locale": "enUS",
-            "mechanics": [
-                {
-                    "name": "AIMustPlay"
-                }
-            ]
-        },
-        {
-            "cardId": "FB_LK005",
-            "dbfId": "46594",
-            "name": "Remorseless Winter",
-            "cardSet": "Tavern Brawl",
-            "type": "Hero Power",
-            "cost": 0,
-            "text": " damage to the enemy hero. +1 Damage each time.",
-            "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_LK005.png",
-            "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_LK005_premium.gif",
-            "locale": "enUS",
-            "mechanics": [
-                {
-                    "name": "AIMustPlay"
-                }
-            ]
-        },
-        {
             "cardId": "FB_LK001",
             "dbfId": "46468",
             "name": "Soldiers of the Cold Dark",
@@ -57,7 +11,7 @@
             "cost": 0,
             "text": "Draw 4 cards.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_LK001.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_LK001.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_LK001_premium.gif",
             "locale": "enUS"
         },
@@ -70,7 +24,7 @@
             "cost": 0,
             "text": "Summon a different Frozen Throne boss.\\n <i> You aren't worth the Lich King's time.</i>",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/FB_LK006.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/FB_LK006.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FB_LK006_premium.gif",
             "locale": "enUS"
         },
@@ -84,7 +38,7 @@
             "cost": 1,
             "text": "The next spell you cast this turn costs (0).",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA01_003.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA01_003.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA01_003_premium.gif",
             "locale": "enUS"
         },
@@ -97,7 +51,7 @@
             "cost": 1,
             "text": "Whenever an enemy dies this game, take control of it.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_022.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA08_022.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_022_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -115,7 +69,7 @@
             "cost": 1,
             "text": "Set minions in your opponent's hand and deck to 1/1.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_023.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA08_023.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_023_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -133,7 +87,7 @@
             "cost": 1,
             "text": "Destroy all enemy minions that cost (3) or less, wherever they are.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_025.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA08_025.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_025_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -151,7 +105,7 @@
             "cost": 1,
             "text": "Your opponent can't emote.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_029.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA08_029.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_029_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -169,7 +123,7 @@
             "cost": 1,
             "text": "Deal $2 damage for each duplicate in opponent\u2019s deck.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_026.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA08_026.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_026_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -187,7 +141,7 @@
             "cost": 1,
             "text": "Deal $2 damage to your opponent for each minion in their deck.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_024.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA08_024.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_024_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -205,7 +159,7 @@
             "cost": 1,
             "text": "Destroy every spell in your opponent's hand and deck.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_028.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA08_028.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_028_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -223,7 +177,7 @@
             "cost": 1,
             "text": "Gain 100 Armor.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_027.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA08_027.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_027_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -241,7 +195,7 @@
             "cost": 1,
             "text": "Set the enemy hero's remaining Health to 1.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_021.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA08_021.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_021_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -260,7 +214,7 @@
             "text": "Deal $5 damage to an enemy, or restore #5 Health to a friendly character.",
             "artist": "Dave Allsop",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_314t5.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_314t5.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_314t5_premium.gif",
             "locale": "enUS"
         },
@@ -274,7 +228,7 @@
             "text": "Steal a minion from your opponent's deck and add it to your hand.",
             "artist": "Luca Zonti",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_314t4.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_314t4.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_314t4_premium.gif",
             "locale": "enUS"
         },
@@ -289,7 +243,7 @@
             "durability": 3,
             "elite": true,
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA01_005.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA01_005.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA01_005_premium.gif",
             "locale": "enUS"
         },
@@ -303,7 +257,7 @@
             "text": "Destroy a minion. Your hero takes damage equal to its Health.",
             "artist": "Dan Scott",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_314t6.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_314t6.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_314t6_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -323,7 +277,7 @@
             "text": "Deal $3 damage to all enemies.",
             "artist": "Dan Scott",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_314t8.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_314t8.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_314t8_premium.gif",
             "locale": "enUS"
         },
@@ -337,7 +291,7 @@
             "text": "Give your minions +2/+2 and \"Can't be targeted by spells or Hero Powers.\"",
             "artist": "Gonzalo Ordonez",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_314t7.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_314t7.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_314t7_premium.gif",
             "locale": "enUS"
         },
@@ -352,7 +306,7 @@
             "text": "[x]Destroy all minions. \\nRemove the top card \\nfrom your deck for each\\nminion destroyed.",
             "artist": "Mike Nicholson",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_314t3.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_314t3.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_314t3_premium.gif",
             "locale": "enUS"
         },
@@ -366,7 +320,7 @@
             "text": "Remove the top 5 cards of your deck. Summon any minions removed.",
             "artist": "Dave Allsop",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_314t2.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_314t2.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_314t2_premium.gif",
             "locale": "enUS"
         },
@@ -383,7 +337,7 @@
             "artist": "James Ryman",
             "elite": true,
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICC_314t1.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_314t1.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICC_314t1_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -404,7 +358,7 @@
             "text": "<b>Battlecry:</b> Remove all your minions. <b>Deathrattle:</b> Resummon them.",
             "elite": true,
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA08_020.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA08_020.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA08_020_premium.gif",
             "locale": "enUS",
             "mechanics": [
@@ -426,7 +380,7 @@
             "cost": 10,
             "text": "Summon seven 3/3 Ghouls with <b>Taunt</b>.",
             "playerClass": "Death Knight",
-            "img": "http://wow.zamimg.com/images/hearthstone/cards/enus/original/ICCA01_004.png",
+            "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICCA01_004.png",
             "imgGold": "http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ICCA01_004_premium.gif",
             "locale": "enUS"
         }

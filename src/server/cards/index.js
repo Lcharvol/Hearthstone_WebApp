@@ -1,7 +1,6 @@
 import debug from 'debug';
 import fs from 'fs';
 
-import { loadInfo, loadAllCards, loadCardBacks } from '../officialApiRequest';
 import { infoFile, cardBacksFile } from '../constants/dataFiles';
 
 const loginfo = debug('app:cards:init');

@@ -1,5 +1,4 @@
 import initHttp from './http';
-import initMongo from './mongo';
 import initCards from './cards';
 import manageCards from './cards/cardManager';
 import { loadClassCards, loadCardBacks } from './cards/load';

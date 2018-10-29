@@ -3,6 +3,7 @@ import fs from 'fs';
 import debug from 'debug';
 
 import { classNameFilePath, cardBacksFile } from '../constants/dataFiles';
+import { removeNotCollectibleCards } from './utils';
 
 const loginfo = debug('app:cards:load');
 
@@ -36,7 +37,10 @@ export const loadClassCards = ctx => {
             return resolve({});
           }
           loginfo(`Load ${className} cards`);
-          return resolve({ className, cards: JSON.parse(cards).data });
+          return resolve({
+            className,
+            cards: removeNotCollectibleCards(JSON.parse(cards).data),
+          });
         },
       );
     });
