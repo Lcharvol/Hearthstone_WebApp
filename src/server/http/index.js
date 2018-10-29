@@ -8,7 +8,7 @@ import compression from 'compression';
 import { BUNDLE_ERROR } from '../constants/messages';
 
 import { getUrl, bindError, bindCtx } from './utils.js';
-import { ping, allCards, cardsByClass, info } from './routes';
+import { ping, allCards, cardsByClass, info, cardBacks } from './routes';
 
 const logger = debug('app:http');
 const logerror = debug('app:http:error');
@@ -31,6 +31,7 @@ const init = ctx => {
       .use('/ping', ping)
       .use('/allCards', allCards)
       .use('/cards/classes/:class', cardsByClass)
+      .use('/cardbacks', cardBacks)
       .use('/info', info);
 
     httpServer.listen(port, host, () => {

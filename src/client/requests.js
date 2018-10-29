@@ -1,7 +1,4 @@
 import * as Axios from 'axios';
-import { map, split, last, reject, propEq } from 'ramda';
-
-const key = '0f1A2GOFPYmshjv5PqlS5gMR9I7lp1QCht6jsnzDUhLb0Ymgu5';
 
 const axios = Axios.create({
   baseURL: 'http://127.0.0.1:3004/',
@@ -32,14 +29,6 @@ export const loadCardsByClass = className =>
     url: `cards/classes/${className}`,
   })
     .then(data => data.data)
-    .catch(err => console.log('err: ', err));
-
-export const loadCardsByQuality = quality =>
-  axios({
-    method: 'get',
-    url: `cards/qualities/${quality}`,
-  })
-    .then(data => data)
     .catch(err => console.log('err: ', err));
 
 export const loadInfo = () =>

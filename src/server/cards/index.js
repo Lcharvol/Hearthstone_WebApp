@@ -24,21 +24,6 @@ const init = ctx => {
         });
       });
     });
-    // loadInfo()
-    //   .then(info => {
-    //     loadCardBacks()
-    //       .then(cardBacks => {
-    //         loginfo('Card backs loaded');
-    //         loadAllCards()
-    //           .then(allCards => {
-    //             loginfo('All Cards loaded');
-    //             resolve({ ...ctx, info, cardBacks, allCards });
-    //           })
-    //           .catch(err => loginfoError(err));
-    //       })
-    //       .catch(err => loginfoError(err));
-    //   })
-    //   .catch(err => loginfoError(err));
   });
 
   return promise;
