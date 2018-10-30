@@ -29,9 +29,9 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-color: ${BACKGROUND_COLOR};
-  cursor: url("${Cursor}"), pointer;
+  cursor: url("${Cursor}") 15 0, pointer;
   &:active {
-    cursor: url("${CursorDown}"), pointer;
+    cursor: url("${CursorDown}") 15 0, pointer;
   };
   overflow:hidden;
 `;
