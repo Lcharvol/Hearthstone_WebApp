@@ -49,3 +49,14 @@ export const getPing = () =>
       return data;
     })
     .catch(err => console.log('Ping  err: ', err));
+
+export const getCardsByQuality = () =>
+  axios({
+    method: 'get',
+    url: 'ping',
+  })
+    .then(({ data, status }) => {
+      if (status === 201) throw data;
+      return data;
+    })
+    .catch(err => console.log('err: ', err));
