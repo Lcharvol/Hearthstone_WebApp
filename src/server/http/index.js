@@ -15,6 +15,7 @@ import {
   info,
   cardBacks,
   cardsByQuality,
+  openPack,
 } from './routes';
 
 const logger = debug('app:http');
@@ -39,6 +40,7 @@ const init = ctx => {
       .use('/allCards', allCards)
       .use('/cards/classes/:class', cardsByClass)
       .use('/cards/qualities/:quality', cardsByQuality)
+      .use('/openpack', openPack)
       .use('/cardbacks', cardBacks)
       .use('/info', info);
 
