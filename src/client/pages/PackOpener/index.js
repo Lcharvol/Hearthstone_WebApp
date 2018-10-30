@@ -1,8 +1,9 @@
 import React from 'react';
 import { number, func } from 'prop-types';
 
-import { Container, PackOpenerInner } from './styles';
+import { Container, PackOpenerInner, PacksStartingPoint } from './styles';
 import { HOME } from '../../constants/router';
+import Pack from '../../components/Pack';
 
 const propTypes = {
   top: number.isRequired,
@@ -11,7 +12,11 @@ const propTypes = {
 
 const PackOpener = ({ top, modifyLocation }) => (
   <Container top={top} onClick={() => modifyLocation(HOME)}>
-    <PackOpenerInner onClick={e => e.stopPropagation()} />
+    <PackOpenerInner onClick={e => e.stopPropagation()}>
+      <PacksStartingPoint>
+        <Pack />
+      </PacksStartingPoint>
+    </PackOpenerInner>
   </Container>
 );
 

@@ -7,11 +7,11 @@ const loginfoError = debug('app:http:error');
 const statsByQuality = [
   {
     quality: 'Rare',
-    dropRate: 25,
+    dropRate: 23,
   },
   {
     quality: 'Epic',
-    dropRate: 4,
+    dropRate: 4.5,
   },
   {
     quality: 'Legendary',

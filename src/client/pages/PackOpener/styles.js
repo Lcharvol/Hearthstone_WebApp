@@ -21,3 +21,13 @@ export const PackOpenerInner = styled.div`
     background-repeat:no-repeat;
     background-size:cover;
 `;
+
+export const PacksStartingPoint = styled.div`
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  top: 225px;
+  left: 0;
+`;
