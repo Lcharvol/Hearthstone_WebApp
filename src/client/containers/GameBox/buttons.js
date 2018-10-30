@@ -1,7 +1,7 @@
 import TopButton from '../../../../assets/UI/game_box_top_button.png';
 import MiddleButton from '../../../../assets/UI/game_box_middle_button.png';
 import BottomButton from '../../../../assets/UI/game_box_bottom_button.png';
-import { CARDS, PACK_SIMULATOR, DECKS } from '../../constants/router';
+import { CARDS, PACK_OPENNER, DECKS } from '../../constants/router';
 
 const buttons = [
   {
@@ -17,7 +17,7 @@ const buttons = [
   {
     id: 1,
     label: 'Pack Simulator',
-    location: PACK_SIMULATOR,
+    location: PACK_OPENNER,
     UI: MiddleButton,
     top: 15,
     width: 238,

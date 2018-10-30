@@ -7,6 +7,7 @@ import { bindActionCreators } from 'redux';
 import { Container, Shadow } from './styles';
 import Cards from '../Cards';
 import Decks from '../Decks';
+import PackOpener from '../PackOpener';
 import GameBox from '../../containers/GameBox';
 import Menu from '../../containers/Menu';
 import SocialMenu from '../../containers/SocialMenu';
@@ -20,7 +21,7 @@ import {
 import { loadCardBacks } from '../../actions/cards';
 import { getIsFetching, getDisplaySocialMenu } from '../../selectors/app';
 import { getLocation } from '../../selectors/app';
-import { CARDS, DECKS, HOME } from '../../constants/router';
+import { CARDS, DECKS, HOME, PACK_OPENNER } from '../../constants/router';
 import { loadInfo, getPing } from '../../requests';
 
 const proptypes = {
@@ -53,6 +54,10 @@ const Home = ({
     />
     <Decks
       top={location === DECKS ? 0 : -150}
+      modifyLocation={modifyLocation}
+    />
+    <PackOpener
+      top={location === PACK_OPENNER ? 0 : -150}
       modifyLocation={modifyLocation}
     />
     <FriendsButton
