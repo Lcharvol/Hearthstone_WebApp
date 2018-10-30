@@ -19,6 +19,7 @@ import Card from '../../components/Card';
 import ClassIcon from '../../components/ClassIcon';
 import Arrow from '../../components/Arrow';
 import Borders from '../../components/Borders';
+import SearchBar from '../../components/SearchBar';
 import ManaCristals from '../../containers/ManaCristals';
 import { LEFT, RIGHT } from '../../components/Arrow/constants';
 import { loadCardBacks, loadCardsByClass } from '../../requests';
@@ -63,8 +64,10 @@ const propTypes = {
   handleChangeCategorie: func.isRequired,
   width: number.isRequired,
   height: number.isRequired,
+  searchValue: string.isRequired,
   updateWindowDimensions: func.isRequired,
   handleChangeManaFilter: func.isRequired,
+  handleChangeSearchValue: func.isRequired,
   manaFilter: number,
 };
 
@@ -109,8 +112,10 @@ const Cards = ({
   handleChangeCategorie,
   width,
   height,
+  searchValue,
   updateWindowDimensions,
   handleChangeManaFilter,
+  handleChangeSearchValue,
   lineSize,
   columnSize,
   manaFilter,
@@ -136,6 +141,11 @@ const Cards = ({
       <CardsInner onClick={e => e.stopPropagation()}>
         <PaperBackground />
         <Borders />
+        {console.log('search value: ', searchValue)}
+        <SearchBar
+          searchValue={searchValue}
+          handleChangeSearchValue={handleChangeSearchValue}
+        />
         <ClassIcons>
           {[CARD_BACKS, ...classes].map((elem, id) => (
             <ClassIcon
@@ -266,6 +276,7 @@ const enhance = compose(
       initialDisplayCardPreview = false,
       initialCardPreview = {},
       initialManaFilter = null,
+      initialSearchValue = '',
     }) => ({
       start: initialStart,
       categorie: initialCategorie,
@@ -276,6 +287,7 @@ const enhance = compose(
       lineSize: 0,
       columnSize: 2,
       manaFilter: initialManaFilter,
+      searchValue: initialSearchValue,
     }),
     {
       handleChangeStart: () => newStart => ({
@@ -297,6 +309,9 @@ const enhance = compose(
       }),
       updateLineSize: () => newLineSize => ({ lineSize: newLineSize }),
       updateColumnSize: () => newColumnSize => ({ columnSize: newColumnSize }),
+      handleChangeSearchValue: () => newSearchValue => ({
+        searchValue: newSearchValue,
+      }),
     },
   ),
   lifecycle({
