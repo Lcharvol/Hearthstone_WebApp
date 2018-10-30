@@ -22,6 +22,7 @@ import Borders from '../../components/Borders';
 import SearchBar from '../../components/SearchBar';
 import ManaCristals from '../../containers/ManaCristals';
 import { LEFT, RIGHT } from '../../components/Arrow/constants';
+import getFilteredCards from './filter';
 import { loadCardBacks, loadCardsByClass } from '../../requests';
 import { enhanceCards } from '../../actions/cards';
 import {
@@ -71,36 +72,6 @@ const propTypes = {
   manaFilter: number,
 };
 
-const filterByMana = (cards, mana) => {
-  if (isNil(mana)) return cards;
-  return filter(
-    card =>
-      !isNil(card.cost)
-        ? mana >= 7
-          ? card.cost >= 7
-          : mana === card.cost
-        : false,
-    cards,
-  );
-};
-
-const getCardsByCategorieAndMana = (categorie, cards = [], manaFilter) => {
-  let ret = [];
-  if (categorie === CARD_BACKS) ret = cards.cardBacks || [];
-  else if (categorie === DEATH_KNIGHT) ret = cards.deathKnightCards || [];
-  else if (categorie === DRUID) ret = cards.druidCards || [];
-  else if (categorie === HUNTER) ret = cards.hunterCards || [];
-  else if (categorie === MAGE) ret = cards.mageCards || [];
-  else if (categorie === PALADIN) ret = cards.paladinCards || [];
-  else if (categorie === PRIEST) ret = cards.priestCards || [];
-  else if (categorie === ROGUE) ret = cards.rogueCards || [];
-  else if (categorie === SHAMAN) ret = cards.shamanCards || [];
-  else if (categorie === WARLOCK) ret = cards.warlockCards || [];
-  else if (categorie === WARRIOR) ret = cards.warriorCards || [];
-  else if (categorie === NEUTRAL) ret = cards.neutralCards || [];
-  return filterByMana(ret, manaFilter);
-};
-
 const Cards = ({
   top,
   modifyLocation,
@@ -130,6 +101,12 @@ const Cards = ({
     if (equals(direction, RIGHT)) return start + pageSize < length;
     if (equals(direction, LEFT)) return start - pageSize >= 0;
   };
+  const filteredCards = getFilteredCards(
+    categorie,
+    cardsByCategories,
+    manaFilter,
+    searchValue,
+  );
   return (
     <Container
       top={top}
@@ -141,7 +118,6 @@ const Cards = ({
       <CardsInner onClick={e => e.stopPropagation()}>
         <PaperBackground />
         <Borders />
-        {console.log('search value: ', searchValue)}
         <SearchBar
           searchValue={searchValue}
           handleChangeSearchValue={handleChangeSearchValue}
@@ -167,17 +143,7 @@ const Cards = ({
         <CardsContent>
           <Arrow
             direction={LEFT}
-            active={isArrowActive(
-              LEFT,
-              start,
-              length(
-                getCardsByCategorieAndMana(
-                  categorie,
-                  cardsByCategories,
-                  manaFilter,
-                ),
-              ),
-            )}
+            active={isArrowActive(LEFT, start, length(filteredCards))}
             action={() =>
               handleChangeStart(start - pageSize < 0 ? 0 : start - pageSize)
             }
@@ -187,11 +153,7 @@ const Cards = ({
             lineSize={lineSize}
             columnSize={columnSize}
           >
-            {getCardsByCategorieAndMana(
-              categorie,
-              cardsByCategories,
-              manaFilter,
-            ).map(
+            {filteredCards.map(
               (card, id) =>
                 id >= start - 2 * pageSize &&
                 id <= start + 2 * pageSize && (
@@ -210,27 +172,10 @@ const Cards = ({
           </CardsNavigation>
           <Arrow
             direction={RIGHT}
-            active={isArrowActive(
-              RIGHT,
-              start,
-              length(
-                getCardsByCategorieAndMana(
-                  categorie,
-                  cardsByCategories,
-                  manaFilter,
-                ),
-              ),
-            )}
+            active={isArrowActive(RIGHT, start, length(filteredCards))}
             action={() =>
               handleChangeStart(
-                start + pageSize <
-                length(
-                  getCardsByCategorieAndMana(
-                    categorie,
-                    cardsByCategories,
-                    manaFilter,
-                  ),
-                )
+                start + pageSize < length(filteredCards)
                   ? start + pageSize
                   : start,
               )
@@ -311,6 +256,7 @@ const enhance = compose(
       updateColumnSize: () => newColumnSize => ({ columnSize: newColumnSize }),
       handleChangeSearchValue: () => newSearchValue => ({
         searchValue: newSearchValue,
+        start: 0,
       }),
     },
   ),
