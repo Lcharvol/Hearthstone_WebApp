@@ -60,3 +60,14 @@ export const getCardsByQuality = () =>
       return data;
     })
     .catch(err => console.log('err: ', err));
+
+export const getOpenedPackCards = () =>
+  axios({
+    method: 'get',
+    url: 'openpack',
+  })
+    .then(({ data, status }) => {
+      if (status === 201) throw data.data;
+      return data.data;
+    })
+    .catch(err => console.log('err: ', err));
