@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import { Container } from './styles';
 
-const Pack = () => <Container />;
+const Pack = ({ handleDrag }) => <Container {...handleDrag} />;
 
 export default Pack;

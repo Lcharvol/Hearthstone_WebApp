@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import BackgroundPackUI from '../../../../assets/UI/basic_pack.png';
 
 export const Container = styled.div`
-    position:relative;
+    position:absolute;
     display:flex;
     width:160px;
     height:220px;
