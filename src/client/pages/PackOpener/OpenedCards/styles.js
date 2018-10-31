@@ -19,4 +19,8 @@ export const DoneButton = styled.div`
     background-size: cover;
     width:105px;
     height:55px;
+    &:hover {
+       transform: scale(0.9);
+    };
+    transition: transform 0.1s ease-in-out;
 `;
