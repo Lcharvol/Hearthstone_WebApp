@@ -29,11 +29,12 @@ export const StyledImg = styled(Img)`
 `;
 
 export const ImageContainer = styled.div`
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   height: calc(83%);
   width: 85%;
   border-radius: 10px;
+  opacity: ${({ displayImg }) => (displayImg ? 1 : 0)};
 `;

@@ -20,7 +20,8 @@ export const DoneButton = styled.div`
     width:105px;
     height:55px;
     &:hover {
-       transform: scale(0.9);
+       ${({ isOpeningEnded }) => isOpeningEnded && 'transform: scale(0.9);'}
     };
     transition: transform 0.1s ease-in-out;
+    opacity: ${({ isOpeningEnded }) => (isOpeningEnded ? 1 : 0.7)}
 `;
